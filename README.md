@@ -50,6 +50,17 @@ python -m http.server 8000   # 在專案根目錄啟動
 只看免費/只看有確定日期切換、推薦/日期/價格排序、免費貼紙與票價標示，
 支援手機版面。所有篩選都在前端即時運算，不需後端。
 
+## 每日自動更新（GitHub Actions）
+
+[.github/workflows/daily-scrape.yml](.github/workflows/daily-scrape.yml) 每天台灣時間
+早上 6:00 自動執行：爬取 → 比對新增活動並推播 Telegram → commit 更新資料 →
+GitHub Pages 自動重新發布。
+
+- 線上版：https://mtseafood.github.io/kids-activity-radar/
+- 手動觸發：`gh workflow run daily-scrape`
+- Telegram 推播需要 repo secrets：`TELEGRAM_BOT_TOKEN`、`TELEGRAM_CHAT_ID`
+  （沒設定時自動跳過），推播邏輯在 [notify_telegram.py](notify_telegram.py)
+
 ## 二次篩選
 
 ```bash
