@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+scraper_errors.log
+previous.json
+.claude/
+.DS_Store
