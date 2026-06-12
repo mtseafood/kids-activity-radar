@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-06-12T06:58:46",
+  "scraped_at": "2026-06-12T22:30:42",
   "total": 115,
   "activities": [
     {
@@ -211,24 +211,6 @@
       "source": "niceday"
     },
     {
-      "title": "【大班 ~ 國小四年級｜全英語】世界童趣探險家生活體驗五日夏令營：World Games",
-      "url": "https://play.niceday.tw/zh-tw/regions/21/products/3720040176162",
-      "date_start": null,
-      "date_end": null,
-      "location_city": "台中市",
-      "location_address": "北區",
-      "age_min": null,
-      "age_max": null,
-      "price": null,
-      "is_free": null,
-      "summary": "【大班 ~ 國小四年級｜全英語】世界童趣探險家生活體驗五日夏令營：World Games",
-      "organizer": "SEE 體驗式教育專家｜臺中科技大學",
-      "tags": [
-        "體驗課"
-      ],
-      "source": "niceday"
-    },
-    {
       "title": "【大班升一~六年級｜台中南屯】STEAM 星際動力樂園 X 科學手作五日夏令營",
       "url": "https://play.niceday.tw/zh-tw/regions/21/products/3720506893186",
       "date_start": null,
@@ -243,6 +225,24 @@
       "organizer": "HuHu 瀚宇教育",
       "tags": [
         "DIY手作"
+      ],
+      "source": "niceday"
+    },
+    {
+      "title": "【大班 ~ 國小四年級｜全英語】世界童趣探險家生活體驗五日夏令營：World Games",
+      "url": "https://play.niceday.tw/zh-tw/regions/21/products/3720040176162",
+      "date_start": null,
+      "date_end": null,
+      "location_city": "台中市",
+      "location_address": "北區",
+      "age_min": null,
+      "age_max": null,
+      "price": null,
+      "is_free": null,
+      "summary": "【大班 ~ 國小四年級｜全英語】世界童趣探險家生活體驗五日夏令營：World Games",
+      "organizer": "SEE 體驗式教育專家｜臺中科技大學",
+      "tags": [
+        "體驗課"
       ],
       "source": "niceday"
     },
