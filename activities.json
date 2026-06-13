@@ -1,6 +1,6 @@
 {
-  "scraped_at": "2026-06-12T22:30:42",
-  "total": 115,
+  "scraped_at": "2026-06-13T22:22:26",
+  "total": 104,
   "activities": [
     {
       "title": "Mister Donut 小小烘焙師 甜甜圈DIY（台中遠百門市）",
@@ -530,7 +530,7 @@
       "title": "2026年7月竹編藝術—手工貓咪竹扇DIY",
       "url": "https://www.accupass.com/event/2604270815041768508400",
       "date_start": "2026-07-01",
-      "date_end": "2026-07-01",
+      "date_end": "2026-08-07",
       "location_city": "台中市",
       "location_address": null,
       "age_min": null,
@@ -564,21 +564,20 @@
       "source": "accupass"
     },
     {
-      "title": "永信醫藥文物館｜十週年館慶限定活動-【DIY拼貼拾光馬賽克】",
-      "url": "https://www.accupass.com/event/2605190620434566418770",
-      "date_start": "2026-06-13",
-      "date_end": "2026-06-13",
+      "title": "115年7月 每週六 藥草按摩槌DIY：香氣與草本的療癒手作日",
+      "url": "https://www.accupass.com/event/2604290715501233461371",
+      "date_start": "2026-07-04",
+      "date_end": "2026-07-04",
       "location_city": "台中市",
       "location_address": null,
       "age_min": null,
       "age_max": null,
       "price": null,
       "is_free": null,
-      "summary": "永信醫藥文物館｜十週年館慶限定活動-【DIY拼貼拾光馬賽克】",
+      "summary": "115年7月 每週六 藥草按摩槌DIY：香氣與草本的療癒手作日",
       "organizer": null,
       "tags": [
-        "DIY手作",
-        "室內"
+        "DIY手作"
       ],
       "source": "accupass"
     },
@@ -659,9 +658,9 @@
       "source": "taichung_culture"
     },
     {
-      "title": "【溪東分館】6/12小小說書人-繪本說故事",
+      "title": "【溪東分館】6/26小小說書人-繪本說故事",
       "url": "https://activity.culture.taichung.gov.tw/",
-      "date_start": "2026-06-12",
+      "date_start": "2026-06-26",
       "date_end": "2026-06-26",
       "location_city": "台中市",
       "location_address": "溪東分館 1F親子共讀區",
@@ -669,7 +668,7 @@
       "age_max": null,
       "price": 0,
       "is_free": true,
-      "summary": "【溪東分館】6/12小小說書人-繪本說故事｜2026-06-12 ~ 2026-06-12 09:00-00:00｜溪東分館 1F親子共讀區",
+      "summary": "【溪東分館】6/26小小說書人-繪本說故事｜2026-06-26 ~ 2026-06-26 09:00-00:00｜溪東分館 1F親子共讀區",
       "organizer": "台中市政府文化局",
       "tags": [
         "職業體驗",
@@ -770,22 +769,6 @@
       "source": "accupass"
     },
     {
-      "title": "【台中-上午小童場】8/1親子金錢探險日 ",
-      "url": "https://www.accupass.com/event/2605120643486864999080",
-      "date_start": "2026-08-01",
-      "date_end": "2026-08-01",
-      "location_city": "台中市",
-      "location_address": null,
-      "age_min": null,
-      "age_max": null,
-      "price": null,
-      "is_free": null,
-      "summary": "【台中-上午小童場】8/1親子金錢探險日 ",
-      "organizer": null,
-      "tags": [],
-      "source": "accupass"
-    },
-    {
       "title": "115年7月 乾燥花書籤diy浪漫又實用！",
       "url": "https://www.accupass.com/event/2605010914337742264800",
       "date_start": "2026-07-20",
@@ -820,9 +803,9 @@
       "source": "taichung_culture"
     },
     {
-      "title": "【西區分館】06/13 親子讀經班(第10期)",
+      "title": "【西區分館】06/27 親子讀經班(第10期)",
       "url": "https://activity.culture.taichung.gov.tw/",
-      "date_start": "2026-06-13",
+      "date_start": "2026-06-27",
       "date_end": "2026-07-11",
       "location_city": "台中市",
       "location_address": "西區分館",
@@ -830,7 +813,7 @@
       "age_max": null,
       "price": 0,
       "is_free": true,
-      "summary": "【西區分館】06/13 親子讀經班(第10期)｜2026-06-13 ~ 2026-06-13 09:00-11:00｜西區分館",
+      "summary": "【西區分館】06/27 親子讀經班(第10期)｜2026-06-27 ~ 2026-06-27 09:00-11:00｜西區分館",
       "organizer": "台中市政府文化局",
       "tags": [
         "室內"
@@ -1556,114 +1539,6 @@
       "source": "taichung_culture"
     },
     {
-      "title": "【精武圖書館】06/13 小太陽故事屋《端午粽動員》",
-      "url": "https://activity.culture.taichung.gov.tw/",
-      "date_start": "2026-06-13",
-      "date_end": "2026-06-13",
-      "location_city": "台中市",
-      "location_address": "精武圖書館",
-      "age_min": null,
-      "age_max": null,
-      "price": 0,
-      "is_free": true,
-      "summary": "【精武圖書館】06/13 小太陽故事屋《端午粽動員》｜2026-06-13 ~ 2026-06-13 10:00-11:00｜精武圖書館",
-      "organizer": "台中市政府文化局",
-      "tags": [
-        "室內"
-      ],
-      "source": "taichung_culture"
-    },
-    {
-      "title": "【西屯分館】06/13台中故事協會-《100隻北極熊》",
-      "url": "https://activity.culture.taichung.gov.tw/",
-      "date_start": "2026-06-13",
-      "date_end": "2026-06-13",
-      "location_city": "台中市",
-      "location_address": "西屯分館西屯區  一樓兒童閱覽區",
-      "age_min": null,
-      "age_max": null,
-      "price": 0,
-      "is_free": true,
-      "summary": "【西屯分館】06/13台中故事協會-《100隻北極熊》｜2026-06-13 ~ 2026-06-13 14:00-15:00｜西屯分館西屯區  一樓兒童閱覽區",
-      "organizer": "台中市政府文化局",
-      "tags": [
-        "室內"
-      ],
-      "source": "taichung_culture"
-    },
-    {
-      "title": "【溪西分館】06/13 英語假日故事屋 《interesting english story》",
-      "url": "https://activity.culture.taichung.gov.tw/",
-      "date_start": "2026-06-13",
-      "date_end": "2026-06-13",
-      "location_city": "台中市",
-      "location_address": "溪西分館",
-      "age_min": null,
-      "age_max": null,
-      "price": 0,
-      "is_free": true,
-      "summary": "【溪西分館】06/13 英語假日故事屋 《interesting english story》｜2026-06-13 ~ 2026-06-13 14:00-15:00｜溪西分館",
-      "organizer": "台中市政府文化局",
-      "tags": [
-        "室內"
-      ],
-      "source": "taichung_culture"
-    },
-    {
-      "title": "【溪西分館】06/13 假日故事屋 《精彩繪本故事大集合》",
-      "url": "https://activity.culture.taichung.gov.tw/",
-      "date_start": "2026-06-13",
-      "date_end": "2026-06-13",
-      "location_city": "台中市",
-      "location_address": "溪西分館",
-      "age_min": null,
-      "age_max": null,
-      "price": 0,
-      "is_free": true,
-      "summary": "【溪西分館】06/13 假日故事屋 《精彩繪本故事大集合》｜2026-06-13 ~ 2026-06-13 10:30-11:30｜溪西分館",
-      "organizer": "台中市政府文化局",
-      "tags": [
-        "室內"
-      ],
-      "source": "taichung_culture"
-    },
-    {
-      "title": "【北區分館】6/13故事百寶箱~大火狂燒半個澳洲森林",
-      "url": "https://activity.culture.taichung.gov.tw/",
-      "date_start": "2026-06-13",
-      "date_end": "2026-06-13",
-      "location_city": "台中市",
-      "location_address": "北區分館",
-      "age_min": null,
-      "age_max": null,
-      "price": 0,
-      "is_free": true,
-      "summary": "【北區分館】6/13故事百寶箱~大火狂燒半個澳洲森林｜2026-06-13 ~ 2026-06-13 10:30-11:10｜北區分館",
-      "organizer": "台中市政府文化局",
-      "tags": [
-        "室內"
-      ],
-      "source": "taichung_culture"
-    },
-    {
-      "title": "【南區分館】6/13 說故事活動:七隻小青蛙找肚臍",
-      "url": "https://activity.culture.taichung.gov.tw/",
-      "date_start": "2026-06-13",
-      "date_end": "2026-06-13",
-      "location_city": "台中市",
-      "location_address": "南區分館",
-      "age_min": null,
-      "age_max": null,
-      "price": 0,
-      "is_free": true,
-      "summary": "【南區分館】6/13 說故事活動:七隻小青蛙找肚臍｜2026-06-13 ~ 2026-06-13 10:00-11:00｜南區分館",
-      "organizer": "台中市政府文化局",
-      "tags": [
-        "室內"
-      ],
-      "source": "taichung_culture"
-    },
-    {
       "title": "【大墩分館】06/13臺語故事~收集勇氣的小老鼠",
       "url": "https://activity.culture.taichung.gov.tw/",
       "date_start": "2026-06-13",
@@ -1675,42 +1550,6 @@
       "price": 0,
       "is_free": true,
       "summary": "【大墩分館】06/13臺語故事~收集勇氣的小老鼠｜2026-06-13 ~ 2026-06-13 10:00-10:50｜大墩分館",
-      "organizer": "台中市政府文化局",
-      "tags": [
-        "室內"
-      ],
-      "source": "taichung_culture"
-    },
-    {
-      "title": "【東區分館】6/13 台中故事協會-故事百寶箱",
-      "url": "https://activity.culture.taichung.gov.tw/",
-      "date_start": "2026-06-13",
-      "date_end": "2026-06-13",
-      "location_city": "台中市",
-      "location_address": "東區分館",
-      "age_min": null,
-      "age_max": null,
-      "price": 0,
-      "is_free": true,
-      "summary": "【東區分館】6/13 台中故事協會-故事百寶箱｜2026-06-13 ~ 2026-06-13 10:00-11:00｜東區分館",
-      "organizer": "台中市政府文化局",
-      "tags": [
-        "室內"
-      ],
-      "source": "taichung_culture"
-    },
-    {
-      "title": "【西區分館】06/13 故事萬花筒—皮皮貓我愛我的白布鞋",
-      "url": "https://activity.culture.taichung.gov.tw/",
-      "date_start": "2026-06-13",
-      "date_end": "2026-06-13",
-      "location_city": "台中市",
-      "location_address": "西區分館",
-      "age_min": null,
-      "age_max": null,
-      "price": 0,
-      "is_free": true,
-      "summary": "【西區分館】06/13 故事萬花筒—皮皮貓我愛我的白布鞋｜2026-06-13 ~ 2026-06-13 10:30-11:10｜西區分館",
       "organizer": "台中市政府文化局",
       "tags": [
         "室內"
@@ -1772,24 +1611,6 @@
       "source": "taichung_culture"
     },
     {
-      "title": "【東區分館】6/13  親子電影院 -怪奇家族",
-      "url": "https://activity.culture.taichung.gov.tw/",
-      "date_start": "2026-06-13",
-      "date_end": "2026-06-13",
-      "location_city": "台中市",
-      "location_address": "東區分館",
-      "age_min": null,
-      "age_max": null,
-      "price": 0,
-      "is_free": true,
-      "summary": "【東區分館】6/13  親子電影院 -怪奇家族｜2026-06-13 ~ 2026-06-13 14:00-15:20｜東區分館",
-      "organizer": "台中市政府文化局",
-      "tags": [
-        "室內"
-      ],
-      "source": "taichung_culture"
-    },
-    {
       "title": "【中區分館】6/13 英文繪本說故事《小種子的旅行》",
       "url": "https://activity.culture.taichung.gov.tw/",
       "date_start": "2026-06-13",
@@ -1801,24 +1622,6 @@
       "price": 0,
       "is_free": true,
       "summary": "【中區分館】6/13 英文繪本說故事《小種子的旅行》｜2026-06-13 ~ 2026-06-13 10:30-11:30｜中區分館中區  兒童室",
-      "organizer": "台中市政府文化局",
-      "tags": [
-        "室內"
-      ],
-      "source": "taichung_culture"
-    },
-    {
-      "title": "【李科永紀念圖書分館】 06/12 瑞丁兒童讀書會",
-      "url": "https://activity.culture.taichung.gov.tw/",
-      "date_start": "2026-06-12",
-      "date_end": "2026-06-12",
-      "location_city": "台中市",
-      "location_address": "李科永紀念圖書分館",
-      "age_min": null,
-      "age_max": null,
-      "price": 0,
-      "is_free": true,
-      "summary": "【李科永紀念圖書分館】 06/12 瑞丁兒童讀書會｜2026-06-12 ~ 2026-06-12 19:00-20:30｜李科永紀念圖書分館",
       "organizer": "台中市政府文化局",
       "tags": [
         "室內"
