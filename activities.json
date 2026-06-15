@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-06-14T22:24:10",
+  "scraped_at": "2026-06-15T22:40:13",
   "total": 96,
   "activities": [
     {
@@ -546,25 +546,6 @@
       "source": "accupass"
     },
     {
-      "title": "115年8月場 編織補夢網DIY：在貓咪咖啡廳體驗最療癒的手作時光！",
-      "url": "https://www.accupass.com/event/2605081046541903227633",
-      "date_start": "2026-08-02",
-      "date_end": "2026-08-02",
-      "location_city": "台中市",
-      "location_address": null,
-      "age_min": null,
-      "age_max": null,
-      "price": null,
-      "is_free": null,
-      "summary": "115年8月場 編織補夢網DIY：在貓咪咖啡廳體驗最療癒的手作時光！",
-      "organizer": null,
-      "tags": [
-        "體驗課",
-        "DIY手作"
-      ],
-      "source": "accupass"
-    },
-    {
       "title": "2026年8月 花語書籤-手作透明乾燥花書籤DIY",
       "url": "https://www.accupass.com/event/2605081022115685719860",
       "date_start": "2026-08-05",
@@ -599,6 +580,24 @@
         "DIY手作"
       ],
       "source": "accupass"
+    },
+    {
+      "title": "幼兒環境教育被看見  四季藝術摘全球卓越建築銀獎",
+      "url": "https://www.epochtimes.com.tw/n505837/幼兒環境教育被看見--四季藝術摘全球卓越建築銀獎.html",
+      "date_start": "2026-06-15",
+      "date_end": "2026-06-15",
+      "location_city": "台中市",
+      "location_address": null,
+      "age_min": null,
+      "age_max": null,
+      "price": 2026,
+      "is_free": false,
+      "summary": "幼兒環境教育被看見  四季藝術摘全球卓越建築銀獎 更新： 2026年06月15日 創辦人唐富美(右)與活動最大贊助單位合影。（四季藝術幼兒園提供） 【記者黃玉燕／台中報導】 世界不動產聯合會（FIAB",
+      "organizer": null,
+      "tags": [
+        "藝術課"
+      ],
+      "source": "epochtimes"
     },
     {
       "title": "【總館】圖書館e學堂-照片動起來的奇幻初體驗",
