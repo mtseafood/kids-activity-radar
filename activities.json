@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-06-15T22:40:13",
+  "scraped_at": "2026-06-16T22:38:20",
   "total": 96,
   "activities": [
     {
@@ -156,6 +156,24 @@
       "source": "niceday"
     },
     {
+      "title": "【3歲以上】親子同樂最佳選擇：跳跳床初體驗",
+      "url": "https://play.niceday.tw/zh-tw/regions/21/products/3275364750650",
+      "date_start": null,
+      "date_end": null,
+      "location_city": "台中市",
+      "location_address": "南屯區",
+      "age_min": 3,
+      "age_max": null,
+      "price": null,
+      "is_free": null,
+      "summary": "【3歲以上】親子同樂最佳選擇：跳跳床初體驗",
+      "organizer": "Air-Gene 彈翻健身育樂中心 台中店",
+      "tags": [
+        "體驗課"
+      ],
+      "source": "niceday"
+    },
+    {
       "title": "【7歲以上｜台中科博館】小小夢想魔術方塊職人！邁向達人之路",
       "url": "https://play.niceday.tw/zh-tw/regions/21/products/3671217244417",
       "date_start": null,
@@ -175,18 +193,18 @@
       "source": "niceday"
     },
     {
-      "title": "【3歲以上】親子同樂最佳選擇：跳跳床初體驗",
-      "url": "https://play.niceday.tw/zh-tw/regions/21/products/3275364750650",
+      "title": "【5歲以上】精選親子皮革體驗課 - 台中審計店",
+      "url": "https://play.niceday.tw/zh-tw/regions/21/products/3252822116442",
       "date_start": null,
       "date_end": null,
       "location_city": "台中市",
-      "location_address": "南屯區",
-      "age_min": 3,
+      "location_address": "西區",
+      "age_min": 5,
       "age_max": null,
       "price": null,
       "is_free": null,
-      "summary": "【3歲以上】親子同樂最佳選擇：跳跳床初體驗",
-      "organizer": "Air-Gene 彈翻健身育樂中心 台中店",
+      "summary": "【5歲以上】精選親子皮革體驗課 - 台中審計店",
+      "organizer": "Be Two 手工皮件 ( 台中審計店 )",
       "tags": [
         "體驗課"
       ],
@@ -283,7 +301,7 @@
       "source": "niceday"
     },
     {
-      "title": "【8~12歲｜台中地區】思辨表達五日夏令營：TED 式思辨表達Ｘ台大師資團隊Ｘ 1 份興趣測驗報告",
+      "title": "【8~12歲｜台中】思辨表達五日夏令營：TED 式思辨表達Ｘ台大師資團隊Ｘ 1 份興趣測驗報告",
       "url": "https://play.niceday.tw/zh-tw/regions/21/products/3721473626178",
       "date_start": null,
       "date_end": null,
@@ -293,7 +311,7 @@
       "age_max": 12,
       "price": null,
       "is_free": null,
-      "summary": "【8~12歲｜台中地區】思辨表達五日夏令營：TED 式思辨表達Ｘ台大師資團隊Ｘ 1 份興趣測驗報告",
+      "summary": "【8~12歲｜台中】思辨表達五日夏令營：TED 式思辨表達Ｘ台大師資團隊Ｘ 1 份興趣測驗報告",
       "organizer": "職掘｜青少年＆兒童職涯探索",
       "tags": [],
       "source": "niceday"
@@ -491,22 +509,6 @@
       "source": "niceday"
     },
     {
-      "title": "【全年齡｜含餐】與最萌「爬寵」近距離互動的午後時光！",
-      "url": "https://play.niceday.tw/zh-tw/regions/21/products/3671039600278",
-      "date_start": null,
-      "date_end": null,
-      "location_city": "台中市",
-      "location_address": "西區",
-      "age_min": null,
-      "age_max": null,
-      "price": null,
-      "is_free": null,
-      "summary": "【全年齡｜含餐】與最萌「爬寵」近距離互動的午後時光！",
-      "organizer": "胖鬛蜥城市特寵餐廳 Fatty Iguana",
-      "tags": [],
-      "source": "niceday"
-    },
-    {
       "title": "摺射靈光-校園藝術祭美感共享會【親子立體書手作體驗】",
       "url": "https://www.accupass.com/event/2606090925441580053299",
       "date_start": "2026-07-10",
@@ -580,24 +582,6 @@
         "DIY手作"
       ],
       "source": "accupass"
-    },
-    {
-      "title": "幼兒環境教育被看見  四季藝術摘全球卓越建築銀獎",
-      "url": "https://www.epochtimes.com.tw/n505837/幼兒環境教育被看見--四季藝術摘全球卓越建築銀獎.html",
-      "date_start": "2026-06-15",
-      "date_end": "2026-06-15",
-      "location_city": "台中市",
-      "location_address": null,
-      "age_min": null,
-      "age_max": null,
-      "price": 2026,
-      "is_free": false,
-      "summary": "幼兒環境教育被看見  四季藝術摘全球卓越建築銀獎 更新： 2026年06月15日 創辦人唐富美(右)與活動最大贊助單位合影。（四季藝術幼兒園提供） 【記者黃玉燕／台中報導】 世界不動產聯合會（FIAB",
-      "organizer": null,
-      "tags": [
-        "藝術課"
-      ],
-      "source": "epochtimes"
     },
     {
       "title": "【總館】圖書館e學堂-照片動起來的奇幻初體驗",
@@ -813,6 +797,24 @@
       "price": 0,
       "is_free": true,
       "summary": "【西區分館】06/27 親子讀經班(第10期)｜2026-06-27 ~ 2026-06-27 09:00-11:00｜西區分館",
+      "organizer": "台中市政府文化局",
+      "tags": [
+        "室內"
+      ],
+      "source": "taichung_culture"
+    },
+    {
+      "title": "【總館】07/11《月亮找朋友》臺中國家歌劇院工作坊",
+      "url": "https://activity.culture.taichung.gov.tw/",
+      "date_start": "2026-07-11",
+      "date_end": "2026-07-11",
+      "location_city": "台中市",
+      "location_address": "總館",
+      "age_min": null,
+      "age_max": null,
+      "price": 0,
+      "is_free": true,
+      "summary": "【總館】07/11《月亮找朋友》臺中國家歌劇院工作坊｜2026-07-11 ~ 2026-07-11 15:00-17:00｜總館",
       "organizer": "台中市政府文化局",
       "tags": [
         "室內"
