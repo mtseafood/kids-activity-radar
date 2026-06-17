@@ -1,6 +1,6 @@
 {
-  "scraped_at": "2026-06-16T22:38:20",
-  "total": 96,
+  "scraped_at": "2026-06-17T22:33:02",
+  "total": 98,
   "activities": [
     {
       "title": "Mister Donut 小小烘焙師 甜甜圈DIY（台中遠百門市）",
@@ -109,8 +109,8 @@
       "location_address": "北區",
       "age_min": 8,
       "age_max": 12,
-      "price": null,
-      "is_free": null,
+      "price": 11800,
+      "is_free": false,
       "summary": "【8~12歲｜台中】職業體驗五日夏令營：5 種職業Ｘ職人親領Ｘ1 份興趣測驗報告",
       "organizer": "職掘｜青少年＆兒童職涯探索",
       "tags": [
@@ -146,8 +146,8 @@
       "location_address": "西屯區",
       "age_min": 7,
       "age_max": 10,
-      "price": null,
-      "is_free": null,
+      "price": 300,
+      "is_free": false,
       "summary": "【7~10歲｜動物的快樂田】小小食農見習生，來里仁聽故事！西屯中科",
       "organizer": "里仁社會企業 西屯中科店",
       "tags": [
@@ -164,8 +164,8 @@
       "location_address": "南屯區",
       "age_min": 3,
       "age_max": null,
-      "price": null,
-      "is_free": null,
+      "price": 300,
+      "is_free": false,
       "summary": "【3歲以上】親子同樂最佳選擇：跳跳床初體驗",
       "organizer": "Air-Gene 彈翻健身育樂中心 台中店",
       "tags": [
@@ -219,8 +219,8 @@
       "location_address": "北區",
       "age_min": null,
       "age_max": null,
-      "price": null,
-      "is_free": null,
+      "price": 7680,
+      "is_free": false,
       "summary": "【大班升一~六年級｜台中北區】STEAM 星際動力樂園 X 科學手作五日夏令營",
       "organizer": "HuHu 瀚宇教育",
       "tags": [
@@ -237,8 +237,8 @@
       "location_address": "南屯區",
       "age_min": null,
       "age_max": null,
-      "price": null,
-      "is_free": null,
+      "price": 7680,
+      "is_free": false,
       "summary": "【大班升一~六年級｜台中南屯】STEAM 星際動力樂園 X 科學手作五日夏令營",
       "organizer": "HuHu 瀚宇教育",
       "tags": [
@@ -255,8 +255,8 @@
       "location_address": "北區",
       "age_min": null,
       "age_max": null,
-      "price": null,
-      "is_free": null,
+      "price": 10880,
+      "is_free": false,
       "summary": "【大班 ~ 國小四年級｜全英語】世界童趣探險家生活體驗五日夏令營：World Games",
       "organizer": "SEE 體驗式教育專家｜臺中科技大學",
       "tags": [
@@ -309,8 +309,8 @@
       "location_address": "北區",
       "age_min": 8,
       "age_max": 12,
-      "price": null,
-      "is_free": null,
+      "price": 10800,
+      "is_free": false,
       "summary": "【8~12歲｜台中】思辨表達五日夏令營：TED 式思辨表達Ｘ台大師資團隊Ｘ 1 份興趣測驗報告",
       "organizer": "職掘｜青少年＆兒童職涯探索",
       "tags": [],
@@ -325,8 +325,8 @@
       "location_address": "西屯區",
       "age_min": 5,
       "age_max": 12,
-      "price": null,
-      "is_free": null,
+      "price": 7499,
+      "is_free": false,
       "summary": "【 5~12 歲】Money & Kids 理財探索五日夏令營：兒童理財 X 理財素養初階培養",
       "organizer": "ICTA 國際兒童才藝協會｜台中西屯",
       "tags": [],
@@ -341,8 +341,8 @@
       "location_address": "西屯區",
       "age_min": 6,
       "age_max": 12,
-      "price": null,
-      "is_free": null,
+      "price": 7499,
+      "is_free": false,
       "summary": "【6~12歲】財商領航員五日夏令營：兒童理財 X 理財素養進階營隊",
       "organizer": "ICTA 國際兒童才藝協會｜台中西屯",
       "tags": [],
@@ -405,8 +405,8 @@
       "location_address": "南屯區",
       "age_min": null,
       "age_max": null,
-      "price": null,
-      "is_free": null,
+      "price": 7880,
+      "is_free": false,
       "summary": "【大班升一~六年級｜台中南屯】精靈召喚師試煉五日夏令營：科技積木 X 體能大冒險",
       "organizer": "HuHu 瀚宇教育",
       "tags": [],
@@ -421,8 +421,8 @@
       "location_address": "北區",
       "age_min": null,
       "age_max": null,
-      "price": null,
-      "is_free": null,
+      "price": 7880,
+      "is_free": false,
       "summary": "【大班升一~六年級｜台中北區】精靈召喚師試煉五日夏令營：科技積木 X 體能大冒險",
       "organizer": "HuHu 瀚宇教育",
       "tags": [],
@@ -437,8 +437,8 @@
       "location_address": "南屯區",
       "age_min": null,
       "age_max": null,
-      "price": null,
-      "is_free": null,
+      "price": 7680,
+      "is_free": false,
       "summary": "【大班升一~六年級｜台中惠文高中】全能小醫生 X 跨領域醫學大探索五日夏令營",
       "organizer": "HuHu 瀚宇教育",
       "tags": [],
@@ -453,8 +453,8 @@
       "location_address": "北區",
       "age_min": null,
       "age_max": null,
-      "price": null,
-      "is_free": null,
+      "price": 7680,
+      "is_free": false,
       "summary": "【大班升一~六年級｜台中科技大學】全能小醫生 X 跨領域醫學大探索五日夏令營",
       "organizer": "HuHu 瀚宇教育",
       "tags": [],
@@ -548,6 +548,24 @@
       "source": "accupass"
     },
     {
+      "title": "台中親子活動推薦:小小飯店人2.0-星級成長記",
+      "url": "https://www.accupass.com/event/2604170626472004823298",
+      "date_start": "2026-08-16",
+      "date_end": "2026-08-16",
+      "location_city": "台中市",
+      "location_address": null,
+      "age_min": null,
+      "age_max": null,
+      "price": null,
+      "is_free": null,
+      "summary": "台中親子活動推薦:小小飯店人2.0-星級成長記",
+      "organizer": null,
+      "tags": [
+        "職業體驗"
+      ],
+      "source": "accupass"
+    },
+    {
       "title": "2026年8月 花語書籤-手作透明乾燥花書籤DIY",
       "url": "https://www.accupass.com/event/2605081022115685719860",
       "date_start": "2026-08-05",
@@ -584,6 +602,24 @@
       "source": "accupass"
     },
     {
+      "title": "國光社區飄粽香　親子香包DIY迎端午",
+      "url": "https://www.epochtimes.com.tw/n506070/國光社區飄粽香-親子香包DIY迎端午.html",
+      "date_start": "2026-06-17",
+      "date_end": "2026-06-17",
+      "location_city": "台中市",
+      "location_address": null,
+      "age_min": null,
+      "age_max": null,
+      "price": 0,
+      "is_free": true,
+      "summary": "國光社區飄粽香　親子香包DIY迎端午 更新： 2026年06月17日 台中市南區國光社區發展協會17日下午在南區正義街舉辦「手作同樂端午趣」活動。（國光社區發展協會提供） 【記者黃玉燕／台中報導】 1",
+      "organizer": null,
+      "tags": [
+        "DIY手作"
+      ],
+      "source": "epochtimes"
+    },
+    {
       "title": "【總館】圖書館e學堂-照片動起來的奇幻初體驗",
       "url": "https://activity.culture.taichung.gov.tw/",
       "date_start": "2026-07-11",
@@ -598,6 +634,25 @@
       "organizer": "台中市政府文化局",
       "tags": [
         "體驗課",
+        "室內"
+      ],
+      "source": "taichung_culture"
+    },
+    {
+      "title": "【總館】07/11《月亮找朋友》親子手作派對",
+      "url": "https://activity.culture.taichung.gov.tw/",
+      "date_start": "2026-07-11",
+      "date_end": "2026-07-11",
+      "location_city": "台中市",
+      "location_address": "總館",
+      "age_min": null,
+      "age_max": null,
+      "price": 0,
+      "is_free": true,
+      "summary": "【總館】07/11《月亮找朋友》親子手作派對｜2026-07-11 ~ 2026-07-11 15:00-17:00｜總館",
+      "organizer": "台中市政府文化局",
+      "tags": [
+        "DIY手作",
         "室內"
       ],
       "source": "taichung_culture"
@@ -797,24 +852,6 @@
       "price": 0,
       "is_free": true,
       "summary": "【西區分館】06/27 親子讀經班(第10期)｜2026-06-27 ~ 2026-06-27 09:00-11:00｜西區分館",
-      "organizer": "台中市政府文化局",
-      "tags": [
-        "室內"
-      ],
-      "source": "taichung_culture"
-    },
-    {
-      "title": "【總館】07/11《月亮找朋友》臺中國家歌劇院工作坊",
-      "url": "https://activity.culture.taichung.gov.tw/",
-      "date_start": "2026-07-11",
-      "date_end": "2026-07-11",
-      "location_city": "台中市",
-      "location_address": "總館",
-      "age_min": null,
-      "age_max": null,
-      "price": 0,
-      "is_free": true,
-      "summary": "【總館】07/11《月亮找朋友》臺中國家歌劇院工作坊｜2026-07-11 ~ 2026-07-11 15:00-17:00｜總館",
       "organizer": "台中市政府文化局",
       "tags": [
         "室內"
