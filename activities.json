@@ -1,6 +1,6 @@
 {
-  "scraped_at": "2026-06-18T22:37:35",
-  "total": 99,
+  "scraped_at": "2026-06-19T22:18:49",
+  "total": 101,
   "activities": [
     {
       "title": "Mister Donut 小小烘焙師 甜甜圈DIY（台中遠百門市）",
@@ -566,6 +566,24 @@
       "source": "accupass"
     },
     {
+      "title": "GO!木匠特快車｜台中四大手作DIY等你解鎖🔓",
+      "url": "https://www.accupass.com/event/2606110147101576378958",
+      "date_start": "2026-08-01",
+      "date_end": "2026-08-01",
+      "location_city": "台中市",
+      "location_address": null,
+      "age_min": null,
+      "age_max": null,
+      "price": null,
+      "is_free": null,
+      "summary": "GO!木匠特快車｜台中四大手作DIY等你解鎖🔓",
+      "organizer": null,
+      "tags": [
+        "DIY手作"
+      ],
+      "source": "accupass"
+    },
+    {
       "title": "2026年8月 花語書籤-手作透明乾燥花書籤DIY",
       "url": "https://www.accupass.com/event/2605081022115685719860",
       "date_start": "2026-08-05",
@@ -582,6 +600,24 @@
         "DIY手作"
       ],
       "source": "accupass"
+    },
+    {
+      "title": "「穿木屐躦鯪鯉」  萬人體驗陸上慶典魅力",
+      "url": "https://www.epochtimes.com.tw/n506231/穿木屐躦鯪鯉--萬人體驗陸上慶典魅力.html",
+      "date_start": "2026-06-19",
+      "date_end": "2026-06-19",
+      "location_city": "台中市",
+      "location_address": null,
+      "age_min": null,
+      "age_max": null,
+      "price": 2026,
+      "is_free": false,
+      "summary": "「穿木屐躦鯪鯉」  萬人體驗陸上慶典魅力 更新： 2026年06月19日 巨型機甲小丑與威尼斯小丑帶來夢幻泡泡秀。（台中市政府提供） 【記者黃玉燕／台中報導】 全台具特色的端午陸上慶典「穿木屐躦鯪鯉」",
+      "organizer": null,
+      "tags": [
+        "體驗課"
+      ],
+      "source": "epochtimes"
     },
     {
       "title": "【中區分館】7/18 【115年度志工成長課程〜〜環保小植栽手作】",
