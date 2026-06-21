@@ -68,7 +68,7 @@ def main() -> int:
         if args.sources and scraper_cls.name not in args.sources:
             continue
         log.info("=== 開始爬取：%s ===", scraper_cls.name)
-        scraper = scraper_cls(city=city, days=args.days)
+        scraper = scraper_cls(city=city, days=args.days, cities=cities)
         try:
             items = scraper.scrape()
             log.info("[%s] 取得 %d 筆原始活動", scraper_cls.name, len(items))

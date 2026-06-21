@@ -29,13 +29,15 @@ NOTE_RE = re.compile(r"\((截止報名。?|報名期限[^)]*|\d{4}-\d{2}-\d{2})\
 class BeClassScraper(BaseScraper):
     name = "beclass"
 
-    def __init__(self, city: str = "台中市", days: int = 60):
-        super().__init__(city=city, days=days)
-        prefix = city[:2]  # 台中市 → 台中
+    def __init__(self, city: str = "台中市", days: int = 60,
+                 cities: list[str] | None = None):
+        super().__init__(city=city, days=days, cities=cities)
+        topics = ["親子", "兒童", "DIY", "手作", "幼兒"]
         self.keywords = [
-            f"{prefix} 親子", f"{prefix} 兒童", f"{prefix} DIY",
-            f"{prefix} 手作", f"{prefix} 幼兒",
+            f"{c[:2]} {t}" for c in self.cities for t in topics
         ]
+        # 各縣市前兩字 → 縣市全名，用來判斷搜尋結果屬於哪個縣市
+        self._prefix_to_city = {c[:2]: c for c in self.cities}
 
     def scrape(self) -> list[Activity]:
         token = self._fetch_csrf()
@@ -101,8 +103,12 @@ class BeClassScraper(BaseScraper):
         if "截止報名" in raw:
             return None
         title = NOTE_RE.sub("", raw).strip()
-        # 標題沒提到目標城市的略過（搜尋可能命中內文）
-        if self.city[:2] not in title.replace("臺", "台"):
+        # 標題需提到任一目標縣市，否則略過（搜尋可能命中內文）
+        norm_title = title.replace("臺", "台")
+        matched_city = next(
+            (full for prefix, full in self._prefix_to_city.items()
+             if prefix in norm_title), None)
+        if matched_city is None:
             return None
 
         date_start = parse_date(raw)
@@ -113,7 +119,7 @@ class BeClassScraper(BaseScraper):
             url=url,
             date_start=date_start,
             date_end=date_start,
-            location_city=self.city,
+            location_city=matched_city,
             age_min=age_min,
             age_max=age_max,
             price=price,

@@ -1,6 +1,6 @@
 {
-  "scraped_at": "2026-06-21T20:50:02",
-  "total": 379,
+  "scraped_at": "2026-06-21T22:23:20",
+  "total": 387,
   "activities": [
     {
       "title": "Mister Donut 小小烘焙師 甜甜圈DIY（台中遠百門市）",
@@ -1782,6 +1782,44 @@
       "source": "accupass"
     },
     {
+      "title": "[台中] - [小齊音樂.手作] 小提琴/ 中提琴體驗 7-8月",
+      "url": "https://www.accupass.com/event/2606091117055258287120",
+      "date_start": "2026-07-01",
+      "date_end": "2026-07-01",
+      "location_city": "台中市",
+      "location_address": null,
+      "age_min": null,
+      "age_max": null,
+      "price": null,
+      "is_free": null,
+      "summary": "[台中] - [小齊音樂.手作] 小提琴/ 中提琴體驗 7-8月",
+      "organizer": null,
+      "tags": [
+        "體驗課",
+        "DIY手作"
+      ],
+      "source": "accupass"
+    },
+    {
+      "title": "茶香的延續｜茶香茶枕五感手作體驗 A Tea Aroma Reimagined",
+      "url": "https://www.accupass.com/event/2605260826231094101860",
+      "date_start": "2026-06-22",
+      "date_end": "2026-06-22",
+      "location_city": "台中市",
+      "location_address": null,
+      "age_min": null,
+      "age_max": null,
+      "price": null,
+      "is_free": null,
+      "summary": "茶香的延續｜茶香茶枕五感手作體驗 A Tea Aroma Reimagined",
+      "organizer": null,
+      "tags": [
+        "體驗課",
+        "DIY手作"
+      ],
+      "source": "accupass"
+    },
+    {
       "title": "生活工藝館-陶藝DIY手作體驗",
       "url": "https://www.ntcri.gov.tw/home/zh-tw/activitysoonlist/7490912",
       "date_start": "2026-01-01",
@@ -2045,6 +2083,60 @@
       "organizer": null,
       "tags": [
         "DIY手作"
+      ],
+      "source": "accupass"
+    },
+    {
+      "title": "2026台中夏日馬戲節《手作工作坊》",
+      "url": "https://www.accupass.com/event/2605270519541529772412",
+      "date_start": "2026-06-27",
+      "date_end": "2026-06-27",
+      "location_city": "台中市",
+      "location_address": null,
+      "age_min": null,
+      "age_max": null,
+      "price": null,
+      "is_free": null,
+      "summary": "2026台中夏日馬戲節《手作工作坊》",
+      "organizer": null,
+      "tags": [
+        "DIY手作"
+      ],
+      "source": "accupass"
+    },
+    {
+      "title": "(烘焙聯誼)08/15(六)13:00【台中甜點DIY派對-8~9年級專屬場】台中交友",
+      "url": "https://www.accupass.com/event/2504041043221546250996",
+      "date_start": "2026-08-15",
+      "date_end": "2026-08-15",
+      "location_city": "台中市",
+      "location_address": null,
+      "age_min": null,
+      "age_max": null,
+      "price": null,
+      "is_free": null,
+      "summary": "(烘焙聯誼)08/15(六)13:00【台中甜點DIY派對-8~9年級專屬場】台中交友",
+      "organizer": null,
+      "tags": [
+        "DIY手作"
+      ],
+      "source": "accupass"
+    },
+    {
+      "title": "【小小音樂大師課】低音管 × 乞丐王子｜台中",
+      "url": "https://www.accupass.com/event/2603230643215405035690",
+      "date_start": "2026-06-27",
+      "date_end": "2026-06-27",
+      "location_city": "台中市",
+      "location_address": null,
+      "age_min": null,
+      "age_max": null,
+      "price": null,
+      "is_free": null,
+      "summary": "【小小音樂大師課】低音管 × 乞丐王子｜台中",
+      "organizer": null,
+      "tags": [
+        "職業體驗"
       ],
       "source": "accupass"
     },
@@ -2927,17 +3019,65 @@
       "source": "accupass"
     },
     {
-      "title": "115年7月 乾燥花書籤diy浪漫又實用！",
-      "url": "https://www.accupass.com/event/2605010914337742264800",
-      "date_start": "2026-07-20",
-      "date_end": "2026-07-20",
+      "title": "【台中-上午小童場】8/1親子金錢探險日 ",
+      "url": "https://www.accupass.com/event/2605120643486864999080",
+      "date_start": "2026-08-01",
+      "date_end": "2026-08-01",
       "location_city": "台中市",
       "location_address": null,
       "age_min": null,
       "age_max": null,
       "price": null,
       "is_free": null,
-      "summary": "115年7月 乾燥花書籤diy浪漫又實用！",
+      "summary": "【台中-上午小童場】8/1親子金錢探險日 ",
+      "organizer": null,
+      "tags": [],
+      "source": "accupass"
+    },
+    {
+      "title": "走進街區的故事裡｜新富町文化走讀",
+      "url": "https://www.accupass.com/event/2605200455409895917060",
+      "date_start": "2026-07-04",
+      "date_end": "2026-07-04",
+      "location_city": "台中市",
+      "location_address": null,
+      "age_min": null,
+      "age_max": null,
+      "price": null,
+      "is_free": null,
+      "summary": "走進街區的故事裡｜新富町文化走讀",
+      "organizer": null,
+      "tags": [],
+      "source": "accupass"
+    },
+    {
+      "title": "苗栗縣照南國中2026暑期英語夏令營",
+      "url": "https://www.accupass.com/event/2603160826311232319979",
+      "date_start": "2026-07-20",
+      "date_end": "2026-07-20",
+      "location_city": "苗栗縣",
+      "location_address": null,
+      "age_min": null,
+      "age_max": null,
+      "price": null,
+      "is_free": null,
+      "summary": "苗栗縣照南國中2026暑期英語夏令營",
+      "organizer": null,
+      "tags": [],
+      "source": "accupass"
+    },
+    {
+      "title": "2026遊樂翻轉夏令營：卦山探索日",
+      "url": "https://www.accupass.com/event/2605120734107199875180",
+      "date_start": "2026-07-04",
+      "date_end": "2026-07-04",
+      "location_city": "彰化縣",
+      "location_address": null,
+      "age_min": null,
+      "age_max": null,
+      "price": null,
+      "is_free": null,
+      "summary": "2026遊樂翻轉夏令營：卦山探索日",
       "organizer": null,
       "tags": [],
       "source": "accupass"

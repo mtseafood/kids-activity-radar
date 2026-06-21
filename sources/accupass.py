@@ -22,16 +22,40 @@ from .base import (
 logger = logging.getLogger("scraper")
 
 SEARCH_KEYWORDS = ["小小", "幼兒", "親子", "體驗", "DIY"]
+# 各縣市再加上「縣市名 + 主題」的在地化查詢，補足非台中縣市的活動
+CITY_TOPICS = ["親子", "體驗", "DIY", "小小"]
 SEARCH_URL = "https://www.accupass.com/search?q={kw}"
+
+# 親子正向關鍵字：加上縣市查詢後結果較雜（會混進聯誼/說明會/場地出租），
+# 標題或內文需命中以下其一才視為親子活動。
+KID_KEYWORDS = [
+    "親子", "兒童", "幼兒", "寶寶", "小小", "繪本", "故事", "感統",
+    "DIY", "手作", "夏令營", "冬令營", "營隊", "體驗營", "童",
+    "彩繪", "黏土", "陶藝", "烘焙", "烹飪", "科學", "積木", "扮演",
+]
 
 
 class AccupassScraper(BaseScraper):
     name = "accupass"
 
+    def _keywords(self) -> list[str]:
+        kws = list(SEARCH_KEYWORDS)
+        for c in self.cities:
+            prefix = c[:2]  # 台中市 → 台中
+            for topic in CITY_TOPICS:
+                kws.append(f"{prefix} {topic}")
+        # 去重並保留順序
+        seen, out = set(), []
+        for k in kws:
+            if k not in seen:
+                seen.add(k)
+                out.append(k)
+        return out
+
     def scrape(self) -> list[Activity]:
         activities: list[Activity] = []
         seen: set[str] = set()
-        for kw in SEARCH_KEYWORDS:
+        for kw in self._keywords():
             url = SEARCH_URL.format(kw=quote(kw))
             resp = self.get(url)
             html = resp.text if resp else None
@@ -65,6 +89,9 @@ class AccupassScraper(BaseScraper):
                     continue
                 date_text, title = parts[0], parts[1]
                 rest = " ".join(parts[2:])
+                # 親子相關才留（過濾掉聯誼/說明會/場地出租等雜訊）
+                if not any(k in (title + rest) for k in KID_KEYWORDS):
+                    continue
                 date_start, date_end = parse_date_range(date_text)
                 age_min, age_max = parse_age(title + " " + rest)
                 # 卡片尾端的數字是瀏覽/收藏數，不是價格——
