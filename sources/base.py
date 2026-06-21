@@ -151,8 +151,11 @@ class BaseScraper:
 
     name = "base"
 
-    def __init__(self, city: str = "台中市", days: int = 60):
+    def __init__(self, city: str = "台中市", days: int = 60,
+                 cities: list[str] | None = None):
         self.city = city
+        # 目標縣市清單（多縣市來源用）；未指定時退回單一 city
+        self.cities = cities or [city]
         self.days = days
         self.session = requests.Session()
         self.session.headers.update({
