@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>活動分類｜親子活動雷達</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&family=Baloo+2:wght@500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <a href="./" class="back-link">← 回分類首頁</a>
+    <div class="title-row">
+      <h1 id="catTitle">活動分類</h1>
+      <div class="subtitle" id="catBlurb"></div>
+    </div>
+    <div class="stats" id="stats"></div>
+  </header>
+
+  <section class="filters" id="filters" hidden>
+    <div class="filter-grid">
+      <div class="field">
+        <label for="q">關鍵字搜尋</label>
+        <input type="search" id="q" placeholder="活動名稱、地點、主辦單位…">
+      </div>
+      <div class="field">
+        <label for="city">縣市</label>
+        <select id="city"><option value="">全部縣市</option></select>
+      </div>
+      <div class="field">
+        <label for="age">孩子年齡</label>
+        <select id="age">
+          <option value="">不限</option>
+          <option value="2">2 歲</option>
+          <option value="3">3 歲</option>
+          <option value="4">4 歲</option>
+          <option value="5">5 歲</option>
+          <option value="6">6 歲</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="sort">排序</label>
+        <select id="sort">
+          <option value="rank">推薦排序</option>
+          <option value="date">日期最近</option>
+          <option value="price">價格低到高</option>
+        </select>
+      </div>
+    </div>
+    <div class="chip-row" id="tagChips" hidden><span class="row-label">細分類型</span></div>
+    <div class="toggle-row">
+      <label class="toggle"><input type="checkbox" id="freeOnly"><span class="box">✓</span>只看免費活動</label>
+      <label class="toggle"><input type="checkbox" id="datedOnly"><span class="box">✓</span>只看有確定日期</label>
+      <button class="reset-btn" id="reset">清除全部篩選</button>
+    </div>
+  </section>
+
+  <div class="result-bar" id="resultBar" hidden>
+    <span class="count" id="count">0</span><span class="label">個活動</span>
+    <span class="label" id="scrapedAt" style="margin-left:auto"></span>
+  </div>
+
+  <main class="grid" id="grid"></main>
+  <div class="more-row" id="moreRow" hidden>
+    <button class="more-btn" id="moreBtn">再看更多 ↓</button>
+  </div>
+  <div id="message"></div>
+
+  <footer>資料來源：Accupass、KKday、Niceday、大紀元、台中市政府文化局開放資料｜報名前請以原網站資訊為準</footer>
+</div>
+
+<script src="assets/app.js"></script>
+<script>
+"use strict";
+const PAGE_SIZE = 48;
+const $ = id => document.getElementById(id);
+
+// 取得目前分類
+const params = new URLSearchParams(location.search);
+const CAT = params.get("cat") || "all";
+const META = CATEGORIES.find(c => c.key === CAT) ||
+  { key: "all", icon: "🌈", color: "var(--ink)", blurb: "一次瀏覽所有活動" };
+const CAT_NAME = CAT === "all" ? "全部活動" : CAT;
+
+let all = [];   // 此分類的活動（保留推薦排序）
+let view = [];  // 篩選後
+let shown = 0;
+
+async function load() {
+  // 套用分類主題色＋標題
+  document.documentElement.style.setProperty("--tile-c", META.color);
+  $("catTitle").textContent = (CAT === "all" ? "🌈 " : META.icon + " ") + CAT_NAME;
+  $("catBlurb").textContent = META.blurb;
+  document.title = CAT_NAME + "｜親子活動雷達";
+
+  let data;
+  try {
+    const resp = await fetch("activities.json", { cache: "no-store" });
+    if (!resp.ok) throw new Error("HTTP " + resp.status);
+    data = await resp.json();
+  } catch (e) {
+    $("message").innerHTML = `
+      <div class="error-box">
+        <strong>讀不到 activities.json 😢</strong><br>
+        ${location.protocol === "file:"
+          ? "瀏覽器不允許直接從檔案讀取資料，請在專案資料夾啟動一個小伺服器："
+          : "請先執行爬蟲產生資料："}<br>
+        <code>python scraper.py</code>　然後　<code>python -m http.server 8000</code><br>
+        再開啟 <code>http://localhost:8000</code>
+      </div>`;
+    return;
+  }
+
+  const source = data.activities || [];
+  all = source
+    .filter(a => CAT === "all" || (a.tags || []).includes(CAT))
+    .map((a, i) => ({ ...a, _rank: i }));
+  $("scrapedAt").textContent = "資料更新：" + (data.scraped_at || "").replace("T", " ");
+
+  buildStats();
+  buildCityOptions();
+  bindEvents();
+  $("filters").hidden = false;
+  $("resultBar").hidden = false;
+  applyFilters();
+}
+
+function buildStats() {
+  const freeCount = all.filter(a => a.is_free).length;
+  const cityCount = new Set(all.map(a => a.location_city).filter(Boolean)).size;
+  $("stats").innerHTML = `
+    <span class="stat"><span class="dot" style="background:var(--red)"></span>共 <strong>${all.length}</strong> 個活動</span>
+    <span class="stat"><span class="dot" style="background:var(--green)"></span><strong>${freeCount}</strong> 個免費</span>
+    <span class="stat"><span class="dot" style="background:var(--blue)"></span>遍及 <strong>${cityCount}</strong> 個縣市</span>`;
+}
+
+function buildCityOptions() {
+  const counts = {};
+  for (const a of all) if (a.location_city) counts[a.location_city] = (counts[a.location_city] || 0) + 1;
+  const cities = Object.entries(counts).sort((x, y) => y[1] - x[1]);
+  for (const [city, n] of cities) {
+    const opt = document.createElement("option");
+    opt.value = city;
+    opt.textContent = `${city}（${n}）`;
+    $("city").appendChild(opt);
+  }
+}
+
+function bindEvents() {
+  for (const id of ["q", "city", "age", "sort", "freeOnly", "datedOnly"])
+    $(id).addEventListener("input", applyFilters);
+  $("reset").addEventListener("click", () => {
+    $("q").value = ""; $("city").value = ""; $("age").value = ""; $("sort").value = "rank";
+    $("freeOnly").checked = false; $("datedOnly").checked = false;
+    applyFilters();
+  });
+  $("moreBtn").addEventListener("click", () => render(false));
+}
+
+function applyFilters() {
+  const q = $("q").value.trim().toLowerCase();
+  const city = $("city").value;
+  const age = $("age").value ? parseInt($("age").value, 10) : null;
+  const freeOnly = $("freeOnly").checked;
+  const datedOnly = $("datedOnly").checked;
+
+  view = all.filter(a => {
+    if (q) {
+      const hay = [a.title, a.summary, a.location_address, a.organizer, ...(a.tags || [])]
+        .filter(Boolean).join(" ").toLowerCase();
+      if (!hay.includes(q)) return false;
+    }
+    if (city && a.location_city !== city) return false;
+    if (freeOnly && !a.is_free) return false;
+    if (datedOnly && !a.date_start) return false;
+    if (age !== null) {
+      if (a.age_min != null && a.age_min > age) return false;
+      if (a.age_max != null && a.age_max < age) return false;
+    }
+    return true;
+  });
+
+  const sort = $("sort").value;
+  if (sort === "date") {
+    view.sort((x, y) => (x.date_start || "9999") < (y.date_start || "9999") ? -1 : 1);
+  } else if (sort === "price") {
+    view.sort((x, y) => (x.price ?? 1e9) - (y.price ?? 1e9));
+  } else {
+    view.sort((x, y) => x._rank - y._rank);
+  }
+
+  $("count").textContent = view.length;
+  render(true);
+}
+
+function render(reset) {
+  const grid = $("grid");
+  if (reset) { grid.innerHTML = ""; shown = 0; }
+  const slice = view.slice(shown, shown + PAGE_SIZE);
+  slice.forEach((a, i) => grid.appendChild(card(a, i, true)));
+  shown += slice.length;
+  $("moreRow").hidden = shown >= view.length;
+  $("message").innerHTML = view.length ? "" :
+    `<div class="empty"><span class="face">🧸</span>這個分類目前沒有符合條件的活動，放寬一點試試？</div>`;
+}
+
+load();
+</script>
+</body>
+</html>

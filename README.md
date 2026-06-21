@@ -42,7 +42,7 @@ python scraper.py -v                       # 顯示 debug log
 
 ## 瀏覽 UI
 
-[index.html](index.html) 是零依賴的單頁瀏覽器，直接讀取 `activities.json`：
+零依賴的多頁前端，直接讀取 `activities.json`，採「分類入口 Hub + 詳情子頁」結構：
 
 ```bash
 python scraper.py            # 先產生資料
@@ -50,9 +50,14 @@ python -m http.server 8000   # 在專案根目錄啟動
 # 開啟 http://localhost:8000
 ```
 
-功能：關鍵字搜尋、縣市/孩子年齡下拉、活動類型標籤（職業體驗、DIY 手作…）、
-只看免費/只看有確定日期切換、推薦/日期/價格排序、免費貼紙與票價標示，
-支援手機版面。所有篩選都在前端即時運算，不需後端。
+- [index.html](index.html)：**分類 Hub**，依資料即時統計各活動類型數量，列出分類磚與特別企劃。
+- [category.html](category.html)：**分類詳情頁**，以 `?cat=<類型>` 帶入（`all` 為全部）。
+  關鍵字搜尋、縣市/孩子年齡下拉、只看免費/只看有確定日期、推薦/日期/價格排序、
+  免費貼紙與票價標示，並顯示活動摘要細節。
+- [farm/index.html](farm/index.html)：**特別企劃**，中部四縣市親子農牧場地圖（縣市 × 特色雙軸篩選）。
+- [assets/style.css](assets/style.css)、[assets/app.js](assets/app.js)：三頁共用的樣式與卡片渲染。
+
+所有篩選都在前端即時運算，不需後端，支援手機版面。
 
 ## 每日自動更新（GitHub Actions）
 
@@ -96,6 +101,11 @@ python filter_activities.py --tag DIY手作 --output diy.json
 ## 專案結構
 
 ```
+index.html             # 前端：分類入口 Hub
+category.html          # 前端：分類詳情頁（?cat=）
+farm/index.html        # 前端：中部親子農場地圖（特別企劃）
+assets/style.css       # 前端：共用樣式
+assets/app.js          # 前端：共用分類定義與卡片渲染
 scraper.py             # 主程式（--city / --days / --sources / --output）
 filters.py             # 篩選與排序邏輯
 filter_activities.py   # 對 JSON 結果做二次篩選
