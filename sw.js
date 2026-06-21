@@ -6,7 +6,7 @@ const CACHE = "kar-v2";
 const SHELL = [
   ".", "index.html", "category.html", "activity.html",
   "assets/style.css", "assets/app.js", "assets/icon.svg",
-  "manifest.json", "activities.json",
+  "favicon.svg", "manifest.json", "activities.json",
 ];
 
 self.addEventListener("install", e => {
