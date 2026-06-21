@@ -417,3 +417,82 @@ footer {
 }
 
 .hidden { display: none !important; }
+
+/* ============ 收藏愛心 ============ */
+.fav-btn {
+  position: absolute; top: 10px; right: 12px;
+  width: 36px; height: 36px;
+  background: var(--card);
+  border: 2.5px solid var(--ink);
+  border-radius: 50%;
+  font-size: 1.15rem; line-height: 1;
+  color: var(--red);
+  cursor: pointer;
+  display: grid; place-items: center;
+  box-shadow: var(--shadow-sm);
+  transition: transform .12s, background .12s;
+  z-index: 3;
+}
+.fav-btn:hover { transform: scale(1.12) rotate(-6deg); }
+.fav-btn.on { background: var(--red); color: #fff; }
+/* 卡片右上同時有貼紙時，愛心移到貼紙左邊 */
+.card:has(.free-sticker) .fav-btn,
+.card:has(.price-sticker) .fav-btn { right: 50px; top: -6px; }
+
+/* ============ 快速日期篩選 chips ============ */
+.quick-row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-top: 12px; }
+.quick-row .row-label { font-size: .82rem; color: var(--ink-soft); letter-spacing: .08em; margin-right: 2px; }
+.quick {
+  font-family: var(--font-hand); font-size: .9rem;
+  border: 2.5px solid var(--ink); border-radius: 999px;
+  background: var(--card); color: var(--ink);
+  padding: 4px 14px; cursor: pointer;
+  transition: transform .12s, box-shadow .12s;
+}
+.quick:hover { transform: translate(-1px,-1px); box-shadow: var(--shadow-sm); }
+.quick.on { background: var(--blue); color: #fff; box-shadow: var(--shadow-sm); transform: translate(-1px,-1px); font-weight: 700; }
+
+/* ============ 地圖（農場頁） ============ */
+#map {
+  height: 440px; width: 100%;
+  border: 3px solid var(--ink); border-radius: var(--radius);
+  box-shadow: var(--shadow); margin: 18px 0 8px; z-index: 1;
+}
+.leaflet-popup-content { font-family: var(--font-hand); }
+.leaflet-popup-content b { font-family: var(--font-round); }
+.map-toggle {
+  display: inline-flex; align-items: center; gap: 6px;
+  font-family: var(--font-round); font-weight: 700; font-size: .9rem;
+  background: var(--card); color: var(--ink); border: 2.5px solid var(--ink);
+  border-radius: 999px; padding: 6px 16px; cursor: pointer;
+  box-shadow: var(--shadow-sm); transition: transform .12s;
+}
+.map-toggle:hover { transform: translate(-1px,-1px); }
+.map-toggle.on { background: var(--green); color: #fff; }
+
+/* ============ 單一活動詳情頁 ============ */
+.detail-card {
+  background: var(--card); border: 3px solid var(--ink);
+  border-radius: var(--radius); box-shadow: var(--shadow);
+  padding: 26px; position: relative; margin-top: 22px;
+}
+.detail-card h2 { font-size: 1.6rem; line-height: 1.35; margin-bottom: 16px; padding-right: 56px; }
+.detail-row { display: flex; gap: 10px; align-items: baseline; font-size: 1rem; margin: 8px 0; }
+.detail-row .ico { flex: none; width: 1.4em; }
+.detail-row .k { color: var(--ink-soft); width: 4.5em; flex: none; }
+.detail-summary {
+  background: var(--paper-deep); border-left: 4px solid var(--blue);
+  border-radius: 8px; padding: 12px 16px; margin: 16px 0; line-height: 1.7;
+}
+.detail-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 22px; }
+.btn-primary, .btn-ghost {
+  font-family: var(--font-round); font-weight: 800; font-size: 1rem;
+  border: 3px solid var(--ink); border-radius: 999px;
+  padding: 10px 24px; cursor: pointer; text-decoration: none;
+  box-shadow: var(--shadow-sm); transition: transform .12s, box-shadow .12s;
+  display: inline-flex; align-items: center; gap: 8px;
+}
+.btn-primary { background: var(--yellow); color: var(--ink); }
+.btn-ghost { background: var(--card); color: var(--ink); }
+.btn-primary:hover, .btn-ghost:hover { transform: translate(-2px,-2px); box-shadow: 5px 5px 0 rgba(51,41,31,.9); }
+.detail-tags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; }

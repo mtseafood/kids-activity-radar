@@ -130,6 +130,24 @@ def _dedup_key(act: Activity) -> tuple[str, str]:
     return title, (act.location_address or "")
 
 
+def dedupe_exact(activities: list[Activity]) -> list[Activity]:
+    """移除完全重複的活動，保留先出現者。
+
+    以 (網址, 標題, 地點) 為鍵——注意部分來源（如台中文化局）多筆活動
+    共用同一個一般性網址，因此不可只用網址去重，否則會誤刪不同活動。
+    """
+    seen: set[tuple[str, str, str]] = set()
+    out: list[Activity] = []
+    for act in activities:
+        url = (act.url or "").split("#")[0].rstrip("/")
+        key = (url, (act.title or "").strip(), (act.location_address or "").strip())
+        if url and key in seen:
+            continue
+        seen.add(key)
+        out.append(act)
+    return out
+
+
 def dedupe_series(activities: list[Activity]) -> list[Activity]:
     """同名系列只留最早即將舉行的一場，結束日取系列最大值。"""
     groups: dict[tuple[str, str], Activity] = {}
@@ -198,6 +216,7 @@ def filter_and_rank(
             continue
         assign_tags(act)
         kept.append(act)
+    kept = dedupe_exact(kept)
     kept = dedupe_series(kept)
     kept.sort(key=lambda a: priority_score(a, city), reverse=True)
     return kept

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>活動詳情｜親子活動雷達</title>
+<meta name="theme-color" content="#FBF5E9">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/icon.svg">
+<link rel="manifest" href="manifest.json">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&family=Baloo+2:wght@500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <a href="#" id="backLink" class="back-link">← 返回</a>
+  </header>
+  <div id="detail"></div>
+  <footer>報名前請以原網站資訊為準</footer>
+</div>
+
+<script src="assets/app.js"></script>
+<script>
+"use strict";
+const $ = id => document.getElementById(id);
+const id = new URLSearchParams(location.search).get("id");
+
+// 返回鍵：有歷史就回上一頁，否則回首頁
+$("backLink").addEventListener("click", e => {
+  e.preventDefault();
+  if (history.length > 1) history.back(); else location.href = "./";
+});
+
+async function load() {
+  let data;
+  try {
+    const resp = await fetch("activities.json", { cache: "no-store" });
+    if (!resp.ok) throw new Error("HTTP " + resp.status);
+    data = await resp.json();
+  } catch (e) {
+    $("detail").innerHTML = `<div class="error-box"><strong>讀不到 activities.json 😢</strong></div>`;
+    return;
+  }
+  const a = (data.activities || []).find(x => actId(x) === id);
+  if (!a) {
+    $("detail").innerHTML = `<div class="empty"><span class="face">🔍</span>找不到這個活動，可能已下架或網址有誤。<br><a href="./" class="back-link" style="margin-top:18px">回分類首頁</a></div>`;
+    return;
+  }
+  document.title = a.title + "｜親子活動雷達";
+
+  const fav = isFav(id);
+  const dateText = a.date_start
+    ? a.date_start + (a.date_end && a.date_end !== a.date_start ? " ～ " + a.date_end : "")
+    : "常駐體驗（場次請見報名頁）";
+  const ageText = a.age_min != null
+    ? `${a.age_min}${a.age_max != null ? "～" + a.age_max : "+"} 歲`
+    : "年齡未標示";
+  const priceText = a.is_free ? "免費" : (a.price != null ? "$" + a.price : "價格請見報名頁");
+  const place = [a.location_city, a.location_address].filter(Boolean).join(" ");
+  const tagHtml = (a.tags || []).map(t =>
+    `<span class="tag" style="background:${TAG_COLORS[t] || "var(--paper-deep)"};color:${t in TAG_COLORS && t !== "室內" ? "var(--card)" : "var(--ink)"}">${esc(t)}</span>`
+  ).join("");
+  const mapsUrl = place ? "https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent(a.location_address || place) : null;
+
+  $("detail").innerHTML = `
+    <div class="detail-card">
+      <button class="fav-btn${fav ? " on" : ""}" id="fav" title="加入收藏">${fav ? "♥" : "♡"}</button>
+      <h2>${esc(a.title)}</h2>
+      <div class="detail-row"><span class="ico">📅</span><span class="k">日期</span><span>${esc(dateText)}</span></div>
+      <div class="detail-row"><span class="ico">📍</span><span class="k">地點</span><span>${place ? esc(place) : "請見報名頁"}</span></div>
+      <div class="detail-row"><span class="ico">🎈</span><span class="k">適齡</span><span>${esc(ageText)}</span></div>
+      <div class="detail-row"><span class="ico">💰</span><span class="k">費用</span><span>${esc(priceText)}</span></div>
+      ${a.organizer ? `<div class="detail-row"><span class="ico">🏠</span><span class="k">主辦</span><span>${esc(a.organizer)}</span></div>` : ""}
+      <div class="detail-row"><span class="ico">🔖</span><span class="k">來源</span><span>${esc(a.source)}</span></div>
+      ${a.summary ? `<div class="detail-summary">${esc(a.summary)}</div>` : ""}
+      <div class="detail-tags">${tagHtml}</div>
+      <div class="detail-actions">
+        <a class="btn-primary" href="${esc(a.url)}" target="_blank" rel="noopener">前往報名 →</a>
+        ${mapsUrl ? `<a class="btn-ghost" href="${esc(mapsUrl)}" target="_blank" rel="noopener">🗺️ 開啟地圖</a>` : ""}
+        <button class="btn-ghost" id="share">🔗 分享</button>
+      </div>
+    </div>`;
+
+  $("fav").addEventListener("click", () => {
+    const on = toggleFav(id);
+    $("fav").classList.toggle("on", on);
+    $("fav").textContent = on ? "♥" : "♡";
+  });
+  $("share").addEventListener("click", async () => {
+    const shareData = { title: a.title, text: a.title, url: location.href };
+    try {
+      if (navigator.share) await navigator.share(shareData);
+      else { await navigator.clipboard.writeText(location.href); $("share").textContent = "✓ 已複製連結"; }
+    } catch (e) {}
+  });
+}
+
+registerSW();
+load();
+</script>
+</body>
+</html>

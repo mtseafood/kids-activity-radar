@@ -4,6 +4,10 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>親子活動雷達｜2~6 歲體驗活動分類入口</title>
+<meta name="theme-color" content="#FBF5E9">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/icon.svg">
+<link rel="manifest" href="manifest.json">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&family=Baloo+2:wght@500;700;800&display=swap" rel="stylesheet">
@@ -94,6 +98,12 @@ async function load() {
 
   // 特別企劃磚
   const sg = $("specialGrid");
+  // 我的收藏（讀 localStorage）
+  const nFav = favCount();
+  sg.appendChild(tile({
+    key: "fav", icon: "⭐", color: "var(--red)",
+    name: "我的收藏", blurb: nFav ? `已收藏 ${nFav} 個活動，點開看清單` : "逛活動時點愛心，就會收進這裡",
+  }, null, "category.html?cat=fav"));
   for (const s of SPECIAL) {
     sg.appendChild(tile(s, null, s.href));
   }
@@ -116,6 +126,7 @@ function tile(c, n, href) {
   return a;
 }
 
+registerSW();
 load();
 </script>
 </body>

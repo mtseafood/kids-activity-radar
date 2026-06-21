@@ -4,6 +4,10 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>活動分類｜親子活動雷達</title>
+<meta name="theme-color" content="#FBF5E9">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/icon.svg">
+<link rel="manifest" href="manifest.json">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&family=Baloo+2:wght@500;700;800&display=swap" rel="stylesheet">
@@ -50,7 +54,13 @@
         </select>
       </div>
     </div>
-    <div class="chip-row" id="tagChips" hidden><span class="row-label">細分類型</span></div>
+    <div class="quick-row" id="quickRow">
+      <span class="row-label">時間</span>
+      <button class="quick on" data-q="all">全部</button>
+      <button class="quick" data-q="weekend">本週末</button>
+      <button class="quick" data-q="7">7 天內</button>
+      <button class="quick" data-q="30">30 天內</button>
+    </div>
     <div class="toggle-row">
       <label class="toggle"><input type="checkbox" id="freeOnly"><span class="box">✓</span>只看免費活動</label>
       <label class="toggle"><input type="checkbox" id="datedOnly"><span class="box">✓</span>只看有確定日期</label>
@@ -78,21 +88,22 @@
 const PAGE_SIZE = 48;
 const $ = id => document.getElementById(id);
 
-// 取得目前分類
 const params = new URLSearchParams(location.search);
 const CAT = params.get("cat") || "all";
+const IS_FAV = CAT === "fav";
 const META = CATEGORIES.find(c => c.key === CAT) ||
-  { key: "all", icon: "🌈", color: "var(--ink)", blurb: "一次瀏覽所有活動" };
-const CAT_NAME = CAT === "all" ? "全部活動" : CAT;
+  (IS_FAV
+    ? { key: "fav", icon: "⭐", color: "var(--red)", blurb: "你收藏的活動，存在這個瀏覽器裡" }
+    : { key: "all", icon: "🌈", color: "var(--ink)", blurb: "一次瀏覽所有活動" });
+const CAT_NAME = IS_FAV ? "我的收藏" : (CAT === "all" ? "全部活動" : CAT);
 
-let all = [];   // 此分類的活動（保留推薦排序）
-let view = [];  // 篩選後
+let all = [];
+let view = [];
 let shown = 0;
 
 async function load() {
-  // 套用分類主題色＋標題
   document.documentElement.style.setProperty("--tile-c", META.color);
-  $("catTitle").textContent = (CAT === "all" ? "🌈 " : META.icon + " ") + CAT_NAME;
+  $("catTitle").textContent = META.icon + " " + CAT_NAME;
   $("catBlurb").textContent = META.blurb;
   document.title = CAT_NAME + "｜親子活動雷達";
 
@@ -114,15 +125,19 @@ async function load() {
     return;
   }
 
-  const source = data.activities || [];
-  all = source
-    .filter(a => CAT === "all" || (a.tags || []).includes(CAT))
-    .map((a, i) => ({ ...a, _rank: i }));
+  const source = (data.activities || []).map((a, i) => ({ ...a, _rank: i, _id: actId(a) }));
+  if (IS_FAV) {
+    const favs = getFavs();
+    all = source.filter(a => favs.has(a._id));
+  } else {
+    all = source.filter(a => CAT === "all" || (a.tags || []).includes(CAT));
+  }
   $("scrapedAt").textContent = "資料更新：" + (data.scraped_at || "").replace("T", " ");
 
   buildStats();
   buildCityOptions();
   bindEvents();
+  restoreFromURL();
   $("filters").hidden = false;
   $("resultBar").hidden = false;
   applyFilters();
@@ -149,15 +164,56 @@ function buildCityOptions() {
   }
 }
 
+let curQuick = "all";
+
 function bindEvents() {
   for (const id of ["q", "city", "age", "sort", "freeOnly", "datedOnly"])
     $(id).addEventListener("input", applyFilters);
+  $("quickRow").addEventListener("click", e => {
+    const b = e.target.closest(".quick"); if (!b) return;
+    $("quickRow").querySelectorAll(".quick").forEach(x => x.classList.remove("on"));
+    b.classList.add("on"); curQuick = b.dataset.q;
+    applyFilters();
+  });
   $("reset").addEventListener("click", () => {
     $("q").value = ""; $("city").value = ""; $("age").value = ""; $("sort").value = "rank";
     $("freeOnly").checked = false; $("datedOnly").checked = false;
+    curQuick = "all";
+    $("quickRow").querySelectorAll(".quick").forEach(x => x.classList.toggle("on", x.dataset.q === "all"));
     applyFilters();
   });
   $("moreBtn").addEventListener("click", () => render(false));
+  // 收藏頁：移除收藏後即時更新清單
+  if (IS_FAV) document.addEventListener("fav-changed", e => {
+    if (!e.detail.on) { all = all.filter(a => a._id !== e.detail.id); buildStats(); applyFilters(); }
+  });
+}
+
+function restoreFromURL() {
+  if (params.get("q")) $("q").value = params.get("q");
+  if (params.get("city")) $("city").value = params.get("city");
+  if (params.get("age")) $("age").value = params.get("age");
+  if (params.get("sort")) $("sort").value = params.get("sort");
+  if (params.get("free") === "1") $("freeOnly").checked = true;
+  if (params.get("dated") === "1") $("datedOnly").checked = true;
+  const q = params.get("when");
+  if (q && ["all", "weekend", "7", "30"].includes(q)) {
+    curQuick = q;
+    $("quickRow").querySelectorAll(".quick").forEach(x => x.classList.toggle("on", x.dataset.q === q));
+  }
+}
+
+function syncURL() {
+  const p = new URLSearchParams();
+  p.set("cat", CAT);
+  if ($("q").value.trim()) p.set("q", $("q").value.trim());
+  if ($("city").value) p.set("city", $("city").value);
+  if ($("age").value) p.set("age", $("age").value);
+  if ($("sort").value !== "rank") p.set("sort", $("sort").value);
+  if ($("freeOnly").checked) p.set("free", "1");
+  if ($("datedOnly").checked) p.set("dated", "1");
+  if (curQuick !== "all") p.set("when", curQuick);
+  history.replaceState(null, "", location.pathname + "?" + p.toString());
 }
 
 function applyFilters() {
@@ -166,6 +222,12 @@ function applyFilters() {
   const age = $("age").value ? parseInt($("age").value, 10) : null;
   const freeOnly = $("freeOnly").checked;
   const datedOnly = $("datedOnly").checked;
+
+  // 時間區間
+  let from = null, to = null;
+  if (curQuick === "weekend") { const [s, e] = weekendRange(); from = s; to = e; }
+  else if (curQuick === "7") { from = todayISO(); to = plusDaysISO(7); }
+  else if (curQuick === "30") { from = todayISO(); to = plusDaysISO(30); }
 
   view = all.filter(a => {
     if (q) {
@@ -180,6 +242,11 @@ function applyFilters() {
       if (a.age_min != null && a.age_min > age) return false;
       if (a.age_max != null && a.age_max < age) return false;
     }
+    if (from) {
+      if (!a.date_start) return false;            // 時間篩選只看有日期的
+      const s = a.date_start, e = a.date_end || a.date_start;
+      if (e < from || s > to) return false;       // 區間不重疊則排除
+    }
     return true;
   });
 
@@ -193,6 +260,7 @@ function applyFilters() {
   }
 
   $("count").textContent = view.length;
+  syncURL();
   render(true);
 }
 
@@ -204,9 +272,12 @@ function render(reset) {
   shown += slice.length;
   $("moreRow").hidden = shown >= view.length;
   $("message").innerHTML = view.length ? "" :
-    `<div class="empty"><span class="face">🧸</span>這個分類目前沒有符合條件的活動，放寬一點試試？</div>`;
+    `<div class="empty"><span class="face">${IS_FAV ? "💛" : "🧸"}</span>${
+      IS_FAV ? "還沒有收藏任何活動，去逛逛點個愛心吧！" : "這個分類目前沒有符合條件的活動，放寬一點試試？"
+    }</div>`;
 }
 
+registerSW();
 load();
 </script>
 </body>

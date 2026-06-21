@@ -4,160 +4,39 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>中部親子農場地圖｜台中・苗栗・彰化・南投 餵小動物景點</title>
+<meta name="theme-color" content="#FBF5E9">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../assets/icon.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&family=Baloo+2:wght@500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<link rel="stylesheet" href="../assets/style.css">
 <style>
-:root {
-  --paper: #FBF5E9;
-  --paper-deep: #F3EAD7;
-  --ink: #33291F;
-  --ink-soft: #7A6C5B;
-  --card: #FFFDF7;
-  --red: #E8604C;
-  --orange: #F2933A;
-  --yellow: #F4C544;
-  --green: #7CB069;
-  --blue: #5B9BC9;
-  --pink: #E889A8;
-  --purple: #9D7FBE;
-  --gray: #B9AE9E;
-  --shadow: 4px 4px 0 rgba(51, 41, 31, .9);
-  --shadow-sm: 3px 3px 0 rgba(51, 41, 31, .9);
-  --radius: 14px;
-  --font-hand: "LXGW WenKai TC", "Kaiti TC", serif;
-  --font-round: "Baloo 2", "LXGW WenKai TC", sans-serif;
-}
-* { margin: 0; padding: 0; box-sizing: border-box; }
-body {
-  font-family: var(--font-hand);
-  background-color: var(--paper);
-  background-image:
-    radial-gradient(rgba(51,41,31,.045) 1px, transparent 1px),
-    linear-gradient(rgba(51,41,31,.03) 1px, transparent 1px);
-  background-size: 22px 22px, 100% 34px;
-  color: var(--ink);
-  min-height: 100vh;
-}
-.wrap { max-width: 1180px; margin: 0 auto; padding: 28px 20px 80px; }
-
-/* Header */
-header { position: relative; margin-bottom: 8px; }
-h1 {
-  font-family: var(--font-hand);
-  font-size: clamp(1.9rem, 5vw, 3rem);
-  font-weight: 700; letter-spacing: .04em; line-height: 1.15;
-  position: relative; display: inline-block;
-}
-h1::after {
-  content: ""; position: absolute; left: -2px; right: -6px; bottom: 2px;
-  height: .34em; background: var(--green); z-index: -1;
-  transform: rotate(-1deg); border-radius: 3px;
-}
-.subtitle { font-size: 1.02rem; color: var(--ink-soft); margin-top: 10px; }
-.subtitle b { color: var(--red); font-weight: 700; }
-.back-link {
-  display:inline-flex; align-items:center; gap:6px; margin-bottom:14px;
-  background:var(--card); color:var(--ink); border:2.5px solid var(--ink);
-  border-radius:999px; padding:5px 16px; font-family:var(--font-round);
-  font-weight:700; font-size:.9rem; box-shadow:var(--shadow-sm);
-  text-decoration:none; transform:rotate(-.6deg);
-}
-
-/* Stats */
-.stats { display: flex; gap: 12px; margin-top: 18px; flex-wrap: wrap; }
-.stat {
-  background: var(--card); border: 2.5px solid var(--ink); border-radius: 999px;
-  padding: 6px 16px 6px 12px; font-size: .92rem; box-shadow: var(--shadow-sm);
-  display: flex; align-items: center; gap: 8px; transform: rotate(-.5deg);
-}
-.stat:nth-child(2) { transform: rotate(.7deg); }
-.stat:nth-child(3) { transform: rotate(-.4deg); }
-.stat:nth-child(4) { transform: rotate(.5deg); }
-.stat .dot { width: 12px; height: 12px; border-radius: 50%; border: 2px solid var(--ink); }
-.stat strong { font-family: var(--font-round); font-weight: 800; }
-
-/* Filter blocks */
+/* 農場頁專屬：分類磚樣式（沿用共用樣式 + 少量在地化） */
 .filter-block { margin-top: 24px; }
-.filter-label {
-  font-family: var(--font-round); font-weight: 800; font-size: .85rem;
-  color: var(--ink-soft); letter-spacing: .12em; margin-bottom: 8px;
-}
+.filter-label { font-family: var(--font-round); font-weight: 800; font-size: .85rem; color: var(--ink-soft); letter-spacing: .12em; margin-bottom: 8px; }
 .tabs { display: flex; gap: 10px; flex-wrap: wrap; }
-.tab {
-  font-family: var(--font-round); font-weight: 700; font-size: 1rem;
-  background: var(--card); border: 2.5px solid var(--ink); border-radius: 999px;
-  padding: 7px 18px; cursor: pointer; box-shadow: var(--shadow-sm);
-  transition: transform .08s; color: var(--ink);
-}
+.tab { font-family: var(--font-round); font-weight: 700; font-size: 1rem; background: var(--card); border: 2.5px solid var(--ink); border-radius: 999px; padding: 7px 18px; cursor: pointer; box-shadow: var(--shadow-sm); transition: transform .08s; color: var(--ink); }
 .tab:hover { transform: translate(-1px,-1px); }
-.tab:active { transform: translate(2px,2px); box-shadow: 1px 1px 0 rgba(51,41,31,.9); }
 .tab.active { background: var(--ink); color: var(--paper); }
 .tab.feat.active { background: var(--green); color: #fff; border-color: var(--ink); }
-
-/* County section */
-.county-band {
-  display: flex; align-items: center; gap: 12px;
-  margin: 38px 0 4px; font-family: var(--font-round); font-weight: 800;
-  font-size: 1.5rem;
-}
-.county-band .flag {
-  width: 38px; height: 38px; border-radius: 10px; border: 2.5px solid var(--ink);
-  display: grid; place-items: center; font-size: 1.3rem; box-shadow: var(--shadow-sm);
-}
+.county-band { display: flex; align-items: center; gap: 12px; margin: 38px 0 4px; font-family: var(--font-round); font-weight: 800; font-size: 1.5rem; }
+.county-band .flag { width: 38px; height: 38px; border-radius: 10px; border: 2.5px solid var(--ink); display: grid; place-items: center; font-size: 1.3rem; box-shadow: var(--shadow-sm); }
 .county-band .n { font-size: .95rem; color: var(--ink-soft); font-weight: 700; }
-
-/* Grid */
-.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(330px, 1fr)); gap: 20px; margin-top: 16px; }
-
-/* Card */
-.card {
-  background: var(--card); border: 3px solid var(--ink); border-radius: var(--radius);
-  box-shadow: var(--shadow); padding: 18px 18px 16px; position: relative;
-  display: flex; flex-direction: column;
-}
-.card::before {
-  content: ""; position: absolute; top: -11px; left: 28px;
-  width: 72px; height: 22px; background: rgba(244, 197, 68, .8);
-  transform: rotate(-3deg);
-  border-left: 2px dashed rgba(51,41,31,.25); border-right: 2px dashed rgba(51,41,31,.25);
-}
-.card h3 { font-size: 1.32rem; font-weight: 700; line-height: 1.2; margin-bottom: 2px; }
-.card .area { font-size: .9rem; color: var(--ink-soft); margin-bottom: 12px; }
-.card .desc { font-size: .98rem; line-height: 1.55; margin-bottom: 14px; flex: 1; }
-
+.farm-card .area { font-size: .9rem; color: var(--ink-soft); margin-bottom: 12px; }
+.farm-card .desc { font-size: .98rem; line-height: 1.55; margin-bottom: 14px; flex: 1; }
+.farm-card h3 { font-size: 1.32rem; font-weight: 700; line-height: 1.2; margin-bottom: 2px; }
+.farm-card::before { content: ""; position: absolute; top: -11px; left: 28px; width: 72px; height: 22px; background: rgba(244, 197, 68, .8); transform: rotate(-3deg); border-left: 2px dashed rgba(51,41,31,.25); border-right: 2px dashed rgba(51,41,31,.25); }
 .animals { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 12px; }
-.animal {
-  font-size: .85rem; padding: 3px 10px; border-radius: 999px;
-  border: 2px solid var(--ink); background: var(--paper-deep);
-}
-
-.meta { border-top: 2px dashed rgba(51,41,31,.2); padding-top: 10px; font-size: .9rem; display: grid; gap: 5px; }
-.meta div { display: flex; gap: 7px; align-items: flex-start; }
-.meta .ic { flex: none; }
+.animal { font-size: .85rem; padding: 3px 10px; border-radius: 999px; border: 2px solid var(--ink); background: var(--paper-deep); }
+.fmeta { border-top: 2px dashed rgba(51,41,31,.2); padding-top: 10px; font-size: .9rem; display: grid; gap: 5px; }
+.fmeta div { display: flex; gap: 7px; align-items: flex-start; }
+.fmeta .ic { flex: none; }
 .tag-row { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 12px; }
-.tag {
-  font-family: var(--font-round); font-weight: 700; font-size: .78rem;
-  padding: 2px 10px; border-radius: 6px; border: 2px solid var(--ink); color: #fff;
-  transform: rotate(-1deg);
-}
-.tag.free { background: var(--green); }
-.tag.pay  { background: var(--orange); }
-.tag.milk { background: var(--blue); }
-.tag.new  { background: var(--red); }
-.tag.mtn  { background: var(--purple); }
-
-.note {
-  margin-top: 44px; background: var(--paper-deep); border: 2.5px dashed var(--ink);
-  border-radius: var(--radius); padding: 18px 20px; font-size: .92rem; color: var(--ink-soft);
-  line-height: 1.6;
-}
-.note b { color: var(--ink); }
-.empty { text-align:center; color:var(--ink-soft); padding:40px 0; font-size:1.05rem; }
-footer { margin-top: 26px; text-align: center; color: var(--ink-soft); font-size: .85rem; }
-
-.hidden { display: none !important; }
-@media (max-width: 480px) { .grid { grid-template-columns: 1fr; } }
+.ftag { font-family: var(--font-round); font-weight: 700; font-size: .78rem; padding: 2px 10px; border-radius: 6px; border: 2px solid var(--ink); color: #fff; transform: rotate(-1deg); }
+.ftag.free { background: var(--green); } .ftag.pay { background: var(--orange); } .ftag.milk { background: var(--blue); } .ftag.new { background: var(--red); } .ftag.mtn { background: var(--purple); }
+.farm-card .gobtn { display:inline-flex; align-items:center; gap:6px; margin-top:10px; font-family:var(--font-round); font-weight:700; font-size:.82rem; background:var(--yellow); color:var(--ink); border:2px solid var(--ink); border-radius:999px; padding:3px 12px; text-decoration:none; box-shadow:2px 2px 0 rgba(51,41,31,.9); }
 </style>
 </head>
 <body>
@@ -165,11 +44,11 @@ footer { margin-top: 26px; text-align: center; color: var(--ink-soft); font-size
   <header>
     <a href="../" class="back-link">← 回親子活動雷達</a>
     <h1>🐑 中部親子農場地圖</h1>
-    <p class="subtitle">台中・苗栗・彰化・南投　<b>餵小動物 × 親子放電</b>　精選 21 間農牧場</p>
+    <p class="subtitle">台中・苗栗・彰化・南投　<b>餵小動物 × 親子放電</b>　精選 <span id="nFarm">21</span> 間農牧場</p>
     <div class="stats">
-      <div class="stat"><span class="dot" style="background:var(--red)"></span><strong>21</strong>&nbsp;間農牧場</div>
+      <div class="stat"><span class="dot" style="background:var(--red)"></span><strong id="sTotal">21</strong>&nbsp;間農牧場</div>
       <div class="stat"><span class="dot" style="background:var(--green)"></span><strong>4</strong>&nbsp;個縣市</div>
-      <div class="stat"><span class="dot" style="background:var(--blue)"></span><strong>4</strong>&nbsp;間免門票</div>
+      <div class="stat"><span class="dot" style="background:var(--blue)"></span><strong id="sFree">0</strong>&nbsp;間免門票</div>
       <div class="stat"><span class="dot" style="background:var(--orange)"></span>地址<strong>已查證</strong></div>
     </div>
   </header>
@@ -196,295 +75,16 @@ footer { margin-top: 26px; text-align: center; color: var(--ink-soft); font-size
     </div>
   </div>
 
-  <!-- ============ 台中 ============ -->
-  <section class="county" data-c="台中">
-    <div class="county-band"><span class="flag">🏙️</span> 台中 <span class="n">Taichung</span></div>
-    <div class="grid">
+  <div class="filter-block">
+    <button class="map-toggle" id="mapToggle">🗺️ 顯示地圖</button>
+  </div>
+  <div id="map" class="hidden"></div>
 
-      <div class="card" data-county="台中" data-feat="free feed milk">
-        <h3>益健乳羊牧場</h3>
-        <div class="area">西屯區・台中都會公園旁</div>
-        <div class="tag-row"><span class="tag free">免門票</span><span class="tag milk">羊奶</span></div>
-        <div class="desc">免費入園的隱藏版市區牧場，整排乳羊探頭討吃超療癒。牧草／飼料一份 20 元，小小孩也能安心餵，還能體驗擠羊奶。羊奶冰淇淋、羊乳饅頭必嚐。</div>
-        <div class="animals"><span class="animal">🐐 乳羊</span><span class="animal">🐔 雞</span><span class="animal">🦜 鸚鵡</span></div>
-        <div class="meta">
-          <div><span class="ic">📍</span>台中市西屯區都會園路 1215 巷 95 號</div>
-          <div><span class="ic">🕘</span>09:00–18:00・牧草一份 20 元・免門票</div>
-        </div>
-      </div>
-
-      <div class="card" data-county="台中" data-feat="feed">
-        <h3>欣向町森活園區</h3>
-        <div class="area">后里區・月眉糖廠內</div>
-        <div class="tag-row"><span class="tag pay">門票 150</span><span class="tag new">新亮點</span></div>
-        <div class="desc">百年月眉糖廠倉庫改造的親子園區，「綠洲聯萌」動物區能近距離餵食水豚、迷你羊、狐獴、黑尾土撥鼠與柯爾鴨。另有室內 Xin 潮樂園與沐森餐廳，雨天也能玩。</div>
-        <div class="animals"><span class="animal">🦫 水豚</span><span class="animal">🦦 狐獴</span><span class="animal">🐑 迷你羊</span><span class="animal">🐿️ 土撥鼠</span><span class="animal">🦆 柯爾鴨</span></div>
-        <div class="meta">
-          <div><span class="ic">📍</span>台中市后里區甲后路二段 350 號（月眉糖廠內）</div>
-          <div><span class="ic">🕘</span>09:00–17:00・週一公休</div>
-          <div><span class="ic">🎟️</span>綠洲聯萌 2 歲以上 150 元（含折價券）</div>
-        </div>
-      </div>
-
-      <div class="card" data-county="台中" data-feat="feed">
-        <h3>美樂地親子農場</h3>
-        <div class="area">后里區・麗寶樂園內</div>
-        <div class="tag-row"><span class="tag pay">門票 199 起</span></div>
-        <div class="desc">約 2000 坪，狐獴、水豚、羊駝、熊貓羊一次看好看滿，可買飼料餵食。位於麗寶探索世界內，適合排進樂園行程，免費看狐獴超人氣。</div>
-        <div class="animals"><span class="animal">🦙 羊駝</span><span class="animal">🦦 狐獴</span><span class="animal">🦫 水豚</span><span class="animal">🐑 熊貓羊</span></div>
-        <div class="meta">
-          <div><span class="ic">📍</span>台中市后里區福容路 8 號（麗寶探索世界內）</div>
-          <div><span class="ic">🕘</span>09:30–17:00（最後入園 16:00）</div>
-        </div>
-      </div>
-
-      <div class="card" data-county="台中" data-feat="">
-        <h3>郭叔叔獼猴生態區</h3>
-        <div class="area">北屯區・大坑風景區</div>
-        <div class="tag-row"><span class="tag pay">門票 100</span></div>
-        <div class="desc">大坑山區的野生獼猴生態園，近百隻獼猴超有戲，照鏡子、跳水樣樣來。假日有定時導覽解說，看猴子比看人還忙，孩子笑不停（屬觀察生態，非親手餵食）。</div>
-        <div class="animals"><span class="animal">🐒 台灣獼猴</span></div>
-        <div class="meta">
-          <div><span class="ic">📍</span>台中市北屯區北坑巷 116 號（大坑 4 號步道旁）</div>
-          <div><span class="ic">🕘</span>約 09:00–17:00・週一公休・清潔解說費 100 元</div>
-        </div>
-      </div>
-
-      <div class="card" data-county="台中" data-feat="feed">
-        <h3>赤腳丫生態農莊</h3>
-        <div class="area">大雅區</div>
-        <div class="tag-row"><span class="tag pay">門票</span></div>
-        <div class="desc">老字號生態農莊，有小動物區、樹屋溜滑梯、沙坑、戲水池與大草皮，餐廳同場，是台中老牌的放電＋用餐一條龍親子點。</div>
-        <div class="animals"><span class="animal">🐐 羊</span><span class="animal">🐰 兔子</span><span class="animal">🦆 鴨鵝</span></div>
-        <div class="meta">
-          <div><span class="ic">📍</span>台中市大雅區雅潭路三段 500 號</div>
-          <div><span class="ic">🕙</span>10:00–21:00</div>
-        </div>
-      </div>
-
-      <div class="card" data-county="台中" data-feat="feed">
-        <h3>威爾森的農場</h3>
-        <div class="area">豐原區</div>
-        <div class="tag-row"><span class="tag pay">門票</span><span class="tag new">假日限定</span></div>
-        <div class="desc">藏在豐原巷弄的森林系小農場，餵小動物加沙坑、玩遊具，氣氛悠閒人潮少。100 公分以下免費，適合想避開人擠人的家庭。<b>僅假日開放</b>。</div>
-        <div class="animals"><span class="animal">🐐 羊</span><span class="animal">🐰 兔子</span><span class="animal">🦆 鴨鵝</span></div>
-        <div class="meta">
-          <div><span class="ic">📍</span>台中市豐原區豐勢路二段 535 巷 122 弄 23 號</div>
-          <div><span class="ic">🕥</span>假日 10:30–18:00（平日公休）</div>
-        </div>
-      </div>
-
-    </div>
-  </section>
-
-  <!-- ============ 苗栗 ============ -->
-  <section class="county" data-c="苗栗">
-    <div class="county-band"><span class="flag">🍓</span> 苗栗 <span class="n">Miaoli</span></div>
-    <div class="grid">
-
-      <div class="card" data-county="苗栗" data-feat="feed milk">
-        <h3>飛牛牧場</h3>
-        <div class="area">通霄鎮</div>
-        <div class="tag-row"><span class="tag pay">門票</span><span class="tag milk">擠牛奶</span></div>
-        <div class="desc">中部親子牧場天花板。每天 09:30、15:00 可免費餵小牛喝奶，還能體驗擠牛奶；綿羊、黑山羊、兔子都能買飼料餵。可玩兩天一夜含露營住宿。</div>
-        <div class="animals"><span class="animal">🐄 乳牛</span><span class="animal">🐑 綿羊</span><span class="animal">🐐 黑山羊</span><span class="animal">🐰 兔子</span></div>
-        <div class="meta">
-          <div><span class="ic">📍</span>苗栗縣通霄鎮南和里 166 號</div>
-          <div><span class="ic">🍼</span>09:30 / 15:00 免費餵小牛喝奶</div>
-        </div>
-      </div>
-
-      <div class="card" data-county="苗栗" data-feat="feed">
-        <h3>哈比丘茶樹森林</h3>
-        <div class="area">銅鑼鄉</div>
-        <div class="tag-row"><span class="tag pay">門票</span><span class="tag new">人氣</span></div>
-        <div class="desc">以哈比村造型打造的夢幻休閒農場，秒飛紐西蘭。笑笑羊、水豚、袋鼠、梅花鹿都能近距離接觸，還能親手餵牧草給笑笑羊，高空鞦韆超好拍。</div>
-        <div class="animals"><span class="animal">🐑 笑笑羊</span><span class="animal">🦫 水豚</span><span class="animal">🦘 袋鼠</span><span class="animal">🦌 梅花鹿</span></div>
-        <div class="meta">
-          <div><span class="ic">📍</span>苗栗縣銅鑼鄉（導航「出磺坑」後跟指標上山）</div>
-          <div><span class="ic">⚠️</span>勿直接導航地址，易迷路</div>
-        </div>
-      </div>
-
-      <div class="card" data-county="苗栗" data-feat="feed milk">
-        <h3>四方鮮乳牧場</h3>
-        <div class="area">竹南鎮</div>
-        <div class="tag-row"><span class="tag pay">門票</span><span class="tag milk">鮮乳</span></div>
-        <div class="desc">玩法超多元：刺激急速滑草道、大草皮、經典沙坑，動物區可去小牛區餵牠們喝奶，還能放風箏、Pizza DIY。自家鮮乳製品好喝必買。</div>
-        <div class="animals"><span class="animal">🐄 小牛</span><span class="animal">🦜 鳥園</span></div>
-        <div class="meta">
-          <div><span class="ic">📍</span>苗栗縣竹南鎮崎頂里 12 鄰東崎頂 9-6 號</div>
-          <div><span class="ic">⛷️</span>滑草場・沙坑・餵小牛</div>
-        </div>
-      </div>
-
-      <div class="card" data-county="苗栗" data-feat="feed">
-        <h3>童萌農場</h3>
-        <div class="area">大湖鄉</div>
-        <div class="tag-row"><span class="tag new">最新</span></div>
-        <div class="desc">草莓故鄉大湖的新亮點，十種以上小動物。毛絨絨泰迪羊、斑點駱馬、會「昏倒」的昏倒羊、酷你酷你豬都在這。牧草免費無限拿，小羊可以抱抱，工作人員會指導。</div>
-        <div class="animals"><span class="animal">🐑 泰迪羊</span><span class="animal">🦙 斑點駱馬</span><span class="animal">🐐 昏倒羊</span><span class="animal">🐷 迷你豬</span></div>
-        <div class="meta">
-          <div><span class="ic">📍</span>苗栗縣大湖鄉大寮村 2-6 號</div>
-          <div><span class="ic">🕘</span>09:00–17:00・週二公休・牧草免費</div>
-        </div>
-      </div>
-
-      <div class="card" data-county="苗栗" data-feat="">
-        <h3>花露農場</h3>
-        <div class="area">卓蘭鎮</div>
-        <div class="tag-row"><span class="tag pay">門票</span></div>
-        <div class="desc">以花卉香草聞名，全台首座精油博物館。一年四季都有不同花海（繡球花、波波草），香草精油 DIY、貓頭鷹樹屋、餐廳兼具，氣氛優雅，大人小孩都享受。</div>
-        <div class="animals"><span class="animal">🌸 花海</span><span class="animal">🦉 樹屋</span><span class="animal">🌿 香草</span></div>
-        <div class="meta">
-          <div><span class="ic">📍</span>苗栗縣卓蘭鎮西坪里西坪 43-3 號</div>
-          <div><span class="ic">🕘</span>平日 09:00–17:00／假日 08:30–17:30・週三公休</div>
-        </div>
-      </div>
-
-    </div>
-  </section>
-
-  <!-- ============ 彰化 ============ -->
-  <section class="county" data-c="彰化">
-    <div class="county-band"><span class="flag">🌾</span> 彰化 <span class="n">Changhua</span></div>
-    <div class="grid">
-
-      <div class="card" data-county="彰化" data-feat="feed">
-        <h3>正實親子農場</h3>
-        <div class="area">北斗鎮</div>
-        <div class="tag-row"><span class="tag pay">門票 200</span><span class="tag new">超好餵</span></div>
-        <div class="desc">餵食天堂！十多種動物——鴕鳥、梅花鹿、山羊、陸龜、刺蝟、藍孔雀都能免費餵，還能走進雞舍撿雞蛋、抓小雞。氣墊樂園、戲水池、小火車一次滿足。</div>
-        <div class="animals"><span class="animal">🦤 鴕鳥</span><span class="animal">🦌 梅花鹿</span><span class="animal">🐢 陸龜</span><span class="animal">🦔 刺蝟</span><span class="animal">🦚 孔雀</span></div>
-        <div class="meta">
-          <div><span class="ic">📍</span>彰化縣北斗鎮斗苑路二段 770 巷 86 號</div>
-          <div><span class="ic">🎟️</span>3 歲以上 200 元（含飼料＋50 折價券）</div>
-        </div>
-      </div>
-
-      <div class="card" data-county="彰化" data-feat="feed">
-        <h3>今夜星辰休閒農場</h3>
-        <div class="area">彰化市・八卦山</div>
-        <div class="tag-row"><span class="tag pay">門票 200</span></div>
-        <div class="desc">八卦山上最浪漫的網美系農場，草泥馬（羊駝）、天竺鼠、兔子、狐獴、孔雀、鸚鵡都能近距離餵食撫摸。有沙坑、浪漫造景，還能搭小火車看高鐵奔馳。</div>
-        <div class="animals"><span class="animal">🦙 草泥馬</span><span class="animal">🐹 天竺鼠</span><span class="animal">🦦 狐獴</span><span class="animal">🦚 孔雀</span></div>
-        <div class="meta">
-          <div><span class="ic">📍</span>彰化縣彰化市石牌路一段 428 號</div>
-          <div><span class="ic">🎟️</span>200 元／人（100 元可折抵消費）</div>
-        </div>
-      </div>
-
-      <div class="card" data-county="彰化" data-feat="free feed milk">
-        <h3>大山休閒牧場</h3>
-        <div class="area">花壇鄉</div>
-        <div class="tag-row"><span class="tag free">免門票</span><span class="tag milk">牛奶火鍋</span></div>
-        <div class="desc">免門票乳牛牧場，可與牛群近距離接觸、餵萌牛喝奶、體驗擠奶。招牌牛奶火鍋與鮮奶麻糬必嚐，還能搭大山小火車、季節限定賞油桐花。</div>
-        <div class="animals"><span class="animal">🐄 乳牛</span></div>
-        <div class="meta">
-          <div><span class="ic">📍</span>彰化縣花壇鄉灣福路 60 巷 13 弄 13 號</div>
-          <div><span class="ic">🍲</span>免門票・牛奶火鍋・小火車</div>
-        </div>
-      </div>
-
-      <div class="card" data-county="彰化" data-feat="free feed milk">
-        <h3>泳霖牧場</h3>
-        <div class="area">秀水鄉</div>
-        <div class="tag-row"><span class="tag free">免門票</span><span class="tag milk">鮮乳冰</span></div>
-        <div class="desc">免門票乳牛牧場，牧草一把只要 10 元超佛心，能餵小牛互動。現場有盪鞦韆、溜滑梯，自製牛奶冰棒、鮮奶吐司、饅頭，餵完牛剛好補冰。</div>
-        <div class="animals"><span class="animal">🐄 乳牛</span></div>
-        <div class="meta">
-          <div><span class="ic">📍</span>彰化縣秀水鄉正興路 206 號</div>
-          <div><span class="ic">🌱</span>牧草一把 10 元・免門票</div>
-        </div>
-      </div>
-
-      <div class="card" data-county="彰化" data-feat="feed">
-        <h3>星錡休閒農場</h3>
-        <div class="area">永靖鄉</div>
-        <div class="tag-row"><span class="tag pay">門票</span><span class="tag new">週末限定</span></div>
-        <div class="desc">結合園藝苗木的休閒農場，動物種類豐富——浣熊、兔子、鴨子、馬、小山羊都有，可換牧草飼料餵食，還有寬敞大草皮與落羽松大道可漫步。</div>
-        <div class="animals"><span class="animal">🦝 浣熊</span><span class="animal">🐴 馬</span><span class="animal">🐰 兔子</span><span class="animal">🦆 鴨子</span></div>
-        <div class="meta">
-          <div><span class="ic">📍</span>彰化縣永靖鄉東畔路 238 之 46 號</div>
-          <div><span class="ic">🗓️</span>主要週六、日營業（出發前先確認）</div>
-        </div>
-      </div>
-
-    </div>
-  </section>
-
-  <!-- ============ 南投 ============ -->
-  <section class="county" data-c="南投">
-    <div class="county-band"><span class="flag">⛰️</span> 南投 <span class="n">Nantou</span></div>
-    <div class="grid">
-
-      <div class="card" data-county="南投" data-feat="mountain">
-        <h3>清境農場・青青草原</h3>
-        <div class="area">仁愛鄉・海拔 1748m</div>
-        <div class="tag-row"><span class="tag pay">門票</span><span class="tag mtn">高山</span></div>
-        <div class="desc">中部最經典的高山牧場。青青草原上滿滿綿羊，定時上演可愛「綿羊秀」與哈薩克騎士「馬術秀」，還有高空觀景步道。涼爽避暑、雲海日出一次滿足。</div>
-        <div class="animals"><span class="animal">🐑 綿羊</span><span class="animal">🐴 馬術秀</span></div>
-        <div class="meta">
-          <div><span class="ic">📍</span>南投縣仁愛鄉仁和路 170 號</div>
-          <div><span class="ic">🕗</span>08:00–17:00・綿羊秀定時演出</div>
-        </div>
-      </div>
-
-      <div class="card" data-county="南投" data-feat="feed">
-        <h3>夢谷瀑布親子農場</h3>
-        <div class="area">仁愛鄉</div>
-        <div class="tag-row"><span class="tag pay">門票</span><span class="tag new">玩水秘境</span></div>
-        <div class="desc">親人萌寵超多，草泥馬、侏儒羊、浣熊、水豚、梅花鹿都能親手餵食。步行 10 分鐘即達瀑布，園區有戲水區、泡腳區與烤肉露營——夏天玩水、冬天泡暖湯。</div>
-        <div class="animals"><span class="animal">🦙 草泥馬</span><span class="animal">🦫 水豚</span><span class="animal">🦝 浣熊</span><span class="animal">🦌 梅花鹿</span><span class="animal">🐑 侏儒羊</span></div>
-        <div class="meta">
-          <div><span class="ic">📍</span>南投縣仁愛鄉松原巷 80-2 號</div>
-          <div><span class="ic">🕘</span>09:00–17:00・含戲水泡腳</div>
-        </div>
-      </div>
-
-      <div class="card" data-county="南投" data-feat="feed">
-        <h3>鹿芝谷生態景觀園區</h3>
-        <div class="area">鹿谷鄉・溪頭路上</div>
-        <div class="tag-row"><span class="tag pay">門票</span><span class="tag new">5000坪</span></div>
-        <div class="desc">溪頭路上的療癒系山谷農場，5000 坪超寬敞。可近距離免費餵食水豚、梅花鹿、瓦來黑鼻羊（黑面羊），還能與水豚一起喝下午茶、玩多肉植物 DIY。</div>
-        <div class="animals"><span class="animal">🦫 水豚</span><span class="animal">🦌 梅花鹿</span><span class="animal">🐑 黑鼻羊</span></div>
-        <div class="meta">
-          <div><span class="ic">📍</span>南投縣鹿谷鄉中正路二段 377 號</div>
-          <div><span class="ic">🌱</span>門票可折抵・免費飼料</div>
-        </div>
-      </div>
-
-      <div class="card" data-county="南投" data-feat="feed">
-        <h3>九九峰動物樂園</h3>
-        <div class="area">草屯鎮</div>
-        <div class="tag-row"><span class="tag pay">門票</span><span class="tag new">亞洲最大鳥園</span></div>
-        <div class="desc">亞洲最大鳥類主題動物園，腹地寬敞好推車。鳥禽生態、草食動物互動餵食，還能體驗騎馬，是中部唯一大型鳥禽動物樂園，雨備、放電都適合。</div>
-        <div class="animals"><span class="animal">🦜 鳥類</span><span class="animal">🦓 草食動物</span><span class="animal">🐴 騎馬</span></div>
-        <div class="meta">
-          <div><span class="ic">📍</span>南投縣草屯鎮富寮里富頂路一段 726 巷 99 號</div>
-          <div><span class="ic">🕘</span>09:00–17:00・園區寬敞好推車</div>
-        </div>
-      </div>
-
-      <div class="card" data-county="南投" data-feat="">
-        <h3>台一生態休閒農場</h3>
-        <div class="area">埔里鎮</div>
-        <div class="tag-row"><span class="tag pay">門票 200</span></div>
-        <div class="desc">埔里老字號生態農場（楓樺台一渡假村），水上愛心落羽松超夢幻。花海、花朵沙坑溜滑梯、採草莓、童話森林兼具，可住宿泡湯，適合住一晚的全包式親子農場。</div>
-        <div class="animals"><span class="animal">🦋 蝴蝶</span><span class="animal">🌸 花海</span><span class="animal">🍓 採果</span></div>
-        <div class="meta">
-          <div><span class="ic">📍</span>南投縣埔里鎮中山路一段 176 號</div>
-          <div><span class="ic">🎟️</span>200 元（可折抵 100）・含住宿泡湯</div>
-        </div>
-      </div>
-
-    </div>
-  </section>
-
+  <div id="sections"></div>
   <div class="empty hidden" id="empty">😅 這個縣市目前沒有符合「該特色」的農場，換個條件看看吧！</div>
 
   <div class="note">
-    <b>📌 出發前小提醒：</b>農牧場的營業時間、門票與動物表演場次常會調整（尤其週間公休、雨天停演），出發前建議先打電話或查官方粉專確認。標示<b>「免門票」</b>的場域多以飼料費／餐飲低消營運；<b>高山的清境</b>日夜溫差大記得帶外套。地址已逐一上網查證，但門牌偶有更動，導航前再核對一次最保險。
+    <b>📌 出發前小提醒：</b>農牧場的營業時間、門票與動物表演場次常會調整（尤其週間公休、雨天停演），出發前建議先打電話或查官方粉專確認。標示<b>「免門票」</b>的場域多以飼料費／餐飲低消營運；<b>高山的清境</b>日夜溫差大記得帶外套。地址已逐一上網查證，地圖座標為近似位置，導航前再核對一次最保險。
   </div>
 
   <footer>
@@ -492,43 +92,132 @@ footer { margin-top: 26px; text-align: center; color: var(--ink-soft); font-size
   </footer>
 </div>
 
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script>
-  const countyTabs = document.getElementById('county-tabs');
-  const featTabs = document.getElementById('feat-tabs');
-  const sections = document.querySelectorAll('.county');
-  const cards = document.querySelectorAll('.card');
-  const emptyMsg = document.getElementById('empty');
-  let curCounty = 'all', curFeat = 'all';
+"use strict";
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const COUNTY_FLAG = { "台中": "🏙️", "苗栗": "🍓", "彰化": "🌾", "南投": "⛰️" };
+const COUNTY_EN = { "台中": "Taichung", "苗栗": "Miaoli", "彰化": "Changhua", "南投": "Nantou" };
+const ORDER = ["台中", "苗栗", "彰化", "南投"];
 
-  function apply() {
-    cards.forEach(c => {
-      const okC = curCounty === 'all' || c.dataset.county === curCounty;
-      const okF = curFeat === 'all' || c.dataset.feat.split(' ').includes(curFeat);
-      c.classList.toggle('hidden', !(okC && okF));
-    });
-    let anyVisible = false;
-    sections.forEach(s => {
-      const visible = s.querySelector('.card:not(.hidden)');
-      s.classList.toggle('hidden', !visible);
-      if (visible) anyVisible = true;
-    });
-    emptyMsg.classList.toggle('hidden', anyVisible);
+let FARMS = [];
+let curCounty = "all", curFeat = "all";
+let map = null, markers = [];
+
+async function load() {
+  const data = await (await fetch("../farms.json", { cache: "no-store" })).json();
+  FARMS = data.farms || [];
+  $("sTotal").textContent = FARMS.length;
+  $("nFarm").textContent = FARMS.length;
+  $("sFree").textContent = FARMS.filter(f => (f.feat || "").includes("free")).length;
+  renderSections();
+  bindTabs();
+  apply();
+}
+
+function farmCard(f) {
+  const el = document.createElement("div");
+  el.className = "card farm-card";
+  el.dataset.county = f.county;
+  el.dataset.feat = f.feat || "";
+  const tags = (f.tags || []).map(t => `<span class="ftag ${t.cls}">${esc(t.label)}</span>`).join("");
+  const animals = (f.animals || []).map(a => `<span class="animal">${esc(a)}</span>`).join("");
+  const info = (f.info || []).map(m => `<div><span class="ic">${m.ic}</span>${esc(m.text)}</div>`).join("");
+  const maps = f.lat ? `https://www.google.com/maps/search/?api=1&query=${f.lat},${f.lng}` :
+    `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(f.address)}`;
+  el.innerHTML = `
+    <h3>${esc(f.name)}</h3>
+    <div class="area">${esc(f.area)}</div>
+    <div class="tag-row">${tags}</div>
+    <div class="desc">${esc(f.desc)}</div>
+    <div class="animals">${animals}</div>
+    <div class="fmeta">
+      <div><span class="ic">📍</span>${esc(f.address)}</div>
+      ${info}
+      <div><a class="gobtn" href="${maps}" target="_blank" rel="noopener">🗺️ 開啟導航</a></div>
+    </div>`;
+  return el;
+}
+
+function renderSections() {
+  const wrap = $("sections");
+  wrap.innerHTML = "";
+  for (const county of ORDER) {
+    const list = FARMS.filter(f => f.county === county);
+    if (!list.length) continue;
+    const sec = document.createElement("section");
+    sec.className = "county"; sec.dataset.c = county;
+    sec.innerHTML = `<div class="county-band"><span class="flag">${COUNTY_FLAG[county]}</span> ${county} <span class="n">${COUNTY_EN[county]}</span></div>`;
+    const grid = document.createElement("div"); grid.className = "grid";
+    list.forEach(f => grid.appendChild(farmCard(f)));
+    sec.appendChild(grid);
+    wrap.appendChild(sec);
   }
+}
 
-  countyTabs.addEventListener('click', e => {
-    const btn = e.target.closest('.tab'); if (!btn) return;
-    countyTabs.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
-    btn.classList.add('active');
-    curCounty = btn.dataset.c;
-    apply();
+function bindTabs() {
+  $("county-tabs").addEventListener("click", e => {
+    const b = e.target.closest(".tab"); if (!b) return;
+    $("county-tabs").querySelectorAll(".tab").forEach(t => t.classList.remove("active"));
+    b.classList.add("active"); curCounty = b.dataset.c; apply();
   });
-  featTabs.addEventListener('click', e => {
-    const btn = e.target.closest('.tab'); if (!btn) return;
-    featTabs.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
-    btn.classList.add('active');
-    curFeat = btn.dataset.f;
-    apply();
+  $("feat-tabs").addEventListener("click", e => {
+    const b = e.target.closest(".tab"); if (!b) return;
+    $("feat-tabs").querySelectorAll(".tab").forEach(t => t.classList.remove("active"));
+    b.classList.add("active"); curFeat = b.dataset.f; apply();
   });
+  $("mapToggle").addEventListener("click", () => {
+    const m = $("map"); const show = m.classList.contains("hidden");
+    m.classList.toggle("hidden", !show);
+    $("mapToggle").classList.toggle("on", show);
+    $("mapToggle").textContent = show ? "🗺️ 隱藏地圖" : "🗺️ 顯示地圖";
+    if (show) { initMap(); setTimeout(() => { map.invalidateSize(); updateMarkers(); }, 60); }
+  });
+}
+
+function match(f) {
+  const okC = curCounty === "all" || f.county === curCounty;
+  const okF = curFeat === "all" || (f.feat || "").split(" ").includes(curFeat);
+  return okC && okF;
+}
+
+function apply() {
+  let any = false;
+  document.querySelectorAll(".farm-card").forEach(c => {
+    const f = FARMS.find(x => x.name === c.querySelector("h3").textContent);
+    const show = match(f);
+    c.classList.toggle("hidden", !show);
+    if (show) any = true;
+  });
+  document.querySelectorAll(".county").forEach(s => {
+    s.classList.toggle("hidden", !s.querySelector(".farm-card:not(.hidden)"));
+  });
+  $("empty").classList.toggle("hidden", any);
+  if (map) updateMarkers();
+}
+
+function initMap() {
+  if (map) return;
+  map = L.map("map", { scrollWheelZoom: false }).setView([24.1, 120.8], 9);
+  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    maxZoom: 18, attribution: "© OpenStreetMap"
+  }).addTo(map);
+}
+
+function updateMarkers() {
+  markers.forEach(m => map.removeLayer(m)); markers = [];
+  const pts = [];
+  FARMS.filter(f => match(f) && f.lat).forEach(f => {
+    const m = L.marker([f.lat, f.lng]).addTo(map);
+    const maps = `https://www.google.com/maps/search/?api=1&query=${f.lat},${f.lng}`;
+    m.bindPopup(`<b>${esc(f.name)}</b><br>${esc(f.area)}<br><a href="${maps}" target="_blank" rel="noopener">開啟導航 →</a>`);
+    markers.push(m); pts.push([f.lat, f.lng]);
+  });
+  if (pts.length) map.fitBounds(pts, { padding: [40, 40], maxZoom: 12 });
+}
+
+load();
 </script>
 </body>
 </html>
