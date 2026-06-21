@@ -4,10 +4,14 @@ from .epochtimes import EpochTimesScraper
 from .taichung_culture import TaichungCultureScraper
 from .niceday import NicedayScraper
 from .brands import BrandExperienceScraper
+from .pinkoi import PinkoiScraper
+from .beclass import BeClassScraper
 
 ALL_SCRAPERS = [
     BrandExperienceScraper,
     NicedayScraper,
+    PinkoiScraper,
+    BeClassScraper,
     AccupassScraper,
     KKdayScraper,
     EpochTimesScraper,

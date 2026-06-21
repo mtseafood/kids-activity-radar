@@ -25,7 +25,7 @@ TAICHUNG_EXCLUDED_DISTRICTS = [
 _EXCLUDED_BARE_NAMES = [
     "清水", "沙鹿", "梧棲", "大甲", "外埔", "龍井", "大肚",
     "東勢", "新社", "石岡", "后里", "神岡", "大雅", "潭子",
-    "豐原", "霧峰", "烏日",
+    "豐原", "霧峰", "烏日", "海線",
 ]
 # 場館名稱不含區名、但位於排除區的知名場館
 _EXCLUDED_VENUES = [
@@ -167,6 +167,8 @@ def priority_score(act: Activity, preferred_city: str) -> int:
     # 民間品牌/體驗平台優先於政府場館（避免文化局活動洗版）
     if act.source in ("brands", "niceday"):
         score += 50
+    elif act.source in ("pinkoi", "beclass"):
+        score += 30
     score += len([t for t in act.tags if t != "室內"]) * 10
     if act.age_min is not None:
         score += 5

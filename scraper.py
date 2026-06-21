@@ -39,7 +39,7 @@ def main() -> int:
     parser.add_argument("--output", default="activities.json", help="輸出檔名")
     parser.add_argument(
         "--sources", nargs="*", default=None,
-        help="只跑指定來源（brands / niceday / accupass / kkday / epochtimes / taichung_culture）",
+        help="只跑指定來源（brands / niceday / pinkoi / beclass / accupass / kkday / epochtimes / taichung_culture）",
     )
     parser.add_argument("-v", "--verbose", action="store_true")
     args = parser.parse_args()
