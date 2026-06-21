@@ -10,8 +10,8 @@
 | 品牌職業體驗（brands） | 麥當勞小麥麥體驗營、Mister Donut 小小烘焙師（官網台中門市場次直接解析）、全家小小店長 |
 | Niceday 玩體驗 | 民間親子體驗平台。分類/主題頁 SSR 直接解析；站內搜尋需 Playwright |
 | Pinkoi 體驗 | 手作工作坊（陶藝/皮革/繪畫…）。公開 JSON API（apiv2/search）+ 台中地區碼過濾 |
-| BeClass 線上報名 | 小型工作室/協會的報名平台。先取 CSRF token 再 POST 站內搜尋 |
-| Accupass 活動通 | 搜尋頁為 SSR，requests + BeautifulSoup 解析卡片；改版時 fallback 到 Playwright |
+| BeClass 線上報名 | 小型工作室/協會的報名平台。先取 CSRF token 再 POST 站內搜尋（依目標縣市分別搜尋） |
+| Accupass 活動通 | 搜尋頁為 SSR，requests + BeautifulSoup 解析卡片；改版時 fallback 到 Playwright。支援多縣市（一般＋「縣市名＋主題」在地化查詢）並過濾非親子雜訊 |
 | KKday | 受 DataDome 反爬蟲保護，需 Playwright 真實瀏覽器渲染（未裝 Playwright 則略過） |
 | 大紀元（台灣） | 副刊/文化/地方版面，requests + BeautifulSoup + 親子關鍵字過濾 |
 | 台中市政府文化局 | 官方開放資料 JSON（activity.culture.taichung.gov.tw/_DataAction） |
