@@ -50,14 +50,20 @@ python -m http.server 8000   # 在專案根目錄啟動
 # 開啟 http://localhost:8000
 ```
 
-- [index.html](index.html)：**分類 Hub**，依資料即時統計各活動類型數量，列出分類磚與特別企劃。
-- [category.html](category.html)：**分類詳情頁**，以 `?cat=<類型>` 帶入（`all` 為全部）。
-  關鍵字搜尋、縣市/孩子年齡下拉、只看免費/只看有確定日期、推薦/日期/價格排序、
-  免費貼紙與票價標示，並顯示活動摘要細節。
-- [farm/index.html](farm/index.html)：**特別企劃**，中部四縣市親子農牧場地圖（縣市 × 特色雙軸篩選）。
-- [assets/style.css](assets/style.css)、[assets/app.js](assets/app.js)：三頁共用的樣式與卡片渲染。
+- [index.html](index.html)：**分類 Hub**，依資料即時統計各活動類型數量，列出分類磚、
+  「我的收藏」與特別企劃。
+- [category.html](category.html)：**分類詳情頁**，以 `?cat=<類型>` 帶入（`all` 為全部、
+  `fav` 為我的收藏）。關鍵字搜尋、縣市/年齡下拉、**本週末／7天／30天快速時間篩選**、
+  只看免費/有確定日期、排序、活動摘要細節。**篩選狀態會寫進網址**可直接分享。
+- [activity.html](activity.html)：**單一活動詳情頁**（`?id=`），含 Google 地圖導航、
+  收藏、分享（Web Share API）。
+- [farm/index.html](farm/index.html)：**特別企劃**，中部親子農牧場地圖。縣市 × 特色雙軸篩選，
+  並提供 **Leaflet 互動地圖**（資料來自 [farms.json](farms.json)，座標已預先地理編碼）。
+- [assets/style.css](assets/style.css)、[assets/app.js](assets/app.js)：共用樣式、分類定義、
+  卡片渲染、**收藏（localStorage）**、穩定 ID 與日期工具。
+- **PWA**：[manifest.json](manifest.json) + [sw.js](sw.js)（network-first，可加到主畫面、離線回退）。
 
-所有篩選都在前端即時運算，不需後端，支援手機版面。
+所有篩選都在前端即時運算，不需後端，支援手機版面。收藏存在瀏覽器本機。
 
 ## 每日自動更新（GitHub Actions）
 
@@ -102,12 +108,17 @@ python filter_activities.py --tag DIY手作 --output diy.json
 
 ```
 index.html             # 前端：分類入口 Hub
-category.html          # 前端：分類詳情頁（?cat=）
-farm/index.html        # 前端：中部親子農場地圖（特別企劃）
+category.html          # 前端：分類詳情頁（?cat=，含 fav 收藏檢視）
+activity.html          # 前端：單一活動詳情頁（?id=）
+farm/index.html        # 前端：中部親子農場地圖（含 Leaflet 地圖）
+farms.json             # 21 間農場資料（含預先地理編碼座標）
+manifest.json / sw.js  # PWA：安裝與離線快取
 assets/style.css       # 前端：共用樣式
-assets/app.js          # 前端：共用分類定義與卡片渲染
+assets/app.js          # 前端：分類定義、卡片渲染、收藏、ID/日期工具
+assets/icon.svg        # PWA 圖示
 scraper.py             # 主程式（--city / --days / --sources / --output）
-filters.py             # 篩選與排序邏輯
+filters.py             # 篩選與排序邏輯（含 dedupe_exact / dedupe_series 去重）
+check_links.py         # 失效連結偵測（python check_links.py）
 filter_activities.py   # 對 JSON 結果做二次篩選
 sources/
   base.py              # Activity 資料結構、HTTP 工具、日期/年齡/價格解析
