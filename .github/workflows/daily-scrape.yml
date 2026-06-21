@@ -33,7 +33,7 @@ jobs:
         run: cp activities.json previous.json 2>/dev/null || true
 
       - name: Run scraper
-        run: python scraper.py --city 台中 --days 60
+        run: python scraper.py --cities 台中市 苗栗縣 彰化縣 南投縣 --days 60
 
       - name: Notify Telegram about new activities
         env:

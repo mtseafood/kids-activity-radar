@@ -35,19 +35,29 @@ def setup_logging(verbose: bool) -> None:
 def main() -> int:
     parser = argparse.ArgumentParser(description="台灣親子體驗活動爬蟲")
     parser.add_argument("--city", default="台中市", help="優先縣市（預設：台中市）")
+    parser.add_argument(
+        "--cities", nargs="*", default=None,
+        help="目標縣市清單（可多個，如：台中市 苗栗縣 彰化縣 南投縣）。未指定時使用 --city。",
+    )
     parser.add_argument("--days", type=int, default=60, help="往後抓幾天內的活動（預設：60）")
     parser.add_argument("--output", default="activities.json", help="輸出檔名")
     parser.add_argument(
         "--sources", nargs="*", default=None,
-        help="只跑指定來源（brands / niceday / pinkoi / beclass / accupass / kkday / epochtimes / taichung_culture）",
+        help="只跑指定來源（brands / niceday / pinkoi / beclass / accupass / kkday / "
+             "epochtimes / taichung_culture / culture_cloud）",
     )
     parser.add_argument("-v", "--verbose", action="store_true")
     args = parser.parse_args()
 
+    def _norm(c: str) -> str:
+        c = c.replace("臺", "台")
+        if not c.endswith(("市", "縣")):
+            c += "市"
+        return c
+
     # 縣市寫法正規化（臺中市 → 台中市；台中 → 台中市）
-    city = args.city.replace("臺", "台")
-    if not city.endswith(("市", "縣")):
-        city += "市"
+    city = _norm(args.city)
+    cities = [_norm(c) for c in args.cities] if args.cities else [city]
 
     setup_logging(args.verbose)
     log = logging.getLogger("scraper")
@@ -69,8 +79,8 @@ def main() -> int:
             all_errors.append(f"[{scraper_cls.name}] {e}")
         all_errors.extend(scraper.errors)
 
-    filtered = filter_and_rank(all_activities, city=city, days=args.days)
-    log.info("篩選後保留 %d / %d 筆", len(filtered), len(all_activities))
+    filtered = filter_and_rank(all_activities, city=city, days=args.days, cities=cities)
+    log.info("目標縣市 %s：篩選後保留 %d / %d 筆", "、".join(cities), len(filtered), len(all_activities))
 
     result = {
         "scraped_at": datetime.now().isoformat(timespec="seconds"),

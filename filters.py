@@ -108,6 +108,20 @@ def is_in_target_city(act: Activity, city: str) -> bool:
     return city[:2] in text.replace("臺", "台")
 
 
+def is_in_target_cities(act: Activity, cities: list[str]) -> bool:
+    """多縣市版本：命中任一目標縣市即保留。"""
+    return any(is_in_target_city(act, c) for c in cities)
+
+
+def _is_taichung(act: Activity) -> bool:
+    if act.location_city == "台中市":
+        return True
+    if act.location_city is not None:
+        return False
+    text = _full_text(act) + " " + (act.location_address or "")
+    return "台中" in text.replace("臺", "台")
+
+
 def is_in_urban_taichung(act: Activity) -> bool:
     """台中限定：排除海線/山線/外圍區的活動（地址或標題提到就排除）。"""
     text = (act.title or "") + " " + (act.location_address or "") + " " + (act.summary or "")
@@ -177,10 +191,10 @@ def assign_tags(act: Activity) -> None:
             act.tags.append("室內")
 
 
-def priority_score(act: Activity, preferred_city: str) -> int:
+def priority_score(act: Activity, preferred_cities: list[str]) -> int:
     """排序用分數：城市符合、體驗型 tag、年齡明確標示加分。"""
     score = 0
-    if act.location_city == preferred_city:
+    if act.location_city in preferred_cities:
         score += 100
     # 民間品牌/體驗平台優先於政府場館（避免文化局活動洗版）
     if act.source in ("brands", "niceday"):
@@ -199,7 +213,13 @@ def filter_and_rank(
     activities: list[Activity],
     city: str = "台中市",
     days: int = 60,
+    cities: list[str] | None = None,
 ) -> list[Activity]:
+    """依目標縣市（單一 city 或多個 cities）篩選並排序。
+
+    台中的「市區限定」規則只套用在台中的活動上，其他縣市不受行政區限制。
+    """
+    targets = cities if cities else [city]
     kept = []
     for act in activities:
         if is_online_only(act):
@@ -210,13 +230,14 @@ def filter_and_rank(
             continue
         if not is_within_days(act, days):
             continue
-        if not is_in_target_city(act, city):
+        if not is_in_target_cities(act, targets):
             continue
-        if city == "台中市" and not is_in_urban_taichung(act):
+        # 只有台中限定市區；若台中是目標縣市之一，台中的活動需落在市區
+        if "台中市" in targets and _is_taichung(act) and not is_in_urban_taichung(act):
             continue
         assign_tags(act)
         kept.append(act)
     kept = dedupe_exact(kept)
     kept = dedupe_series(kept)
-    kept.sort(key=lambda a: priority_score(a, city), reverse=True)
+    kept.sort(key=lambda a: priority_score(a, targets), reverse=True)
     return kept
