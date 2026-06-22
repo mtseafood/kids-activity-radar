@@ -192,10 +192,16 @@ def assign_tags(act: Activity) -> None:
 
 
 def priority_score(act: Activity, preferred_cities: list[str]) -> int:
-    """排序用分數：城市符合、體驗型 tag、年齡明確標示加分。"""
+    """排序用分數：城市符合、體驗型 tag、年齡明確標示加分。
+
+    著重台中市區：台中市的活動（已在 filter 階段限縮為市區八區）給最高
+    權重，排序時優先浮上來；其他目標縣市次之。
+    """
     score = 0
-    if act.location_city in preferred_cities:
-        score += 100
+    if act.location_city == "台中市":
+        score += 130            # 台中市區優先
+    elif act.location_city in preferred_cities:
+        score += 60
     # 民間品牌/體驗平台優先於政府場館（避免文化局活動洗版）
     if act.source in ("brands", "niceday"):
         score += 50
