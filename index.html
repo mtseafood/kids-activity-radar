@@ -31,6 +31,16 @@
     </div>
     <div class="stats" id="stats"></div>
   </header>
+  <section class="install-card" id="installCard" hidden>
+    <div class="install-ico" aria-hidden="true">📲</div>
+    <div class="install-copy">
+      <strong>把親子活動雷達加到主畫面</strong>
+      <span class="install-browser">像 App 一樣開啟，收藏與離線資料都會保留。</span>
+      <span class="install-ios">iPhone 請點 Safari 下方分享按鈕，選「加入主畫面」。</span>
+    </div>
+    <button class="install-btn" id="installBtn" type="button">安裝</button>
+    <button class="install-close" id="installClose" type="button" aria-label="關閉安裝提示">×</button>
+  </section>
 
   <div class="section-label">✨ 選個分類開始逛</div>
   <main class="cat-grid" id="catGrid"></main>
@@ -126,7 +136,73 @@ function tile(c, n, href) {
   return a;
 }
 
+const INSTALL_DISMISS_KEY = "kar_install_dismissed";
+let deferredInstallPrompt = null;
+
+function setupInstallPrompt() {
+  const card = $("installCard");
+  const btn = $("installBtn");
+  const close = $("installClose");
+  if (!card || isStandalone() || wasInstallDismissed()) return;
+
+  window.addEventListener("beforeinstallprompt", e => {
+    e.preventDefault();
+    deferredInstallPrompt = e;
+    showInstallCard("browser");
+  });
+
+  window.addEventListener("appinstalled", () => hideInstallCard(true));
+
+  if (isIOSSafari()) {
+    // iOS Safari does not expose beforeinstallprompt; show manual instructions instead.
+    setTimeout(() => {
+      if (!isStandalone() && !wasInstallDismissed()) showInstallCard("ios");
+    }, 900);
+  }
+
+  btn.addEventListener("click", async () => {
+    if (!deferredInstallPrompt) return;
+    deferredInstallPrompt.prompt();
+    try { await deferredInstallPrompt.userChoice; } catch (e) {}
+    deferredInstallPrompt = null;
+    hideInstallCard(true);
+  });
+
+  close.addEventListener("click", () => hideInstallCard(true));
+}
+
+function showInstallCard(mode) {
+  const card = $("installCard");
+  const btn = $("installBtn");
+  if (!card) return;
+  card.dataset.mode = mode;
+  btn.hidden = mode !== "browser";
+  card.hidden = false;
+}
+
+function hideInstallCard(remember) {
+  const card = $("installCard");
+  if (remember) localStorage.setItem(INSTALL_DISMISS_KEY, "1");
+  if (card) card.hidden = true;
+}
+
+function wasInstallDismissed() {
+  return localStorage.getItem(INSTALL_DISMISS_KEY) === "1";
+}
+
+function isStandalone() {
+  return window.matchMedia("(display-mode: standalone)").matches || window.navigator.standalone === true;
+}
+
+function isIOSSafari() {
+  const ua = navigator.userAgent;
+  const isiOS = /iPad|iPhone|iPod/.test(ua) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
+  const isSafari = /Safari/.test(ua) && !/CriOS|FxiOS|EdgiOS/.test(ua);
+  return isiOS && isSafari;
+}
+
 registerSW();
+setupInstallPrompt();
 load();
 </script>
 </body>

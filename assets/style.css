@@ -496,3 +496,55 @@ footer {
 .btn-ghost { background: var(--card); color: var(--ink); }
 .btn-primary:hover, .btn-ghost:hover { transform: translate(-2px,-2px); box-shadow: 5px 5px 0 rgba(51,41,31,.9); }
 .detail-tags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; }
+
+/* ============ PWA 安裝提示 ============ */
+.install-card {
+  display: grid;
+  grid-template-columns: auto 1fr auto auto;
+  gap: 12px;
+  align-items: center;
+  background: var(--card);
+  border: 3px solid var(--ink);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 14px 16px;
+  margin: 22px 0 12px;
+  transform: rotate(-.25deg);
+}
+.install-card[hidden] { display: none; }
+.install-ico { font-size: 2rem; line-height: 1; }
+.install-copy { display: flex; flex-direction: column; gap: 3px; line-height: 1.45; }
+.install-copy strong { font-family: var(--font-round); font-size: 1rem; }
+.install-copy span { color: var(--ink-soft); font-size: .92rem; }
+.install-card .install-ios { display: none; }
+.install-card[data-mode="ios"] .install-browser { display: none; }
+.install-card[data-mode="ios"] .install-ios { display: inline; }
+.install-btn {
+  font-family: var(--font-round);
+  font-weight: 800;
+  color: var(--card);
+  background: var(--green);
+  border: 2.5px solid var(--ink);
+  border-radius: 999px;
+  padding: 7px 16px;
+  cursor: pointer;
+  box-shadow: var(--shadow-sm);
+}
+.install-btn[hidden] { display: none; }
+.install-close {
+  width: 30px; height: 30px;
+  border: 2.5px solid var(--ink);
+  border-radius: 50%;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-round);
+  font-size: 1.15rem;
+  font-weight: 800;
+  line-height: 1;
+  cursor: pointer;
+}
+@media (max-width: 640px) {
+  .install-card { grid-template-columns: auto 1fr auto; align-items: start; }
+  .install-btn { grid-column: 2 / 3; justify-self: start; margin-top: 4px; }
+  .install-close { grid-column: 3 / 4; grid-row: 1 / 2; }
+}
