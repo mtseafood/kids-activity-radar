@@ -1,6 +1,6 @@
 {
-  "scraped_at": "2026-07-20T22:46:46",
-  "total": 308,
+  "scraped_at": "2026-07-21T22:45:17",
+  "total": 315,
   "activities": [
     {
       "title": "Mister Donut 小小烘焙師 甜甜圈DIY（台中遠百門市）",
@@ -158,24 +158,6 @@
       "source": "niceday"
     },
     {
-      "title": "【7~10歲｜動物的快樂田】小小食農見習生，來里仁聽故事！西屯中科",
-      "url": "https://play.niceday.tw/zh-tw/regions/21/products/3715710795787",
-      "date_start": null,
-      "date_end": null,
-      "location_city": "台中市",
-      "location_address": "西屯區",
-      "age_min": 7,
-      "age_max": 10,
-      "price": null,
-      "is_free": null,
-      "summary": "【7~10歲｜動物的快樂田】小小食農見習生，來里仁聽故事！西屯中科",
-      "organizer": "里仁社會企業 西屯中科店",
-      "tags": [
-        "職業體驗"
-      ],
-      "source": "niceday"
-    },
-    {
       "title": "【3歲以上】親子同樂最佳選擇：跳跳床初體驗",
       "url": "https://play.niceday.tw/zh-tw/regions/21/products/3275364750650",
       "date_start": null,
@@ -190,6 +172,24 @@
       "organizer": "Air-Gene 彈翻健身育樂中心 台中店",
       "tags": [
         "體驗課"
+      ],
+      "source": "niceday"
+    },
+    {
+      "title": "【7~10歲｜動物的快樂田】小小食農見習生，來里仁聽故事！西屯中科",
+      "url": "https://play.niceday.tw/zh-tw/regions/21/products/3715710795787",
+      "date_start": null,
+      "date_end": null,
+      "location_city": "台中市",
+      "location_address": "西屯區",
+      "age_min": 7,
+      "age_max": 10,
+      "price": null,
+      "is_free": null,
+      "summary": "【7~10歲｜動物的快樂田】小小食農見習生，來里仁聽故事！西屯中科",
+      "organizer": "里仁社會企業 西屯中科店",
+      "tags": [
+        "職業體驗"
       ],
       "source": "niceday"
     },
@@ -310,22 +310,6 @@
       "is_free": null,
       "summary": "【6~12歲】Level 4 進階體操班：培養核心肌群 X 學習空翻動作 X 訓練爆發力",
       "organizer": "樂童體操聯盟 台中五權聯盟",
-      "tags": [],
-      "source": "niceday"
-    },
-    {
-      "title": "【大班升一~六年級｜台中北區】精靈召喚師試煉五日夏令營：科技積木 X 體能大冒險",
-      "url": "https://play.niceday.tw/zh-tw/regions/21/products/3721055914364",
-      "date_start": null,
-      "date_end": null,
-      "location_city": "台中市",
-      "location_address": "北區",
-      "age_min": null,
-      "age_max": null,
-      "price": null,
-      "is_free": null,
-      "summary": "【大班升一~六年級｜台中北區】精靈召喚師試煉五日夏令營：科技積木 X 體能大冒險",
-      "organizer": "HuHu 瀚宇教育",
       "tags": [],
       "source": "niceday"
     },
@@ -627,7 +611,7 @@
       "location_address": null,
       "age_min": null,
       "age_max": null,
-      "price": 35,
+      "price": 39,
       "is_free": false,
       "summary": "【零錢卡包/名片夾】 燙金體驗/一人成團/皮件體驗/台中東海課程",
       "organizer": "MISTER 手作皮件專門店",
@@ -646,7 +630,7 @@
       "location_address": null,
       "age_min": null,
       "age_max": null,
-      "price": 35,
+      "price": 39,
       "is_free": false,
       "summary": "太陽眼鏡盒/眼鏡盒/袋/包 【燙金體驗/一人成團】台中東海課程",
       "organizer": "MISTER 手作皮件專門店",
@@ -665,7 +649,7 @@
       "location_address": null,
       "age_min": null,
       "age_max": null,
-      "price": 32,
+      "price": 36,
       "is_free": false,
       "summary": "真皮筆袋【燙金體驗/自主體驗/一人成團】【台中東海課程】",
       "organizer": "MISTER 手作皮件專門店",
@@ -703,10 +687,29 @@
       "location_address": null,
       "age_min": null,
       "age_max": null,
-      "price": 43,
+      "price": 49,
       "is_free": false,
       "summary": "小方包/零錢卡包【燙金體驗/自主體驗/一人成團】台中東海課程",
       "organizer": "MISTER 手作皮件專門店",
+      "tags": [
+        "DIY手作",
+        "體驗課"
+      ],
+      "source": "pinkoi"
+    },
+    {
+      "title": "台中 釘線畫體驗 (一人成團)",
+      "url": "https://www.pinkoi.com/product/zuDrnmWp",
+      "date_start": null,
+      "date_end": null,
+      "location_city": "台中市",
+      "location_address": null,
+      "age_min": null,
+      "age_max": null,
+      "price": 18,
+      "is_free": false,
+      "summary": "台中 釘線畫體驗 (一人成團)",
+      "organizer": "歐勳洋行",
       "tags": [
         "DIY手作",
         "體驗課"
@@ -733,25 +736,6 @@
       "source": "pinkoi"
     },
     {
-      "title": "孵畫室 l 流體時鐘 l 流動畫 l 體驗課程",
-      "url": "https://www.pinkoi.com/product/CxkcC9c4",
-      "date_start": null,
-      "date_end": null,
-      "location_city": "台中市",
-      "location_address": null,
-      "age_min": null,
-      "age_max": null,
-      "price": 54,
-      "is_free": false,
-      "summary": "孵畫室 l 流體時鐘 l 流動畫 l 體驗課程",
-      "organizer": "孵畫室",
-      "tags": [
-        "DIY手作",
-        "體驗課"
-      ],
-      "source": "pinkoi"
-    },
-    {
       "title": "孵畫室 l 台中流體畫體驗 l 流動畫 l 體驗課程",
       "url": "https://www.pinkoi.com/product/8ktQzSEp",
       "date_start": null,
@@ -771,17 +755,36 @@
       "source": "pinkoi"
     },
     {
-      "title": "台中 釘線畫體驗 (一人成團)",
-      "url": "https://www.pinkoi.com/product/zuDrnmWp",
+      "title": "孵畫室 l 流體時鐘 l 流動畫 l 體驗課程",
+      "url": "https://www.pinkoi.com/product/CxkcC9c4",
       "date_start": null,
       "date_end": null,
       "location_city": "台中市",
       "location_address": null,
       "age_min": null,
       "age_max": null,
-      "price": 18,
+      "price": 54,
       "is_free": false,
-      "summary": "台中 釘線畫體驗 (一人成團)",
+      "summary": "孵畫室 l 流體時鐘 l 流動畫 l 體驗課程",
+      "organizer": "孵畫室",
+      "tags": [
+        "DIY手作",
+        "體驗課"
+      ],
+      "source": "pinkoi"
+    },
+    {
+      "title": "台中 花瓶釘線畫體驗 (一人成團)",
+      "url": "https://www.pinkoi.com/product/4MVqq7Qu",
+      "date_start": null,
+      "date_end": null,
+      "location_city": "台中市",
+      "location_address": null,
+      "age_min": null,
+      "age_max": null,
+      "price": 21,
+      "is_free": false,
+      "summary": "台中 花瓶釘線畫體驗 (一人成團)",
       "organizer": "歐勳洋行",
       "tags": [
         "DIY手作",
@@ -809,25 +812,6 @@
       "source": "pinkoi"
     },
     {
-      "title": "台中 花瓶釘線畫體驗 (一人成團)",
-      "url": "https://www.pinkoi.com/product/4MVqq7Qu",
-      "date_start": null,
-      "date_end": null,
-      "location_city": "台中市",
-      "location_address": null,
-      "age_min": null,
-      "age_max": null,
-      "price": 21,
-      "is_free": false,
-      "summary": "台中 花瓶釘線畫體驗 (一人成團)",
-      "organizer": "歐勳洋行",
-      "tags": [
-        "DIY手作",
-        "體驗課"
-      ],
-      "source": "pinkoi"
-    },
-    {
       "title": "皮革體驗課程-星空皮革明信片【1人成行】",
       "url": "https://www.pinkoi.com/product/vwzx7ULk",
       "date_start": null,
@@ -847,21 +831,21 @@
       "source": "pinkoi"
     },
     {
-      "title": "孵畫室│台中畫室│零基礎繪畫│主題課程-冰涼涼的西瓜",
-      "url": "https://www.pinkoi.com/product/RaSDJFvJ",
+      "title": "【一人成團】蒲公英玻璃罩盅體驗課程",
+      "url": "https://www.pinkoi.com/product/pEvyWhB9",
       "date_start": null,
       "date_end": null,
       "location_city": "台中市",
       "location_address": null,
       "age_min": null,
       "age_max": null,
-      "price": 46,
+      "price": 51,
       "is_free": false,
-      "summary": "孵畫室│台中畫室│零基礎繪畫│主題課程-冰涼涼的西瓜",
-      "organizer": "孵畫室",
+      "summary": "【一人成團】蒲公英玻璃罩盅體驗課程",
+      "organizer": "Meet Forist",
       "tags": [
         "DIY手作",
-        "藝術課"
+        "體驗課"
       ],
       "source": "pinkoi"
     },
@@ -878,25 +862,6 @@
       "is_free": false,
       "summary": "流體支架 + 流動畫布  體驗 (可使用文化幣)",
       "organizer": "覓謐me.169",
-      "tags": [
-        "DIY手作",
-        "體驗課"
-      ],
-      "source": "pinkoi"
-    },
-    {
-      "title": "台中 再生手工紙體驗 (一人成團)",
-      "url": "https://www.pinkoi.com/product/iYxNVbAU",
-      "date_start": null,
-      "date_end": null,
-      "location_city": "台中市",
-      "location_address": null,
-      "age_min": null,
-      "age_max": null,
-      "price": 18,
-      "is_free": false,
-      "summary": "台中 再生手工紙體驗 (一人成團)",
-      "organizer": "歐勳洋行",
       "tags": [
         "DIY手作",
         "體驗課"
@@ -923,6 +888,25 @@
       "source": "pinkoi"
     },
     {
+      "title": "台中 再生手工紙體驗 (一人成團)",
+      "url": "https://www.pinkoi.com/product/iYxNVbAU",
+      "date_start": null,
+      "date_end": null,
+      "location_city": "台中市",
+      "location_address": null,
+      "age_min": null,
+      "age_max": null,
+      "price": 18,
+      "is_free": false,
+      "summary": "台中 再生手工紙體驗 (一人成團)",
+      "organizer": "歐勳洋行",
+      "tags": [
+        "DIY手作",
+        "體驗課"
+      ],
+      "source": "pinkoi"
+    },
+    {
       "title": "台中 空鳳釘線畫體驗 (一人成團)",
       "url": "https://www.pinkoi.com/product/SDep3p7g",
       "date_start": null,
@@ -942,21 +926,21 @@
       "source": "pinkoi"
     },
     {
-      "title": "【一人成團】蒲公英玻璃罩盅體驗課程",
-      "url": "https://www.pinkoi.com/product/pEvyWhB9",
+      "title": "孵畫室│台中畫室│零基礎繪畫│主題課程-冰涼涼的西瓜",
+      "url": "https://www.pinkoi.com/product/RaSDJFvJ",
       "date_start": null,
       "date_end": null,
       "location_city": "台中市",
       "location_address": null,
       "age_min": null,
       "age_max": null,
-      "price": 51,
+      "price": 46,
       "is_free": false,
-      "summary": "【一人成團】蒲公英玻璃罩盅體驗課程",
-      "organizer": "Meet Forist",
+      "summary": "孵畫室│台中畫室│零基礎繪畫│主題課程-冰涼涼的西瓜",
+      "organizer": "孵畫室",
       "tags": [
         "DIY手作",
-        "體驗課"
+        "藝術課"
       ],
       "source": "pinkoi"
     },
@@ -1034,24 +1018,6 @@
       "source": "pinkoi"
     },
     {
-      "title": "手捏陶彩繪創作 自由創作 手作課程 親子陶藝",
-      "url": "https://www.pinkoi.com/product/RUpcFPeQ",
-      "date_start": null,
-      "date_end": null,
-      "location_city": "台中市",
-      "location_address": null,
-      "age_min": null,
-      "age_max": null,
-      "price": 31,
-      "is_free": false,
-      "summary": "手捏陶彩繪創作 自由創作 手作課程 親子陶藝",
-      "organizer": "京好手作 trulygoods",
-      "tags": [
-        "DIY手作"
-      ],
-      "source": "pinkoi"
-    },
-    {
       "title": "繽紛彩繪多角盤 卡通盤 陶藝 手捏陶 手作課程 親子陶藝",
       "url": "https://www.pinkoi.com/product/ZqPDmfJ9",
       "date_start": null,
@@ -1070,18 +1036,18 @@
       "source": "pinkoi"
     },
     {
-      "title": "【手捏器皿課程】台中陶藝創作 石見坊",
-      "url": "https://www.pinkoi.com/product/fGrHRSzJ",
+      "title": "手捏陶彩繪創作 自由創作 手作課程 親子陶藝",
+      "url": "https://www.pinkoi.com/product/RUpcFPeQ",
       "date_start": null,
       "date_end": null,
       "location_city": "台中市",
       "location_address": null,
       "age_min": null,
       "age_max": null,
-      "price": 42,
+      "price": 31,
       "is_free": false,
-      "summary": "【手捏器皿課程】台中陶藝創作 石見坊",
-      "organizer": "石見坊",
+      "summary": "手捏陶彩繪創作 自由創作 手作課程 親子陶藝",
+      "organizer": "京好手作 trulygoods",
       "tags": [
         "DIY手作"
       ],
@@ -1100,6 +1066,24 @@
       "is_free": false,
       "summary": "台中 鯨躍羊毛氈杯蓋 (一人成團)",
       "organizer": "歐勳洋行",
+      "tags": [
+        "DIY手作"
+      ],
+      "source": "pinkoi"
+    },
+    {
+      "title": "【手捏器皿課程】台中陶藝創作 石見坊",
+      "url": "https://www.pinkoi.com/product/fGrHRSzJ",
+      "date_start": null,
+      "date_end": null,
+      "location_city": "台中市",
+      "location_address": null,
+      "age_min": null,
+      "age_max": null,
+      "price": 42,
+      "is_free": false,
+      "summary": "【手捏器皿課程】台中陶藝創作 石見坊",
+      "organizer": "石見坊",
       "tags": [
         "DIY手作"
       ],
@@ -1142,24 +1126,6 @@
       "source": "pinkoi"
     },
     {
-      "title": "寵物窩編織  貓窩編織  狗窩編織  倉鼠窩編織  寵物床",
-      "url": "https://www.pinkoi.com/product/4bMgQjHv",
-      "date_start": null,
-      "date_end": null,
-      "location_city": "台中市",
-      "location_address": null,
-      "age_min": null,
-      "age_max": null,
-      "price": 93,
-      "is_free": false,
-      "summary": "寵物窩編織  貓窩編織  狗窩編織  倉鼠窩編織  寵物床",
-      "organizer": "覓謐me.169",
-      "tags": [
-        "DIY手作"
-      ],
-      "source": "pinkoi"
-    },
-    {
       "title": "台中 海洋系紙塑掛飾 (一人成團)",
       "url": "https://www.pinkoi.com/product/z5hF3MSc",
       "date_start": null,
@@ -1178,53 +1144,17 @@
       "source": "pinkoi"
     },
     {
-      "title": "台中 植有一個地球─海廢浮球花器 (一人成團)",
-      "url": "https://www.pinkoi.com/product/V3h9imn2",
+      "title": "寵物窩編織  貓窩編織  狗窩編織  倉鼠窩編織  寵物床",
+      "url": "https://www.pinkoi.com/product/4bMgQjHv",
       "date_start": null,
       "date_end": null,
       "location_city": "台中市",
       "location_address": null,
       "age_min": null,
       "age_max": null,
-      "price": 21,
+      "price": 93,
       "is_free": false,
-      "summary": "台中 植有一個地球─海廢浮球花器 (一人成團)",
-      "organizer": "歐勳洋行",
-      "tags": [
-        "DIY手作"
-      ],
-      "source": "pinkoi"
-    },
-    {
-      "title": "【二叁室】水晶泡澡球泡澡球 1800是一人費用",
-      "url": "https://www.pinkoi.com/product/ii8cFMmp",
-      "date_start": null,
-      "date_end": null,
-      "location_city": "台中市",
-      "location_address": null,
-      "age_min": null,
-      "age_max": null,
-      "price": 59,
-      "is_free": false,
-      "summary": "【二叁室】水晶泡澡球泡澡球 1800是一人費用",
-      "organizer": "二叁室手作教室",
-      "tags": [
-        "DIY手作"
-      ],
-      "source": "pinkoi"
-    },
-    {
-      "title": "流動畫 可選擇畫布尺寸 (可使用文化幣)",
-      "url": "https://www.pinkoi.com/product/4MvXuwh8",
-      "date_start": null,
-      "date_end": null,
-      "location_city": "台中市",
-      "location_address": null,
-      "age_min": null,
-      "age_max": null,
-      "price": 49,
-      "is_free": false,
-      "summary": "流動畫 可選擇畫布尺寸 (可使用文化幣)",
+      "summary": "寵物窩編織  貓窩編織  狗窩編織  倉鼠窩編織  寵物床",
       "organizer": "覓謐me.169",
       "tags": [
         "DIY手作"
@@ -1268,24 +1198,6 @@
       "source": "pinkoi"
     },
     {
-      "title": "【二叁室】小鴨泡澡球 1800是一人費用",
-      "url": "https://www.pinkoi.com/product/BjKADLy3",
-      "date_start": null,
-      "date_end": null,
-      "location_city": "台中市",
-      "location_address": null,
-      "age_min": null,
-      "age_max": null,
-      "price": 59,
-      "is_free": false,
-      "summary": "【二叁室】小鴨泡澡球 1800是一人費用",
-      "organizer": "二叁室手作教室",
-      "tags": [
-        "DIY手作"
-      ],
-      "source": "pinkoi"
-    },
-    {
       "title": "【一人成團】蝴蝶浮游花手作花藝課程 小夜燈 台中 聖誕節",
       "url": "https://www.pinkoi.com/product/xmuLSyVa",
       "date_start": null,
@@ -1304,18 +1216,72 @@
       "source": "pinkoi"
     },
     {
-      "title": "【手鐲/手環】含燙金 一人成團【台中東海課程】",
-      "url": "https://www.pinkoi.com/product/Dds38Bdn",
+      "title": "台中 植有一個地球─海廢浮球花器 (一人成團)",
+      "url": "https://www.pinkoi.com/product/V3h9imn2",
       "date_start": null,
       "date_end": null,
       "location_city": "台中市",
       "location_address": null,
       "age_min": null,
       "age_max": null,
-      "price": 29,
+      "price": 21,
       "is_free": false,
-      "summary": "【手鐲/手環】含燙金 一人成團【台中東海課程】",
-      "organizer": "MISTER 手作皮件專門店",
+      "summary": "台中 植有一個地球─海廢浮球花器 (一人成團)",
+      "organizer": "歐勳洋行",
+      "tags": [
+        "DIY手作"
+      ],
+      "source": "pinkoi"
+    },
+    {
+      "title": "【二叁室】小鴨泡澡球 1800是一人費用",
+      "url": "https://www.pinkoi.com/product/BjKADLy3",
+      "date_start": null,
+      "date_end": null,
+      "location_city": "台中市",
+      "location_address": null,
+      "age_min": null,
+      "age_max": null,
+      "price": 59,
+      "is_free": false,
+      "summary": "【二叁室】小鴨泡澡球 1800是一人費用",
+      "organizer": "二叁室手作教室",
+      "tags": [
+        "DIY手作"
+      ],
+      "source": "pinkoi"
+    },
+    {
+      "title": "流動畫 可選擇畫布尺寸 (可使用文化幣)",
+      "url": "https://www.pinkoi.com/product/4MvXuwh8",
+      "date_start": null,
+      "date_end": null,
+      "location_city": "台中市",
+      "location_address": null,
+      "age_min": null,
+      "age_max": null,
+      "price": 49,
+      "is_free": false,
+      "summary": "流動畫 可選擇畫布尺寸 (可使用文化幣)",
+      "organizer": "覓謐me.169",
+      "tags": [
+        "DIY手作"
+      ],
+      "source": "pinkoi"
+    },
+    {
+      "title": "【二叁室】水晶泡澡球泡澡球 1800是一人費用",
+      "url": "https://www.pinkoi.com/product/ii8cFMmp",
+      "date_start": null,
+      "date_end": null,
+      "location_city": "台中市",
+      "location_address": null,
+      "age_min": null,
+      "age_max": null,
+      "price": 59,
+      "is_free": false,
+      "summary": "【二叁室】水晶泡澡球泡澡球 1800是一人費用",
+      "organizer": "二叁室手作教室",
       "tags": [
         "DIY手作"
       ],
@@ -1340,18 +1306,36 @@
       "source": "pinkoi"
     },
     {
-      "title": "台中 植愛鯨魚─浮球彩繪花器 (一人成團)",
-      "url": "https://www.pinkoi.com/product/rmgvpnrc",
+      "title": "【手鐲/手環】含燙金 一人成團【台中東海課程】",
+      "url": "https://www.pinkoi.com/product/Dds38Bdn",
       "date_start": null,
       "date_end": null,
       "location_city": "台中市",
       "location_address": null,
       "age_min": null,
       "age_max": null,
-      "price": 18,
+      "price": 33,
       "is_free": false,
-      "summary": "台中 植愛鯨魚─浮球彩繪花器 (一人成團)",
-      "organizer": "歐勳洋行",
+      "summary": "【手鐲/手環】含燙金 一人成團【台中東海課程】",
+      "organizer": "MISTER 手作皮件專門店",
+      "tags": [
+        "DIY手作"
+      ],
+      "source": "pinkoi"
+    },
+    {
+      "title": "【二叁室】花瓣氣泡泡澡球 3060是兩人費用",
+      "url": "https://www.pinkoi.com/product/t3MZdtqY",
+      "date_start": null,
+      "date_end": null,
+      "location_city": "台中市",
+      "location_address": null,
+      "age_min": null,
+      "age_max": null,
+      "price": 101,
+      "is_free": false,
+      "summary": "【二叁室】花瓣氣泡泡澡球 3060是兩人費用",
+      "organizer": "二叁室手作教室",
       "tags": [
         "DIY手作"
       ],
@@ -1394,24 +1378,6 @@
       "source": "pinkoi"
     },
     {
-      "title": "【二叁室】花瓣氣泡泡澡球 3060是兩人費用",
-      "url": "https://www.pinkoi.com/product/t3MZdtqY",
-      "date_start": null,
-      "date_end": null,
-      "location_city": "台中市",
-      "location_address": null,
-      "age_min": null,
-      "age_max": null,
-      "price": 101,
-      "is_free": false,
-      "summary": "【二叁室】花瓣氣泡泡澡球 3060是兩人費用",
-      "organizer": "二叁室手作教室",
-      "tags": [
-        "DIY手作"
-      ],
-      "source": "pinkoi"
-    },
-    {
       "title": "【二叁室】花瓣氣泡泡澡球 1800是一人費用",
       "url": "https://www.pinkoi.com/product/h6YW6PHP",
       "date_start": null,
@@ -1424,6 +1390,60 @@
       "is_free": false,
       "summary": "【二叁室】花瓣氣泡泡澡球 1800是一人費用",
       "organizer": "二叁室手作教室",
+      "tags": [
+        "DIY手作"
+      ],
+      "source": "pinkoi"
+    },
+    {
+      "title": "台中 植愛鯨魚─浮球彩繪花器 (一人成團)",
+      "url": "https://www.pinkoi.com/product/rmgvpnrc",
+      "date_start": null,
+      "date_end": null,
+      "location_city": "台中市",
+      "location_address": null,
+      "age_min": null,
+      "age_max": null,
+      "price": 18,
+      "is_free": false,
+      "summary": "台中 植愛鯨魚─浮球彩繪花器 (一人成團)",
+      "organizer": "歐勳洋行",
+      "tags": [
+        "DIY手作"
+      ],
+      "source": "pinkoi"
+    },
+    {
+      "title": "台灣麵包花與紙黏土推廣協會仿真設計證書課程",
+      "url": "https://www.pinkoi.com/product/FcY3f947",
+      "date_start": null,
+      "date_end": null,
+      "location_city": "台中市",
+      "location_address": null,
+      "age_min": null,
+      "age_max": null,
+      "price": 355,
+      "is_free": false,
+      "summary": "台灣麵包花與紙黏土推廣協會仿真設計證書課程",
+      "organizer": "妮娜愛手作藝術工作室（實體課程請先聊聊設計師後再再下單)",
+      "tags": [
+        "DIY手作"
+      ],
+      "source": "pinkoi"
+    },
+    {
+      "title": "浪漫菠蘿麵包屋壁掛飾",
+      "url": "https://www.pinkoi.com/product/G2ZiBbQg",
+      "date_start": null,
+      "date_end": null,
+      "location_city": "台中市",
+      "location_address": null,
+      "age_min": null,
+      "age_max": null,
+      "price": 116,
+      "is_free": false,
+      "summary": "浪漫菠蘿麵包屋壁掛飾",
+      "organizer": "妮娜愛手作藝術工作室（實體課程請先聊聊設計師後再再下單)",
       "tags": [
         "DIY手作"
       ],
@@ -1484,24 +1504,6 @@
       "source": "pinkoi"
     },
     {
-      "title": "【台中場】下班隨手作 | 乾燥花圈手工皂",
-      "url": "https://www.pinkoi.com/product/HdJjsuPP",
-      "date_start": null,
-      "date_end": null,
-      "location_city": "台中市",
-      "location_address": null,
-      "age_min": null,
-      "age_max": null,
-      "price": 21,
-      "is_free": false,
-      "summary": "【台中場】下班隨手作 | 乾燥花圈手工皂",
-      "organizer": "下班隨手作",
-      "tags": [
-        "DIY手作"
-      ],
-      "source": "pinkoi"
-    },
-    {
       "title": "用音樂記錄每一個動人的瞬間 這次由你來創作 客製化喜歡的歌曲",
       "url": "https://www.pinkoi.com/product/KTEeiQ2C",
       "date_start": null,
@@ -1520,6 +1522,24 @@
       "source": "pinkoi"
     },
     {
+      "title": "台灣麵包花與紙黏土推廣協會童趣甜點黏土證書課",
+      "url": "https://www.pinkoi.com/product/3im5QiJj",
+      "date_start": null,
+      "date_end": null,
+      "location_city": "台中市",
+      "location_address": null,
+      "age_min": null,
+      "age_max": null,
+      "price": 345,
+      "is_free": false,
+      "summary": "台灣麵包花與紙黏土推廣協會童趣甜點黏土證書課",
+      "organizer": "妮娜愛手作藝術工作室（實體課程請先聊聊設計師後再再下單)",
+      "tags": [
+        "DIY手作"
+      ],
+      "source": "pinkoi"
+    },
+    {
       "title": "【企業包場】【團體包班】【福委活動】【冬夏令營】可開發票",
       "url": "https://www.pinkoi.com/product/iuugUG9m",
       "date_start": null,
@@ -1532,6 +1552,24 @@
       "is_free": false,
       "summary": "【企業包場】【團體包班】【福委活動】【冬夏令營】可開發票",
       "organizer": "覓謐me.169",
+      "tags": [
+        "DIY手作"
+      ],
+      "source": "pinkoi"
+    },
+    {
+      "title": "台灣麵包花與紙黏土推廣協會小禮設計證書課程",
+      "url": "https://www.pinkoi.com/product/MnSZKapT",
+      "date_start": null,
+      "date_end": null,
+      "location_city": "台中市",
+      "location_address": null,
+      "age_min": null,
+      "age_max": null,
+      "price": 325,
+      "is_free": false,
+      "summary": "台灣麵包花與紙黏土推廣協會小禮設計證書課程",
+      "organizer": "妮娜愛手作藝術工作室（實體課程請先聊聊設計師後再再下單)",
       "tags": [
         "DIY手作"
       ],
@@ -1702,17 +1740,17 @@
       "source": "accupass"
     },
     {
-      "title": "【小小音樂大師課】小提琴 × 醜小鴨｜台中",
-      "url": "https://www.accupass.com/event/2607110700319895310100",
-      "date_start": "2026-09-05",
-      "date_end": "2026-09-05",
+      "title": "【小小音樂大師課】小號 × 小紅帽｜台中",
+      "url": "https://www.accupass.com/event/2607110730441837182748",
+      "date_start": "2026-09-19",
+      "date_end": "2026-09-19",
       "location_city": "台中市",
       "location_address": null,
       "age_min": null,
       "age_max": null,
       "price": null,
       "is_free": null,
-      "summary": "【小小音樂大師課】小提琴 × 醜小鴨｜台中",
+      "summary": "【小小音樂大師課】小號 × 小紅帽｜台中",
       "organizer": null,
       "tags": [
         "職業體驗"
@@ -1824,6 +1862,24 @@
       "organizer": null,
       "tags": [
         "體驗課"
+      ],
+      "source": "accupass"
+    },
+    {
+      "title": "【小小音樂大師課】小提琴 × 醜小鴨｜台中",
+      "url": "https://www.accupass.com/event/2607110700319895310100",
+      "date_start": "2026-09-05",
+      "date_end": "2026-09-05",
+      "location_city": "台中市",
+      "location_address": null,
+      "age_min": null,
+      "age_max": null,
+      "price": null,
+      "is_free": null,
+      "summary": "【小小音樂大師課】小提琴 × 醜小鴨｜台中",
+      "organizer": null,
+      "tags": [
+        "職業體驗"
       ],
       "source": "accupass"
     },
@@ -2082,6 +2138,24 @@
       "source": "taichung_culture"
     },
     {
+      "title": "【東區分館】8/8  親子電影院 -冰原雞動隊",
+      "url": "https://activity.culture.taichung.gov.tw/",
+      "date_start": "2026-08-08",
+      "date_end": "2026-08-08",
+      "location_city": "台中市",
+      "location_address": "東區分館",
+      "age_min": null,
+      "age_max": null,
+      "price": 0,
+      "is_free": true,
+      "summary": "【東區分館】8/8  親子電影院 -冰原雞動隊｜2026-08-08 ~ 2026-08-08 14:00-15:40｜東區分館",
+      "organizer": "台中市政府文化局",
+      "tags": [
+        "室內"
+      ],
+      "source": "taichung_culture"
+    },
+    {
       "title": "【中區分館】8/8  親子英文繪本說故事",
       "url": "https://activity.culture.taichung.gov.tw/",
       "date_start": "2026-08-08",
@@ -2183,6 +2257,24 @@
       "price": 0,
       "is_free": true,
       "summary": "【總館】〔散步閱讀森林工作坊〕剪出生活的形狀-紙飛片吊串(講師：夏仙)｜2026-08-01 ~ 2026-08-01 14:00-16:00｜總館西屯區  中科路2201號",
+      "organizer": "台中市政府文化局",
+      "tags": [
+        "室內"
+      ],
+      "source": "taichung_culture"
+    },
+    {
+      "title": "【東區分館】8/1  開心果姐姐說故事",
+      "url": "https://activity.culture.taichung.gov.tw/",
+      "date_start": "2026-08-01",
+      "date_end": "2026-08-01",
+      "location_city": "台中市",
+      "location_address": "東區分館",
+      "age_min": null,
+      "age_max": null,
+      "price": 0,
+      "is_free": true,
+      "summary": "【東區分館】8/1  開心果姐姐說故事｜2026-08-01 ~ 2026-08-01 10:00-11:00｜東區分館",
       "organizer": "台中市政府文化局",
       "tags": [
         "室內"
@@ -2958,6 +3050,22 @@
       "source": "culture_cloud"
     },
     {
+      "title": "2026《再一次！唱歌旅行去》十週年親子演唱會",
+      "url": "https://ticket.com.tw/Application/UTK02/UTK0201_.aspx?PRODUCT_ID=P19I4966",
+      "date_start": "2026-09-19",
+      "date_end": "2026-11-22",
+      "location_city": "台中市",
+      "location_address": "臺中市北區學士路98號",
+      "age_min": null,
+      "age_max": null,
+      "price": 2200,
+      "is_free": false,
+      "summary": "2026《再一次！唱歌旅行去》十週年親子演唱會｜臺中市政府文化局中山堂",
+      "organizer": null,
+      "tags": [],
+      "source": "culture_cloud"
+    },
+    {
       "title": "精靈小劇場(7月)",
       "url": "https://reurl.cc/M2qQmW",
       "date_start": "2026-07-25",
@@ -2994,7 +3102,7 @@
     {
       "title": "科博館《古代人說故事》南屯山仔腳遺址出土的鐵刀首亮相!",
       "url": "https://cloud.culture.tw/frontsite/inquiry/eventInquiryAction.do?method=showEventDetail&uid=5b3dd544aaa378d7ca9a2e9a",
-      "date_start": "2026-07-21",
+      "date_start": "2026-07-22",
       "date_end": "2028-12-31",
       "location_city": "台中市",
       "location_address": "臺中市40453 臺中市北區館前路一號",
@@ -3893,22 +4001,6 @@
       "source": "culture_cloud"
     },
     {
-      "title": "苗栗縣照南國中2026暑期英語夏令營",
-      "url": "https://www.accupass.com/event/2603160826311232319979",
-      "date_start": "2026-07-20",
-      "date_end": "2026-07-20",
-      "location_city": "苗栗縣",
-      "location_address": null,
-      "age_min": null,
-      "age_max": null,
-      "price": null,
-      "is_free": null,
-      "summary": "苗栗縣照南國中2026暑期英語夏令營",
-      "organizer": null,
-      "tags": [],
-      "source": "accupass"
-    },
-    {
       "title": "115年日月潭旅遊安全宣導暑期營隊【日月潭十蛙水陸進擊二日營】",
       "url": "https://www.accupass.com/event/2606300145311599565240",
       "date_start": "2026-08-03",
@@ -4103,6 +4195,22 @@
       "source": "culture_cloud"
     },
     {
+      "title": "2026苗北心勢力：瑤場共創《再見卡門》沉浸式舞蹈小歌劇含演前導聆（2場次）",
+      "url": "https://www.opentix.life/event/2067495578192642049",
+      "date_start": "2026-09-19",
+      "date_end": "2026-09-20",
+      "location_city": "苗栗縣",
+      "location_address": "苗栗縣竹南鎮公園路206號（公園路及永貞路口處）",
+      "age_min": null,
+      "age_max": null,
+      "price": 600,
+      "is_free": false,
+      "summary": "2026苗北心勢力：瑤場共創《再見卡門》沉浸式舞蹈小歌劇含演前導聆（2場次）｜苗栗縣苗北藝文中心",
+      "organizer": "(中華民國)瑤場共創",
+      "tags": [],
+      "source": "culture_cloud"
+    },
+    {
       "title": "好劇童樂會－雲門家庭音樂劇場《一千零5678夜》",
       "url": "https://www.opentix.life/program/2054031343256375297",
       "date_start": "2026-07-25",
@@ -4178,6 +4286,22 @@
       "price": null,
       "is_free": false,
       "summary": "好劇童樂會－好人好事製作《從此過著幸福快樂的日子》｜彰化縣文化局員林演藝廳表演廳",
+      "organizer": null,
+      "tags": [],
+      "source": "culture_cloud"
+    },
+    {
+      "title": "大開兒童歌舞劇-好久茶的祕密2《夢幻雞排大冒險》",
+      "url": "https://www.opentix.life/program/2070311339630383105",
+      "date_start": "2026-09-19",
+      "date_end": "2026-09-19",
+      "location_city": "南投縣",
+      "location_address": "南投縣南投市建國路135號",
+      "age_min": null,
+      "age_max": null,
+      "price": null,
+      "is_free": false,
+      "summary": "大開兒童歌舞劇-好久茶的祕密2《夢幻雞排大冒險》｜南投縣政府文化局演藝廳",
       "organizer": null,
       "tags": [],
       "source": "culture_cloud"
