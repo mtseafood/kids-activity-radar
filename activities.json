@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-09-09T23:40:12",
+  "scraped_at": "2026-09-10T23:32:39",
   "total": 234,
   "activities": [
     {
@@ -81,25 +81,6 @@
       "source": "brands"
     },
     {
-      "title": "【4~10歲】壽司大富翁：DIY手作壽司體驗",
-      "url": "https://play.niceday.tw/zh-tw/regions/21/products/3724075124133",
-      "date_start": null,
-      "date_end": null,
-      "location_city": "台中市",
-      "location_address": "北區",
-      "age_min": 4,
-      "age_max": 10,
-      "price": null,
-      "is_free": null,
-      "summary": "【4~10歲】壽司大富翁：DIY手作壽司體驗",
-      "organizer": "一条通｜台中學士門市",
-      "tags": [
-        "體驗課",
-        "DIY手作"
-      ],
-      "source": "niceday"
-    },
-    {
       "title": "【4~10歲】壽司大富翁：DIY 手作壽司體驗",
       "url": "https://play.niceday.tw/zh-tw/regions/21/products/3728610781693",
       "date_start": null,
@@ -112,6 +93,25 @@
       "is_free": null,
       "summary": "【4~10歲】壽司大富翁：DIY 手作壽司體驗",
       "organizer": "一条通｜台中站前門市",
+      "tags": [
+        "體驗課",
+        "DIY手作"
+      ],
+      "source": "niceday"
+    },
+    {
+      "title": "【4~10歲】壽司大富翁：DIY手作壽司體驗",
+      "url": "https://play.niceday.tw/zh-tw/regions/21/products/3724075124133",
+      "date_start": null,
+      "date_end": null,
+      "location_city": "台中市",
+      "location_address": "北區",
+      "age_min": 4,
+      "age_max": 10,
+      "price": null,
+      "is_free": null,
+      "summary": "【4~10歲】壽司大富翁：DIY手作壽司體驗",
+      "organizer": "一条通｜台中學士門市",
       "tags": [
         "體驗課",
         "DIY手作"
@@ -371,7 +371,7 @@
       "location_address": null,
       "age_min": null,
       "age_max": null,
-      "price": 50,
+      "price": 44,
       "is_free": false,
       "summary": "小方包/零錢卡包【燙金體驗/自主體驗/一人成團】台中東海課程",
       "organizer": "MISTER 手作皮件專門店",
@@ -523,10 +523,29 @@
       "location_address": null,
       "age_min": null,
       "age_max": null,
-      "price": 40,
+      "price": 35,
       "is_free": false,
       "summary": "【零錢卡包/名片夾】 燙金體驗/一人成團/皮件體驗/台中東海課程",
       "organizer": "MISTER 手作皮件專門店",
+      "tags": [
+        "DIY手作",
+        "體驗課"
+      ],
+      "source": "pinkoi"
+    },
+    {
+      "title": "【台中】紙有一個地球─種子球手作體驗 (一人成團)",
+      "url": "https://www.pinkoi.com/product/Q2SHgUit",
+      "date_start": null,
+      "date_end": null,
+      "location_city": "台中市",
+      "location_address": null,
+      "age_min": null,
+      "age_max": null,
+      "price": 18,
+      "is_free": false,
+      "summary": "【台中】紙有一個地球─種子球手作體驗 (一人成團)",
+      "organizer": "歐勳洋行",
       "tags": [
         "DIY手作",
         "體驗課"
@@ -580,29 +599,10 @@
       "location_address": null,
       "age_min": null,
       "age_max": null,
-      "price": 40,
+      "price": 35,
       "is_free": false,
       "summary": "太陽眼鏡盒/眼鏡盒/袋/包 【燙金體驗/一人成團】台中東海課程",
       "organizer": "MISTER 手作皮件專門店",
-      "tags": [
-        "DIY手作",
-        "體驗課"
-      ],
-      "source": "pinkoi"
-    },
-    {
-      "title": "【台中】紙有一個地球─種子球手作體驗 (一人成團)",
-      "url": "https://www.pinkoi.com/product/Q2SHgUit",
-      "date_start": null,
-      "date_end": null,
-      "location_city": "台中市",
-      "location_address": null,
-      "age_min": null,
-      "age_max": null,
-      "price": 18,
-      "is_free": false,
-      "summary": "【台中】紙有一個地球─種子球手作體驗 (一人成團)",
-      "organizer": "歐勳洋行",
       "tags": [
         "DIY手作",
         "體驗課"
@@ -637,7 +637,7 @@
       "location_address": null,
       "age_min": null,
       "age_max": null,
-      "price": 36,
+      "price": 32,
       "is_free": false,
       "summary": "真皮筆袋【燙金體驗/自主體驗/一人成團】【台中東海課程】",
       "organizer": "MISTER 手作皮件專門店",
@@ -770,7 +770,7 @@
       "location_address": null,
       "age_min": null,
       "age_max": null,
-      "price": 96,
+      "price": 84,
       "is_free": false,
       "summary": "燈工琉璃製作(星空/宇宙花紋)",
       "organizer": "Treasures Of Q",
@@ -914,7 +914,7 @@
       "location_address": null,
       "age_min": null,
       "age_max": null,
-      "price": 33,
+      "price": 29,
       "is_free": false,
       "summary": "【手鐲/手環】含燙金 一人成團【台中東海課程】",
       "organizer": "MISTER 手作皮件專門店",
@@ -1619,9 +1619,9 @@
       "source": "taichung_culture"
     },
     {
-      "title": "【西區分館】09/10 智慧樂齡自學術｜AI陪伴下的數位生活新體驗(第1堂)(已額滿)",
+      "title": "【西區分館】09/11 智慧樂齡自學術｜AI陪伴下的數位生活新體驗(第2堂)(已額滿)",
       "url": "https://activity.culture.taichung.gov.tw/",
-      "date_start": "2026-09-10",
+      "date_start": "2026-09-11",
       "date_end": "2026-09-18",
       "location_city": "台中市",
       "location_address": "西區分館",
@@ -1629,7 +1629,7 @@
       "age_max": null,
       "price": 0,
       "is_free": true,
-      "summary": "【西區分館】09/10 智慧樂齡自學術｜AI陪伴下的數位生活新體驗(第1堂)(已額滿)｜2026-09-10 ~ 2026-09-10 09:00-11:00｜西區分館",
+      "summary": "【西區分館】09/11 智慧樂齡自學術｜AI陪伴下的數位生活新體驗(第2堂)(已額滿)｜2026-09-11 ~ 2026-09-11 09:00-11:00｜西區分館",
       "organizer": "台中市政府文化局",
       "tags": [
         "體驗課",
@@ -1668,25 +1668,6 @@
       "price": 0,
       "is_free": true,
       "summary": "【李科永紀念圖書分館】 09/12 親子急救任務課-小小救援隊出動！｜2026-09-12 ~ 2026-09-12 10:30-11:30｜李科永紀念圖書分館",
-      "organizer": "台中市政府文化局",
-      "tags": [
-        "職業體驗",
-        "室內"
-      ],
-      "source": "taichung_culture"
-    },
-    {
-      "title": "【大墩分館】09/10小小故事家，故事開門啦",
-      "url": "https://activity.culture.taichung.gov.tw/",
-      "date_start": "2026-09-10",
-      "date_end": "2026-09-10",
-      "location_city": "台中市",
-      "location_address": "大墩分館",
-      "age_min": null,
-      "age_max": null,
-      "price": 0,
-      "is_free": true,
-      "summary": "【大墩分館】09/10小小故事家，故事開門啦｜2026-09-10 ~ 2026-09-10 15:00-15:40｜大墩分館",
       "organizer": "台中市政府文化局",
       "tags": [
         "職業體驗",
@@ -1770,22 +1751,6 @@
       "price": null,
       "is_free": null,
       "summary": "誠品書店台中園道店｜未來姐姐說故事《我會好好說》",
-      "organizer": null,
-      "tags": [],
-      "source": "accupass"
-    },
-    {
-      "title": "誠品書店台中園道店｜采實姐姐說故事《音樂小鼠潔拉汀》",
-      "url": "https://www.accupass.com/event/2608180317341867228446",
-      "date_start": "2026-09-12",
-      "date_end": "2026-09-12",
-      "location_city": "台中市",
-      "location_address": null,
-      "age_min": null,
-      "age_max": null,
-      "price": null,
-      "is_free": null,
-      "summary": "誠品書店台中園道店｜采實姐姐說故事《音樂小鼠潔拉汀》",
       "organizer": null,
       "tags": [],
       "source": "accupass"
@@ -1906,6 +1871,24 @@
       "price": 0,
       "is_free": true,
       "summary": "【總館】第八屆海洋童樂繪兒童繪圖比賽得獎作品展｜2026-10-01 ~ 2026-12-31 08:30-21:00｜總館",
+      "organizer": "台中市政府文化局",
+      "tags": [
+        "室內"
+      ],
+      "source": "taichung_culture"
+    },
+    {
+      "title": "【北區分館】9/26故事百寶箱~砰!",
+      "url": "https://activity.culture.taichung.gov.tw/",
+      "date_start": "2026-09-26",
+      "date_end": "2026-09-26",
+      "location_city": "台中市",
+      "location_address": "北區分館",
+      "age_min": null,
+      "age_max": null,
+      "price": 0,
+      "is_free": true,
+      "summary": "【北區分館】9/26故事百寶箱~砰!｜2026-09-26 ~ 2026-09-26 10:30-11:10｜北區分館",
       "organizer": "台中市政府文化局",
       "tags": [
         "室內"
@@ -2093,7 +2076,7 @@
       "source": "taichung_culture"
     },
     {
-      "title": "【臺中市立圖書館】9/21 拾光‧讓故事繼續2026全國故事志工總動員",
+      "title": "【臺中市立圖書館】9/21 拾光‧讓故事繼續2026全國故事志工總動員 (已額滿，不接受現場報名)",
       "url": "https://activity.culture.taichung.gov.tw/",
       "date_start": "2026-09-21",
       "date_end": "2026-09-21",
@@ -2103,7 +2086,7 @@
       "age_max": null,
       "price": 0,
       "is_free": true,
-      "summary": "【臺中市立圖書館】9/21 拾光‧讓故事繼續2026全國故事志工總動員｜2026-09-21 ~ 2026-09-21 09:00-16:30｜總館",
+      "summary": "【臺中市立圖書館】9/21 拾光‧讓故事繼續2026全國故事志工總動員 (已額滿，不接受現場報名)｜2026-09-21 ~ 2026-09-21 09:00-16:30｜總館",
       "organizer": "台中市政府文化局",
       "tags": [
         "室內"
@@ -2158,6 +2141,24 @@
       "price": 0,
       "is_free": true,
       "summary": "【東區分館】9/20  陸爸爸說演故事-爺爺，你把故事講錯了｜2026-09-20 ~ 2026-09-20 10:00-11:00｜東區分館",
+      "organizer": "台中市政府文化局",
+      "tags": [
+        "室內"
+      ],
+      "source": "taichung_culture"
+    },
+    {
+      "title": "【北區分館】9/19故事百寶箱~白雪公主與七個小矮人",
+      "url": "https://activity.culture.taichung.gov.tw/",
+      "date_start": "2026-09-19",
+      "date_end": "2026-09-19",
+      "location_city": "台中市",
+      "location_address": "北區分館",
+      "age_min": null,
+      "age_max": null,
+      "price": 0,
+      "is_free": true,
+      "summary": "【北區分館】9/19故事百寶箱~白雪公主與七個小矮人｜2026-09-19 ~ 2026-09-19 10:30-11:10｜北區分館",
       "organizer": "台中市政府文化局",
       "tags": [
         "室內"
@@ -2428,6 +2429,24 @@
       "price": 0,
       "is_free": true,
       "summary": "【李科永紀念圖書分館】09/13 閱讀起步走-親子共讀活動-月亮來作客｜2026-09-13 ~ 2026-09-13 10:00-11:00｜李科永紀念圖書分館",
+      "organizer": "台中市政府文化局",
+      "tags": [
+        "室內"
+      ],
+      "source": "taichung_culture"
+    },
+    {
+      "title": "【北區分館】9/12故事百寶箱~大稻埕動物園",
+      "url": "https://activity.culture.taichung.gov.tw/",
+      "date_start": "2026-09-12",
+      "date_end": "2026-09-12",
+      "location_city": "台中市",
+      "location_address": "北區分館",
+      "age_min": null,
+      "age_max": null,
+      "price": 0,
+      "is_free": true,
+      "summary": "【北區分館】9/12故事百寶箱~大稻埕動物園｜2026-09-12 ~ 2026-09-12 10:30-11:10｜北區分館",
       "organizer": "台中市政府文化局",
       "tags": [
         "室內"
@@ -2770,24 +2789,6 @@
       "price": 0,
       "is_free": true,
       "summary": "【大安分館】9/10-9/24 大安親子讀經班｜2026-09-10 ~ 2026-09-24 19:30-20:30｜大安分館",
-      "organizer": "台中市政府文化局",
-      "tags": [
-        "室內"
-      ],
-      "source": "taichung_culture"
-    },
-    {
-      "title": "【興安分館】9/09 台語故事列車~媽祖婆婆的派對",
-      "url": "https://activity.culture.taichung.gov.tw/",
-      "date_start": "2026-09-09",
-      "date_end": "2026-09-09",
-      "location_city": "台中市",
-      "location_address": "興安分館北屯區  1F親子共讀區",
-      "age_min": null,
-      "age_max": null,
-      "price": 0,
-      "is_free": true,
-      "summary": "【興安分館】9/09 台語故事列車~媽祖婆婆的派對｜2026-09-09 ~ 2026-09-09 15:00-15:30｜興安分館北屯區  1F親子共讀區",
       "organizer": "台中市政府文化局",
       "tags": [
         "室內"
@@ -3225,7 +3226,7 @@
     {
       "title": "科博館《古代人說故事》南屯山仔腳遺址出土的鐵刀首亮相!",
       "url": "https://cloud.culture.tw/frontsite/inquiry/eventInquiryAction.do?method=showEventDetail&uid=5b3dd544aaa378d7ca9a2e9a",
-      "date_start": "2026-09-10",
+      "date_start": "2026-09-11",
       "date_end": "2028-12-31",
       "location_city": "台中市",
       "location_address": "臺中市40453 臺中市北區館前路一號",
