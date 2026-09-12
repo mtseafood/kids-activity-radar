@@ -1,6 +1,6 @@
 {
-  "scraped_at": "2026-09-11T23:42:20",
-  "total": 235,
+  "scraped_at": "2026-09-12T23:35:28",
+  "total": 227,
   "activities": [
     {
       "title": "Mister Donut 小小烘焙師 甜甜圈DIY（台中遠百門市）",
@@ -1398,7 +1398,7 @@
       "title": "10/3 小小評審團，第八屆《最佳兒童短片票選獎》",
       "url": "https://www.accupass.com/event/2609091229133401181860",
       "date_start": "2026-10-03",
-      "date_end": "2026-10-03",
+      "date_end": "2026-10-10",
       "location_city": "台中市",
       "location_address": null,
       "age_min": null,
@@ -1618,9 +1618,9 @@
       "source": "taichung_culture"
     },
     {
-      "title": "【溪東分館】9/11小小說書人-繪本說故事",
+      "title": "【溪東分館】9/18小小說書人-繪本說故事",
       "url": "https://activity.culture.taichung.gov.tw/",
-      "date_start": "2026-09-11",
+      "date_start": "2026-09-18",
       "date_end": "2026-09-18",
       "location_city": "台中市",
       "location_address": "溪東分館 1F親子共讀區",
@@ -1628,7 +1628,7 @@
       "age_max": null,
       "price": 0,
       "is_free": true,
-      "summary": "【溪東分館】9/11小小說書人-繪本說故事｜2026-09-11 ~ 2026-09-11 10:00-00:00｜溪東分館 1F親子共讀區",
+      "summary": "【溪東分館】9/18小小說書人-繪本說故事｜2026-09-18 ~ 2026-09-18 10:00-00:00｜溪東分館 1F親子共讀區",
       "organizer": "台中市政府文化局",
       "tags": [
         "職業體驗",
@@ -1742,22 +1742,6 @@
       "source": "accupass"
     },
     {
-      "title": "誠品書店台中園道店｜未來姐姐說故事《我會好好說》",
-      "url": "https://www.accupass.com/event/2608180337411759564955",
-      "date_start": "2026-09-19",
-      "date_end": "2026-09-19",
-      "location_city": "台中市",
-      "location_address": null,
-      "age_min": null,
-      "age_max": null,
-      "price": null,
-      "is_free": null,
-      "summary": "誠品書店台中園道店｜未來姐姐說故事《我會好好說》",
-      "organizer": null,
-      "tags": [],
-      "source": "accupass"
-    },
-    {
       "title": "誠品書店台中三井店｜上誼姐姐說故事《兔老闆的咖哩店》",
       "url": "https://www.accupass.com/event/2608180226411706030421",
       "date_start": "2026-09-19",
@@ -1774,9 +1758,25 @@
       "source": "accupass"
     },
     {
-      "title": "【西區分館】09/12 親子讀經班(第11期)",
+      "title": "誠品書店台中園道店｜未來姐姐說故事《我會好好說》",
+      "url": "https://www.accupass.com/event/2608180337411759564955",
+      "date_start": "2026-09-19",
+      "date_end": "2026-09-19",
+      "location_city": "台中市",
+      "location_address": null,
+      "age_min": null,
+      "age_max": null,
+      "price": null,
+      "is_free": null,
+      "summary": "誠品書店台中園道店｜未來姐姐說故事《我會好好說》",
+      "organizer": null,
+      "tags": [],
+      "source": "accupass"
+    },
+    {
+      "title": "【西區分館】09/19 親子讀經班(第11期)",
       "url": "https://activity.culture.taichung.gov.tw/",
-      "date_start": "2026-09-12",
+      "date_start": "2026-09-19",
       "date_end": "2026-11-07",
       "location_city": "台中市",
       "location_address": "西區分館",
@@ -1784,7 +1784,7 @@
       "age_max": null,
       "price": 0,
       "is_free": true,
-      "summary": "【西區分館】09/12 親子讀經班(第11期)｜2026-09-12 ~ 2026-09-12 09:00-11:00｜西區分館",
+      "summary": "【西區分館】09/19 親子讀經班(第11期)｜2026-09-19 ~ 2026-09-19 09:00-11:00｜西區分館",
       "organizer": "台中市政府文化局",
       "tags": [
         "室內"
@@ -2526,42 +2526,6 @@
       "source": "taichung_culture"
     },
     {
-      "title": "【精武圖書館】09/12 小太陽故事屋《小豆子豆豆》",
-      "url": "https://activity.culture.taichung.gov.tw/",
-      "date_start": "2026-09-12",
-      "date_end": "2026-09-12",
-      "location_city": "台中市",
-      "location_address": "精武圖書館",
-      "age_min": null,
-      "age_max": null,
-      "price": 0,
-      "is_free": true,
-      "summary": "【精武圖書館】09/12 小太陽故事屋《小豆子豆豆》｜2026-09-12 ~ 2026-09-12 10:00-11:00｜精武圖書館",
-      "organizer": "台中市政府文化局",
-      "tags": [
-        "室內"
-      ],
-      "source": "taichung_culture"
-    },
-    {
-      "title": "【精武圖書館】09/12 小太陽故事屋加場!!《小偵探穿山甲的森林失蹤事件簿》",
-      "url": "https://activity.culture.taichung.gov.tw/",
-      "date_start": "2026-09-12",
-      "date_end": "2026-09-12",
-      "location_city": "台中市",
-      "location_address": "精武圖書館",
-      "age_min": null,
-      "age_max": null,
-      "price": 0,
-      "is_free": true,
-      "summary": "【精武圖書館】09/12 小太陽故事屋加場!!《小偵探穿山甲的森林失蹤事件簿》｜2026-09-12 ~ 2026-09-12 14:00-15:00｜精武圖書館",
-      "organizer": "台中市政府文化局",
-      "tags": [
-        "室內"
-      ],
-      "source": "taichung_culture"
-    },
-    {
       "title": "【中區分館】9/12  親子英文繪本說故事",
       "url": "https://activity.culture.taichung.gov.tw/",
       "date_start": "2026-09-12",
@@ -2616,24 +2580,6 @@
       "source": "taichung_culture"
     },
     {
-      "title": "【東區分館】9/12  親子電影院 -飛鳥總動員",
-      "url": "https://activity.culture.taichung.gov.tw/",
-      "date_start": "2026-09-12",
-      "date_end": "2026-09-12",
-      "location_city": "台中市",
-      "location_address": "東區分館",
-      "age_min": null,
-      "age_max": null,
-      "price": 0,
-      "is_free": true,
-      "summary": "【東區分館】9/12  親子電影院 -飛鳥總動員｜2026-09-12 ~ 2026-09-12 14:00-15:30｜東區分館",
-      "organizer": "台中市政府文化局",
-      "tags": [
-        "室內"
-      ],
-      "source": "taichung_culture"
-    },
-    {
       "title": "【溪西分館】09/12 假日故事屋 《Interesting English Story》",
       "url": "https://activity.culture.taichung.gov.tw/",
       "date_start": "2026-09-12",
@@ -2652,24 +2598,6 @@
       "source": "taichung_culture"
     },
     {
-      "title": "【南區分館】9/12 英文說故事:Follow the Little Gruffalo",
-      "url": "https://activity.culture.taichung.gov.tw/",
-      "date_start": "2026-09-12",
-      "date_end": "2026-09-12",
-      "location_city": "台中市",
-      "location_address": "南區分館",
-      "age_min": null,
-      "age_max": null,
-      "price": 0,
-      "is_free": true,
-      "summary": "【南區分館】9/12 英文說故事:Follow the Little Gruffalo｜2026-09-12 ~ 2026-09-12 14:30-15:30｜南區分館",
-      "organizer": "台中市政府文化局",
-      "tags": [
-        "室內"
-      ],
-      "source": "taichung_culture"
-    },
-    {
       "title": "【溪西分館】09/12 假日故事屋 《精彩故事繪本》",
       "url": "https://activity.culture.taichung.gov.tw/",
       "date_start": "2026-09-12",
@@ -2681,24 +2609,6 @@
       "price": 0,
       "is_free": true,
       "summary": "【溪西分館】09/12 假日故事屋 《精彩故事繪本》｜2026-09-12 ~ 2026-09-12 10:30-11:30｜溪西分館",
-      "organizer": "台中市政府文化局",
-      "tags": [
-        "室內"
-      ],
-      "source": "taichung_culture"
-    },
-    {
-      "title": "【大墩分館】09/12親子故事屋~Shhh! QUIET",
-      "url": "https://activity.culture.taichung.gov.tw/",
-      "date_start": "2026-09-12",
-      "date_end": "2026-09-12",
-      "location_city": "台中市",
-      "location_address": "大墩分館",
-      "age_min": null,
-      "age_max": null,
-      "price": 0,
-      "is_free": true,
-      "summary": "【大墩分館】09/12親子故事屋~Shhh! QUIET｜2026-09-12 ~ 2026-09-12 10:00-10:50｜大墩分館",
       "organizer": "台中市政府文化局",
       "tags": [
         "室內"
@@ -2735,42 +2645,6 @@
       "price": 0,
       "is_free": true,
       "summary": "【大安分館】9/12 美人魚故事屋-小卡車兜兜風｜2026-09-12 ~ 2026-09-12 10:00-10:30｜大安分館",
-      "organizer": "台中市政府文化局",
-      "tags": [
-        "室內"
-      ],
-      "source": "taichung_culture"
-    },
-    {
-      "title": "【西區分館】09/12 故事萬花筒：公車去哪裡了(閱讀起步走活動)",
-      "url": "https://activity.culture.taichung.gov.tw/",
-      "date_start": "2026-09-12",
-      "date_end": "2026-09-12",
-      "location_city": "台中市",
-      "location_address": "西區分館",
-      "age_min": null,
-      "age_max": null,
-      "price": 0,
-      "is_free": true,
-      "summary": "【西區分館】09/12 故事萬花筒：公車去哪裡了(閱讀起步走活動)｜2026-09-12 ~ 2026-09-12 10:30-11:10｜西區分館",
-      "organizer": "台中市政府文化局",
-      "tags": [
-        "室內"
-      ],
-      "source": "taichung_culture"
-    },
-    {
-      "title": "【南區分館】9/12 說故事活動:親一下小鱷魚",
-      "url": "https://activity.culture.taichung.gov.tw/",
-      "date_start": "2026-09-12",
-      "date_end": "2026-09-12",
-      "location_city": "台中市",
-      "location_address": "南區分館",
-      "age_min": null,
-      "age_max": null,
-      "price": 0,
-      "is_free": true,
-      "summary": "【南區分館】9/12 說故事活動:親一下小鱷魚｜2026-09-12 ~ 2026-09-12 10:00-11:00｜南區分館",
       "organizer": "台中市政府文化局",
       "tags": [
         "室內"
@@ -2861,6 +2735,24 @@
       "price": 0,
       "is_free": true,
       "summary": "【四張犁分館】2026年9月 寶貝故事屋｜2026-09-05 ~ 2026-09-26 10:30-11:10｜四張犁分館",
+      "organizer": "台中市政府文化局",
+      "tags": [
+        "室內"
+      ],
+      "source": "taichung_culture"
+    },
+    {
+      "title": "【李科永紀念圖書分館】 09/05-09/26 繪本世界任意門",
+      "url": "https://activity.culture.taichung.gov.tw/",
+      "date_start": "2026-09-05",
+      "date_end": "2026-09-26",
+      "location_city": "台中市",
+      "location_address": "李科永紀念圖書分館",
+      "age_min": null,
+      "age_max": null,
+      "price": 0,
+      "is_free": true,
+      "summary": "【李科永紀念圖書分館】 09/05-09/26 繪本世界任意門｜2026-09-05 ~ 2026-09-26 10:30-11:10｜李科永紀念圖書分館",
       "organizer": "台中市政府文化局",
       "tags": [
         "室內"
@@ -3244,7 +3136,7 @@
     {
       "title": "科博館《古代人說故事》南屯山仔腳遺址出土的鐵刀首亮相!",
       "url": "https://cloud.culture.tw/frontsite/inquiry/eventInquiryAction.do?method=showEventDetail&uid=5b3dd544aaa378d7ca9a2e9a",
-      "date_start": "2026-09-12",
+      "date_start": "2026-09-13",
       "date_end": "2028-12-31",
       "location_city": "台中市",
       "location_address": "臺中市40453 臺中市北區館前路一號",
@@ -3531,22 +3423,6 @@
       "price": null,
       "is_free": null,
       "summary": "竹山鎮_東埔蚋溪生態導覽報名表_南投台語家庭計畫",
-      "organizer": null,
-      "tags": [],
-      "source": "accupass"
-    },
-    {
-      "title": "2026南投縣Hakka嘉年華-客家兒童劇-如果兒童劇團《神仙來𢯭手》",
-      "url": "https://www.accupass.com/event/2608190643411947831884",
-      "date_start": "2026-09-12",
-      "date_end": "2026-09-12",
-      "location_city": "南投縣",
-      "location_address": null,
-      "age_min": null,
-      "age_max": null,
-      "price": 0,
-      "is_free": true,
-      "summary": "2026南投縣Hakka嘉年華-客家兒童劇-如果兒童劇團《神仙來𢯭手》",
       "organizer": null,
       "tags": [],
       "source": "accupass"
@@ -4118,9 +3994,9 @@
       "source": "culture_cloud"
     },
     {
-      "title": "2026年9月【和美鎮立圖書館-歡樂溫馨說故事活動】",
+      "title": "2026年10月【和美鎮立圖書館-歡樂溫馨說故事活動】",
       "url": "https://www.facebook.com/profile.php?id=100064506377025",
-      "date_start": "2026-09-12",
+      "date_start": "2026-10-03",
       "date_end": "2026-11-07",
       "location_city": "彰化縣",
       "location_address": "彰化縣和美鎮道周路346號",
@@ -4128,7 +4004,7 @@
       "age_max": null,
       "price": 0,
       "is_free": true,
-      "summary": "2026年9月【和美鎮立圖書館-歡樂溫馨說故事活動】｜彰化縣和美鎮立圖書館",
+      "summary": "2026年10月【和美鎮立圖書館-歡樂溫馨說故事活動】｜彰化縣和美鎮立圖書館",
       "organizer": "(中華民國)和美鎮立圖書館",
       "tags": [
         "室內"
@@ -4205,22 +4081,6 @@
       "tags": [
         "室內"
       ],
-      "source": "culture_cloud"
-    },
-    {
-      "title": "SHOW點工作坊_《感官開發工作坊》",
-      "url": "https://www.opentix.life/program/2066797494353469441",
-      "date_start": "2026-09-12",
-      "date_end": "2026-09-12",
-      "location_city": "彰化縣",
-      "location_address": "彰化縣員林市員林大道二段99號",
-      "age_min": null,
-      "age_max": null,
-      "price": null,
-      "is_free": false,
-      "summary": "SHOW點工作坊_《感官開發工作坊》｜彰化縣文化局員林演藝廳排練室",
-      "organizer": null,
-      "tags": [],
       "source": "culture_cloud"
     },
     {
