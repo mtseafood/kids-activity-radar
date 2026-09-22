@@ -1,6 +1,6 @@
 {
-  "scraped_at": "2026-09-22T00:26:30",
-  "total": 197,
+  "scraped_at": "2026-09-22T23:57:53",
+  "total": 196,
   "activities": [
     {
       "title": "Mister Donut 小小烘焙師 甜甜圈DIY（台中遠百門市）",
@@ -362,6 +362,25 @@
       "source": "pinkoi"
     },
     {
+      "title": "小方包/零錢卡包【燙金體驗/自主體驗/一人成團】台中東海課程",
+      "url": "https://www.pinkoi.com/product/AJyhC9i7",
+      "date_start": null,
+      "date_end": null,
+      "location_city": "台中市",
+      "location_address": null,
+      "age_min": null,
+      "age_max": null,
+      "price": 50,
+      "is_free": false,
+      "summary": "小方包/零錢卡包【燙金體驗/自主體驗/一人成團】台中東海課程",
+      "organizer": "MISTER 手作皮件專門店",
+      "tags": [
+        "DIY手作",
+        "體驗課"
+      ],
+      "source": "pinkoi"
+    },
+    {
       "title": "【體驗季優惠】台中手作/一人成團/搖搖馬皮革體驗",
       "url": "https://www.pinkoi.com/product/JmuAd6Ep",
       "date_start": null,
@@ -374,25 +393,6 @@
       "is_free": false,
       "summary": "【體驗季優惠】台中手作/一人成團/搖搖馬皮革體驗",
       "organizer": "沐籟Moonlight 工藝設計/選品/體驗店",
-      "tags": [
-        "DIY手作",
-        "體驗課"
-      ],
-      "source": "pinkoi"
-    },
-    {
-      "title": "小方包/零錢卡包【燙金體驗/自主體驗/一人成團】台中東海課程",
-      "url": "https://www.pinkoi.com/product/AJyhC9i7",
-      "date_start": null,
-      "date_end": null,
-      "location_city": "台中市",
-      "location_address": null,
-      "age_min": null,
-      "age_max": null,
-      "price": 44,
-      "is_free": false,
-      "summary": "小方包/零錢卡包【燙金體驗/自主體驗/一人成團】台中東海課程",
-      "organizer": "MISTER 手作皮件專門店",
       "tags": [
         "DIY手作",
         "體驗課"
@@ -446,7 +446,7 @@
       "location_address": null,
       "age_min": null,
       "age_max": null,
-      "price": 32,
+      "price": 36,
       "is_free": false,
       "summary": "真皮筆袋【燙金體驗/自主體驗/一人成團】【台中東海課程】",
       "organizer": "MISTER 手作皮件專門店",
@@ -503,7 +503,7 @@
       "location_address": null,
       "age_min": null,
       "age_max": null,
-      "price": 35,
+      "price": 40,
       "is_free": false,
       "summary": "太陽眼鏡盒/眼鏡盒/袋/包 【燙金體驗/一人成團】台中東海課程",
       "organizer": "MISTER 手作皮件專門店",
@@ -579,7 +579,7 @@
       "location_address": null,
       "age_min": null,
       "age_max": null,
-      "price": 35,
+      "price": 40,
       "is_free": false,
       "summary": "【零錢卡包/名片夾】 燙金體驗/一人成團/皮件體驗/台中東海課程",
       "organizer": "MISTER 手作皮件專門店",
@@ -788,7 +788,7 @@
       "location_address": null,
       "age_min": null,
       "age_max": null,
-      "price": 84,
+      "price": 96,
       "is_free": false,
       "summary": "燈工琉璃製作(星空/宇宙花紋)",
       "organizer": "Treasures Of Q",
@@ -1076,7 +1076,7 @@
       "location_address": null,
       "age_min": null,
       "age_max": null,
-      "price": 29,
+      "price": 33,
       "is_free": false,
       "summary": "【手鐲/手環】含燙金 一人成團【台中東海課程】",
       "organizer": "MISTER 手作皮件專門店",
@@ -1122,17 +1122,17 @@
       "source": "pinkoi"
     },
     {
-      "title": "台中 植愛鯨魚─浮球彩繪花器 (一人成團)",
-      "url": "https://www.pinkoi.com/product/rmgvpnrc",
+      "title": "台中 最美海廢 海玻璃拼貼畫 (一人成團)",
+      "url": "https://www.pinkoi.com/product/gHvLw6Xk",
       "date_start": null,
       "date_end": null,
       "location_city": "台中市",
       "location_address": null,
       "age_min": null,
       "age_max": null,
-      "price": 18,
+      "price": 21,
       "is_free": false,
-      "summary": "台中 植愛鯨魚─浮球彩繪花器 (一人成團)",
+      "summary": "台中 最美海廢 海玻璃拼貼畫 (一人成團)",
       "organizer": "歐勳洋行",
       "tags": [
         "DIY手作"
@@ -1176,17 +1176,17 @@
       "source": "pinkoi"
     },
     {
-      "title": "台中 最美海廢 海玻璃拼貼畫 (一人成團)",
-      "url": "https://www.pinkoi.com/product/gHvLw6Xk",
+      "title": "台中 植愛鯨魚─浮球彩繪花器 (一人成團)",
+      "url": "https://www.pinkoi.com/product/rmgvpnrc",
       "date_start": null,
       "date_end": null,
       "location_city": "台中市",
       "location_address": null,
       "age_min": null,
       "age_max": null,
-      "price": 21,
+      "price": 18,
       "is_free": false,
-      "summary": "台中 最美海廢 海玻璃拼貼畫 (一人成團)",
+      "summary": "台中 植愛鯨魚─浮球彩繪花器 (一人成團)",
       "organizer": "歐勳洋行",
       "tags": [
         "DIY手作"
@@ -1595,6 +1595,22 @@
       "source": "culture_cloud"
     },
     {
+      "title": "2026思默好時親子二手市集",
+      "url": "https://www.accupass.com/event/2609220830082004120600",
+      "date_start": "2026-10-03",
+      "date_end": "2026-10-03",
+      "location_city": "台中市",
+      "location_address": null,
+      "age_min": null,
+      "age_max": null,
+      "price": null,
+      "is_free": null,
+      "summary": "2026思默好時親子二手市集",
+      "organizer": null,
+      "tags": [],
+      "source": "accupass"
+    },
+    {
       "title": "【台中-上午大童場】10/17 親子金錢探險日 ",
       "url": "https://www.accupass.com/event/2608140716293876502870",
       "date_start": "2026-10-17",
@@ -1644,54 +1660,6 @@
       "tags": [
         "室內"
       ],
-      "source": "accupass"
-    },
-    {
-      "title": "誠品書店台中480市政店｜上誼姐姐說故事《窗裡有什麼？》",
-      "url": "https://www.accupass.com/event/2609210707209666424910",
-      "date_start": "2026-10-25",
-      "date_end": "2026-10-25",
-      "location_city": "台中市",
-      "location_address": null,
-      "age_min": null,
-      "age_max": null,
-      "price": null,
-      "is_free": null,
-      "summary": "誠品書店台中480市政店｜上誼姐姐說故事《窗裡有什麼？》",
-      "organizer": null,
-      "tags": [],
-      "source": "accupass"
-    },
-    {
-      "title": "誠品書店台中三井店｜上誼姐姐說故事《窗裡有什麼？》",
-      "url": "https://www.accupass.com/event/2609210702173439493810",
-      "date_start": "2026-10-17",
-      "date_end": "2026-10-17",
-      "location_city": "台中市",
-      "location_address": null,
-      "age_min": null,
-      "age_max": null,
-      "price": null,
-      "is_free": null,
-      "summary": "誠品書店台中三井店｜上誼姐姐說故事《窗裡有什麼？》",
-      "organizer": null,
-      "tags": [],
-      "source": "accupass"
-    },
-    {
-      "title": "誠品書店台中園道店｜上誼姐姐說故事《窗裡有什麼？》",
-      "url": "https://www.accupass.com/event/2609210656543981669870",
-      "date_start": "2026-10-24",
-      "date_end": "2026-10-24",
-      "location_city": "台中市",
-      "location_address": null,
-      "age_min": null,
-      "age_max": null,
-      "price": null,
-      "is_free": null,
-      "summary": "誠品書店台中園道店｜上誼姐姐說故事《窗裡有什麼？》",
-      "organizer": null,
-      "tags": [],
       "source": "accupass"
     },
     {
@@ -2699,7 +2667,7 @@
     {
       "title": "科博館《古代人說故事》南屯山仔腳遺址出土的鐵刀首亮相!",
       "url": "https://cloud.culture.tw/frontsite/inquiry/eventInquiryAction.do?method=showEventDetail&uid=5b3dd544aaa378d7ca9a2e9a",
-      "date_start": "2026-09-22",
+      "date_start": "2026-09-23",
       "date_end": "2028-12-31",
       "location_city": "台中市",
       "location_address": "臺中市40453 臺中市北區館前路一號",
@@ -2883,6 +2851,25 @@
         "室內"
       ],
       "source": "culture_cloud"
+    },
+    {
+      "title": "【鹿芝谷9月-10月】甲蟲標本DIY製作小教室｜鹿芝谷昆蟲館 × 生態DIY課程",
+      "url": "https://www.accupass.com/event/2609210550523307601570",
+      "date_start": "2026-09-26",
+      "date_end": "2026-09-26",
+      "location_city": "南投縣",
+      "location_address": null,
+      "age_min": null,
+      "age_max": null,
+      "price": null,
+      "is_free": null,
+      "summary": "【鹿芝谷9月-10月】甲蟲標本DIY製作小教室｜鹿芝谷昆蟲館 × 生態DIY課程",
+      "organizer": null,
+      "tags": [
+        "DIY手作",
+        "室內"
+      ],
+      "source": "accupass"
     },
     {
       "title": "戴勝益創作個展",
