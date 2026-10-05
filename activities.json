@@ -1,6 +1,6 @@
 {
-  "scraped_at": "2026-10-04T00:16:04",
-  "total": 220,
+  "scraped_at": "2026-10-05T00:25:17",
+  "total": 219,
   "activities": [
     {
       "title": "Mister Donut 小小烘焙師 甜甜圈DIY（台中遠百門市）",
@@ -248,25 +248,6 @@
       "source": "pinkoi"
     },
     {
-      "title": "台中 手繪首飾/磁鐵 DIY體驗 (一人成團)",
-      "url": "https://www.pinkoi.com/product/AB4MpQBy",
-      "date_start": null,
-      "date_end": null,
-      "location_city": "台中市",
-      "location_address": null,
-      "age_min": null,
-      "age_max": null,
-      "price": 18,
-      "is_free": false,
-      "summary": "台中 手繪首飾/磁鐵 DIY體驗 (一人成團)",
-      "organizer": "歐勳洋行",
-      "tags": [
-        "DIY手作",
-        "體驗課"
-      ],
-      "source": "pinkoi"
-    },
-    {
       "title": "台中陶藝體驗活動—手拉坯 下單前請先詢問時段喔",
       "url": "https://www.pinkoi.com/product/LZUQWVqq",
       "date_start": null,
@@ -279,6 +260,25 @@
       "is_free": false,
       "summary": "台中陶藝體驗活動—手拉坯 下單前請先詢問時段喔",
       "organizer": "華山窯huashan.kiln",
+      "tags": [
+        "DIY手作",
+        "體驗課"
+      ],
+      "source": "pinkoi"
+    },
+    {
+      "title": "台中 手繪首飾/磁鐵 DIY體驗 (一人成團)",
+      "url": "https://www.pinkoi.com/product/AB4MpQBy",
+      "date_start": null,
+      "date_end": null,
+      "location_city": "台中市",
+      "location_address": null,
+      "age_min": null,
+      "age_max": null,
+      "price": 18,
+      "is_free": false,
+      "summary": "台中 手繪首飾/磁鐵 DIY體驗 (一人成團)",
+      "organizer": "歐勳洋行",
       "tags": [
         "DIY手作",
         "體驗課"
@@ -438,25 +438,6 @@
       "source": "pinkoi"
     },
     {
-      "title": "太陽眼鏡盒/眼鏡盒/袋/包 【燙金體驗/一人成團】台中東海課程",
-      "url": "https://www.pinkoi.com/product/gmhsnejW",
-      "date_start": null,
-      "date_end": null,
-      "location_city": "台中市",
-      "location_address": null,
-      "age_min": null,
-      "age_max": null,
-      "price": 40,
-      "is_free": false,
-      "summary": "太陽眼鏡盒/眼鏡盒/袋/包 【燙金體驗/一人成團】台中東海課程",
-      "organizer": "MISTER 手作皮件專門店",
-      "tags": [
-        "DIY手作",
-        "體驗課"
-      ],
-      "source": "pinkoi"
-    },
-    {
       "title": "【體驗季優惠】黃銅皮革鑰匙圈/一人成班/金工皮革體驗",
       "url": "https://www.pinkoi.com/product/gYKLSpNG",
       "date_start": null,
@@ -469,6 +450,25 @@
       "is_free": false,
       "summary": "【體驗季優惠】黃銅皮革鑰匙圈/一人成班/金工皮革體驗",
       "organizer": "沐籟Moonlight 工藝設計/選品/體驗店",
+      "tags": [
+        "DIY手作",
+        "體驗課"
+      ],
+      "source": "pinkoi"
+    },
+    {
+      "title": "太陽眼鏡盒/眼鏡盒/袋/包 【燙金體驗/一人成團】台中東海課程",
+      "url": "https://www.pinkoi.com/product/gmhsnejW",
+      "date_start": null,
+      "date_end": null,
+      "location_city": "台中市",
+      "location_address": null,
+      "age_min": null,
+      "age_max": null,
+      "price": 40,
+      "is_free": false,
+      "summary": "太陽眼鏡盒/眼鏡盒/袋/包 【燙金體驗/一人成團】台中東海課程",
+      "organizer": "MISTER 手作皮件專門店",
       "tags": [
         "DIY手作",
         "體驗課"
@@ -1282,6 +1282,26 @@
       "source": "beclass"
     },
     {
+      "title": "【丸文 × 寶熊】一日小小海洋職人體驗｜釣魚闖關 × 魚丸手作 × 海洋食育",
+      "url": "https://www.accupass.com/event/2609230816361803121280",
+      "date_start": "2026-10-17",
+      "date_end": "2026-10-17",
+      "location_city": "台中市",
+      "location_address": null,
+      "age_min": null,
+      "age_max": null,
+      "price": null,
+      "is_free": null,
+      "summary": "【丸文 × 寶熊】一日小小海洋職人體驗｜釣魚闖關 × 魚丸手作 × 海洋食育",
+      "organizer": null,
+      "tags": [
+        "體驗課",
+        "職業體驗",
+        "DIY手作"
+      ],
+      "source": "accupass"
+    },
+    {
       "title": "2026年台中寫字正姿教學（親子組）",
       "url": "https://www.beclass.com/rid=3052518696f50b58625b",
       "date_start": null,
@@ -1428,6 +1448,24 @@
       "source": "accupass"
     },
     {
+      "title": "[丸文x自行車]健康補給體驗",
+      "url": "https://www.accupass.com/event/2609230632381820813530",
+      "date_start": "2026-10-13",
+      "date_end": "2026-10-13",
+      "location_city": "台中市",
+      "location_address": null,
+      "age_min": null,
+      "age_max": null,
+      "price": null,
+      "is_free": null,
+      "summary": "[丸文x自行車]健康補給體驗",
+      "organizer": null,
+      "tags": [
+        "體驗課"
+      ],
+      "source": "accupass"
+    },
+    {
       "title": "永信醫藥文物館｜萬聖限定活動【突破魔女迷霧—自然之光萬花筒 DIY】",
       "url": "https://www.accupass.com/event/2609180355252028232892",
       "date_start": "2026-10-31",
@@ -1514,6 +1552,25 @@
       "price": 0,
       "is_free": true,
       "summary": "【溪東分館】10/23小小說書人-繪本說故事｜2026-10-23 ~ 2026-10-23 10:00-00:00｜溪東分館 1F親子共讀區",
+      "organizer": "台中市政府文化局",
+      "tags": [
+        "職業體驗",
+        "室內"
+      ],
+      "source": "taichung_culture"
+    },
+    {
+      "title": "【興安分館】10/23 多元閱讀 ~ 小小說書人",
+      "url": "https://activity.culture.taichung.gov.tw/",
+      "date_start": "2026-10-23",
+      "date_end": "2026-10-23",
+      "location_city": "台中市",
+      "location_address": "興安分館北屯區  1F親子共讀區",
+      "age_min": null,
+      "age_max": null,
+      "price": 0,
+      "is_free": true,
+      "summary": "【興安分館】10/23 多元閱讀 ~ 小小說書人｜2026-10-23 ~ 2026-10-23 10:00-10:30｜興安分館北屯區  1F親子共讀區",
       "organizer": "台中市政府文化局",
       "tags": [
         "職業體驗",
@@ -1719,6 +1776,22 @@
       "source": "accupass"
     },
     {
+      "title": "誠品書店台中480市政店｜上誼姐姐說故事《窗裡有什麼？》",
+      "url": "https://www.accupass.com/event/2609210707209666424910",
+      "date_start": "2026-10-25",
+      "date_end": "2026-10-25",
+      "location_city": "台中市",
+      "location_address": null,
+      "age_min": null,
+      "age_max": null,
+      "price": null,
+      "is_free": null,
+      "summary": "誠品書店台中480市政店｜上誼姐姐說故事《窗裡有什麼？》",
+      "organizer": null,
+      "tags": [],
+      "source": "accupass"
+    },
+    {
       "title": "誠品書店台中園道店｜上誼姐姐說故事《窗裡有什麼？》",
       "url": "https://www.accupass.com/event/2609210656543981669870",
       "date_start": "2026-10-24",
@@ -1746,22 +1819,6 @@
       "price": null,
       "is_free": null,
       "summary": "誠品書店台中園道店｜未來姐姐說故事《上恐怖的這一工》",
-      "organizer": null,
-      "tags": [],
-      "source": "accupass"
-    },
-    {
-      "title": "誠品書店台中480市政店｜上誼姐姐說故事《窗裡有什麼？》",
-      "url": "https://www.accupass.com/event/2609210707209666424910",
-      "date_start": "2026-10-25",
-      "date_end": "2026-10-25",
-      "location_city": "台中市",
-      "location_address": null,
-      "age_min": null,
-      "age_max": null,
-      "price": null,
-      "is_free": null,
-      "summary": "誠品書店台中480市政店｜上誼姐姐說故事《窗裡有什麼？》",
       "organizer": null,
       "tags": [],
       "source": "accupass"
@@ -2303,24 +2360,6 @@
       "source": "taichung_culture"
     },
     {
-      "title": "【西屯分館】10/18西屯假日放電影：心之觸碰",
-      "url": "https://activity.culture.taichung.gov.tw/",
-      "date_start": "2026-10-18",
-      "date_end": "2026-10-18",
-      "location_city": "台中市",
-      "location_address": "西屯分館西屯區  一樓兒童閱覽區",
-      "age_min": null,
-      "age_max": null,
-      "price": 0,
-      "is_free": true,
-      "summary": "【西屯分館】10/18西屯假日放電影：心之觸碰｜2026-10-18 ~ 2026-10-18 10:00-11:30｜西屯分館西屯區  一樓兒童閱覽區",
-      "organizer": "台中市政府文化局",
-      "tags": [
-        "室內"
-      ],
-      "source": "taichung_culture"
-    },
-    {
       "title": "【東區分館】10/18  陸爸爸說演故事-怕浪費奶奶的奶奶",
       "url": "https://activity.culture.taichung.gov.tw/",
       "date_start": "2026-10-18",
@@ -2663,24 +2702,6 @@
       "source": "taichung_culture"
     },
     {
-      "title": "【西屯分館】10/11西屯假日放電影：屁屁偵探：再見親愛的夥伴，屁屁啊",
-      "url": "https://activity.culture.taichung.gov.tw/",
-      "date_start": "2026-10-11",
-      "date_end": "2026-10-11",
-      "location_city": "台中市",
-      "location_address": "西屯分館西屯區  一樓兒童閱覽區",
-      "age_min": null,
-      "age_max": null,
-      "price": 0,
-      "is_free": true,
-      "summary": "【西屯分館】10/11西屯假日放電影：屁屁偵探：再見親愛的夥伴，屁屁啊｜2026-10-11 ~ 2026-10-11 10:00-11:30｜西屯分館西屯區  一樓兒童閱覽區",
-      "organizer": "台中市政府文化局",
-      "tags": [
-        "室內"
-      ],
-      "source": "taichung_culture"
-    },
-    {
       "title": "【大墩分館】10/10親子故事屋~猩蒂瑞拉 (臺語)",
       "url": "https://activity.culture.taichung.gov.tw/",
       "date_start": "2026-10-10",
@@ -2782,42 +2803,6 @@
       "price": 0,
       "is_free": true,
       "summary": "【中區分館】10/4、10/18【電影饗宴】10/4《哆啦A夢：新・大雄的日本誕生》； 10/18《哆啦A夢：新・大雄的宇宙開拓史》｜2026-10-04 ~ 2026-10-18 10:00-12:",
-      "organizer": "台中市政府文化局",
-      "tags": [
-        "室內"
-      ],
-      "source": "taichung_culture"
-    },
-    {
-      "title": "【南區分館】10/4 台語說故事:比你更高",
-      "url": "https://activity.culture.taichung.gov.tw/",
-      "date_start": "2026-10-04",
-      "date_end": "2026-10-04",
-      "location_city": "台中市",
-      "location_address": "南區分館",
-      "age_min": null,
-      "age_max": null,
-      "price": 0,
-      "is_free": true,
-      "summary": "【南區分館】10/4 台語說故事:比你更高｜2026-10-04 ~ 2026-10-04 10:00-11:00｜南區分館",
-      "organizer": "台中市政府文化局",
-      "tags": [
-        "室內"
-      ],
-      "source": "taichung_culture"
-    },
-    {
-      "title": "【西屯分館】10/04西屯假日放電影：劇場版忍者亂太郎毒竹忍者隊最強之軍師",
-      "url": "https://activity.culture.taichung.gov.tw/",
-      "date_start": "2026-10-04",
-      "date_end": "2026-10-04",
-      "location_city": "台中市",
-      "location_address": "西屯分館西屯區  一樓兒童閱覽區",
-      "age_min": null,
-      "age_max": null,
-      "price": 0,
-      "is_free": true,
-      "summary": "【西屯分館】10/04西屯假日放電影：劇場版忍者亂太郎毒竹忍者隊最強之軍師｜2026-10-04 ~ 2026-10-04 10:00-11:30｜西屯分館西屯區  一樓兒童閱覽區",
       "organizer": "台中市政府文化局",
       "tags": [
         "室內"
@@ -2951,6 +2936,24 @@
       "source": "taichung_culture"
     },
     {
+      "title": "【東區分館】10/1-10/29 繪本分享會",
+      "url": "https://www.facebook.com/LibraryOfEastern/?ref=hl",
+      "date_start": "2026-10-01",
+      "date_end": "2026-10-29",
+      "location_city": "台中市",
+      "location_address": "東區分館東區  FB",
+      "age_min": null,
+      "age_max": null,
+      "price": 0,
+      "is_free": true,
+      "summary": "【東區分館】10/1-10/29 繪本分享會｜2026-10-01 ~ 2026-10-29 08:30-21:00｜東區分館東區  FB",
+      "organizer": "台中市政府文化局",
+      "tags": [
+        "室內"
+      ],
+      "source": "taichung_culture"
+    },
+    {
       "title": "【李科永紀念圖書分館】 10/01-10/31 親子天下小行星10週年集章活動",
       "url": "https://activity.culture.taichung.gov.tw/",
       "date_start": "2026-10-01",
@@ -3061,7 +3064,7 @@
     {
       "title": "科博館《古代人說故事》南屯山仔腳遺址出土的鐵刀首亮相!",
       "url": "https://cloud.culture.tw/frontsite/inquiry/eventInquiryAction.do?method=showEventDetail&uid=5b3dd544aaa378d7ca9a2e9a",
-      "date_start": "2026-10-04",
+      "date_start": "2026-10-06",
       "date_end": "2028-12-31",
       "location_city": "台中市",
       "location_address": "臺中市40453 臺中市北區館前路一號",
@@ -3357,22 +3360,6 @@
         "室內"
       ],
       "source": "culture_cloud"
-    },
-    {
-      "title": "叩叩叩藝起玩",
-      "url": "https://www.accupass.com/event/2609160156391647721152",
-      "date_start": "2026-10-04",
-      "date_end": "2026-10-04",
-      "location_city": "苗栗縣",
-      "location_address": null,
-      "age_min": null,
-      "age_max": null,
-      "price": null,
-      "is_free": null,
-      "summary": "叩叩叩藝起玩",
-      "organizer": null,
-      "tags": [],
-      "source": "accupass"
     },
     {
       "title": "卡通大冒險-親子音樂會",
