@@ -1,6 +1,6 @@
 {
-  "scraped_at": "2026-10-06T02:02:21",
-  "total": 219,
+  "scraped_at": "2026-10-07T01:08:31",
+  "total": 221,
   "activities": [
     {
       "title": "Mister Donut 小小烘焙師 甜甜圈DIY（台中遠百門市）",
@@ -850,24 +850,6 @@
       "source": "pinkoi"
     },
     {
-      "title": "【一人成團】可愛動物小桌花 台中手作課程",
-      "url": "https://www.pinkoi.com/product/Kg64CYvR",
-      "date_start": null,
-      "date_end": null,
-      "location_city": "台中市",
-      "location_address": null,
-      "age_min": null,
-      "age_max": null,
-      "price": 35,
-      "is_free": false,
-      "summary": "【一人成團】可愛動物小桌花 台中手作課程",
-      "organizer": "Meet Forist",
-      "tags": [
-        "DIY手作"
-      ],
-      "source": "pinkoi"
-    },
-    {
       "title": "【二叁室】花瓣氣泡泡澡球 3060是兩人費用",
       "url": "https://www.pinkoi.com/product/t3MZdtqY",
       "date_start": null,
@@ -880,6 +862,24 @@
       "is_free": false,
       "summary": "【二叁室】花瓣氣泡泡澡球 3060是兩人費用",
       "organizer": "二叁室手作教室",
+      "tags": [
+        "DIY手作"
+      ],
+      "source": "pinkoi"
+    },
+    {
+      "title": "【一人成團】可愛動物小桌花 台中手作課程",
+      "url": "https://www.pinkoi.com/product/Kg64CYvR",
+      "date_start": null,
+      "date_end": null,
+      "location_city": "台中市",
+      "location_address": null,
+      "age_min": null,
+      "age_max": null,
+      "price": 35,
+      "is_free": false,
+      "summary": "【一人成團】可愛動物小桌花 台中手作課程",
+      "organizer": "Meet Forist",
       "tags": [
         "DIY手作"
       ],
@@ -1066,24 +1066,6 @@
       "source": "pinkoi"
     },
     {
-      "title": "台中 浮球頭足類 空氣鳳梨植栽 (一人成團)",
-      "url": "https://www.pinkoi.com/product/iH3A3RAb",
-      "date_start": null,
-      "date_end": null,
-      "location_city": "台中市",
-      "location_address": null,
-      "age_min": null,
-      "age_max": null,
-      "price": 21,
-      "is_free": false,
-      "summary": "台中 浮球頭足類 空氣鳳梨植栽 (一人成團)",
-      "organizer": "歐勳洋行",
-      "tags": [
-        "DIY手作"
-      ],
-      "source": "pinkoi"
-    },
-    {
       "title": "冰島胖寶包  可拼色  絨面材質 (可使用文化幣)",
       "url": "https://www.pinkoi.com/product/ZuTPaNY5",
       "date_start": null,
@@ -1096,6 +1078,42 @@
       "is_free": false,
       "summary": "冰島胖寶包  可拼色  絨面材質 (可使用文化幣)",
       "organizer": "覓謐me.169",
+      "tags": [
+        "DIY手作"
+      ],
+      "source": "pinkoi"
+    },
+    {
+      "title": "台中 植愛鯨魚─浮球彩繪花器 (一人成團)",
+      "url": "https://www.pinkoi.com/product/rmgvpnrc",
+      "date_start": null,
+      "date_end": null,
+      "location_city": "台中市",
+      "location_address": null,
+      "age_min": null,
+      "age_max": null,
+      "price": 18,
+      "is_free": false,
+      "summary": "台中 植愛鯨魚─浮球彩繪花器 (一人成團)",
+      "organizer": "歐勳洋行",
+      "tags": [
+        "DIY手作"
+      ],
+      "source": "pinkoi"
+    },
+    {
+      "title": "台中 浮球頭足類 空氣鳳梨植栽 (一人成團)",
+      "url": "https://www.pinkoi.com/product/iH3A3RAb",
+      "date_start": null,
+      "date_end": null,
+      "location_city": "台中市",
+      "location_address": null,
+      "age_min": null,
+      "age_max": null,
+      "price": 21,
+      "is_free": false,
+      "summary": "台中 浮球頭足類 空氣鳳梨植栽 (一人成團)",
+      "organizer": "歐勳洋行",
       "tags": [
         "DIY手作"
       ],
@@ -1131,24 +1149,6 @@
       "price": 38,
       "is_free": false,
       "summary": "台中 海洋系紙塑掛飾 (一人成團)",
-      "organizer": "歐勳洋行",
-      "tags": [
-        "DIY手作"
-      ],
-      "source": "pinkoi"
-    },
-    {
-      "title": "台中 植愛鯨魚─浮球彩繪花器 (一人成團)",
-      "url": "https://www.pinkoi.com/product/rmgvpnrc",
-      "date_start": null,
-      "date_end": null,
-      "location_city": "台中市",
-      "location_address": null,
-      "age_min": null,
-      "age_max": null,
-      "price": 18,
-      "is_free": false,
-      "summary": "台中 植愛鯨魚─浮球彩繪花器 (一人成團)",
       "organizer": "歐勳洋行",
       "tags": [
         "DIY手作"
@@ -1282,24 +1282,20 @@
       "source": "beclass"
     },
     {
-      "title": "【丸文 × 寶熊】一日小小海洋職人體驗｜釣魚闖關 × 魚丸手作 × 海洋食育",
-      "url": "https://www.accupass.com/event/2609230816361803121280",
+      "title": "『湯姆熊』2026年度親子兒童劇-湯姆西遊記2.0(2026/10/17 台中麗寶店)",
+      "url": "https://www.beclass.com/rid=30528426abc8b16384be",
       "date_start": "2026-10-17",
       "date_end": "2026-10-17",
       "location_city": "台中市",
       "location_address": null,
       "age_min": null,
       "age_max": null,
-      "price": null,
-      "is_free": null,
-      "summary": "【丸文 × 寶熊】一日小小海洋職人體驗｜釣魚闖關 × 魚丸手作 × 海洋食育",
+      "price": 2026,
+      "is_free": false,
+      "summary": "『湯姆熊』2026年度親子兒童劇-湯姆西遊記2.0(2026/10/17 台中麗寶店)",
       "organizer": null,
-      "tags": [
-        "體驗課",
-        "職業體驗",
-        "DIY手作"
-      ],
-      "source": "accupass"
+      "tags": [],
+      "source": "beclass"
     },
     {
       "title": "2026年台中寫字正姿教學（親子組）",
@@ -1318,36 +1314,17 @@
       "source": "beclass"
     },
     {
-      "title": "2026年10月植物療癒體驗：花草占卜 × 草本足浴包DIY",
-      "url": "https://www.accupass.com/event/2609150815121271795764",
-      "date_start": "2026-10-06",
-      "date_end": "2026-10-06",
+      "title": "[台中] 和菓子手作體驗 - 金葉秋菊",
+      "url": "https://www.accupass.com/event/2610050353339597723970",
+      "date_start": "2026-11-15",
+      "date_end": "2026-11-15",
       "location_city": "台中市",
       "location_address": null,
       "age_min": null,
       "age_max": null,
       "price": null,
       "is_free": null,
-      "summary": "2026年10月植物療癒體驗：花草占卜 × 草本足浴包DIY",
-      "organizer": null,
-      "tags": [
-        "體驗課",
-        "DIY手作"
-      ],
-      "source": "accupass"
-    },
-    {
-      "title": "115年10月場 編織補夢網DIY：在貓咪咖啡廳體驗最療癒的手作時光！",
-      "url": "https://www.accupass.com/event/2609140931236307634930",
-      "date_start": "2026-10-07",
-      "date_end": "2026-10-07",
-      "location_city": "台中市",
-      "location_address": null,
-      "age_min": null,
-      "age_max": null,
-      "price": null,
-      "is_free": null,
-      "summary": "115年10月場 編織補夢網DIY：在貓咪咖啡廳體驗最療癒的手作時光！",
+      "summary": "[台中] 和菓子手作體驗 - 金葉秋菊",
       "organizer": null,
       "tags": [
         "體驗課",
@@ -1467,17 +1444,71 @@
       "source": "accupass"
     },
     {
-      "title": "🧁【台中手作】甜點試煉場！完成手作與評分，領取 $4,000 挑戰獎金！",
-      "url": "https://www.accupass.com/event/2609290631063968637100",
-      "date_start": "2026-10-17",
-      "date_end": "2026-10-17",
+      "title": "拼出東方光澤｜螺鈿胸針DIY手作課",
+      "url": "https://www.accupass.com/event/2610050545032068761440",
+      "date_start": "2026-11-05",
+      "date_end": "2026-11-05",
       "location_city": "台中市",
       "location_address": null,
       "age_min": null,
       "age_max": null,
-      "price": 0,
-      "is_free": true,
-      "summary": "🧁【台中手作】甜點試煉場！完成手作與評分，領取 $4,000 挑戰獎金！",
+      "price": null,
+      "is_free": null,
+      "summary": "拼出東方光澤｜螺鈿胸針DIY手作課",
+      "organizer": null,
+      "tags": [
+        "DIY手作"
+      ],
+      "source": "accupass"
+    },
+    {
+      "title": "2026年11-12月馬賽克杯墊與筆筒DIY",
+      "url": "https://www.accupass.com/event/2610050609347850085470",
+      "date_start": "2026-11-07",
+      "date_end": "2026-11-07",
+      "location_city": "台中市",
+      "location_address": null,
+      "age_min": null,
+      "age_max": null,
+      "price": null,
+      "is_free": null,
+      "summary": "2026年11-12月馬賽克杯墊與筆筒DIY",
+      "organizer": null,
+      "tags": [
+        "DIY手作"
+      ],
+      "source": "accupass"
+    },
+    {
+      "title": "永不凋謝的百合｜扭扭棒花藝盆栽DIY",
+      "url": "https://www.accupass.com/event/2610050444595611013360",
+      "date_start": "2026-11-02",
+      "date_end": "2026-11-02",
+      "location_city": "台中市",
+      "location_address": null,
+      "age_min": null,
+      "age_max": null,
+      "price": null,
+      "is_free": null,
+      "summary": "永不凋謝的百合｜扭扭棒花藝盆栽DIY",
+      "organizer": null,
+      "tags": [
+        "DIY手作"
+      ],
+      "source": "accupass"
+    },
+    {
+      "title": "青草按摩槌DIY：香氣與草本的療癒手作日",
+      "url": "https://www.accupass.com/event/2610050522431964688710",
+      "date_start": "2026-11-04",
+      "date_end": "2026-11-04",
+      "location_city": "台中市",
+      "location_address": null,
+      "age_min": null,
+      "age_max": null,
+      "price": null,
+      "is_free": null,
+      "summary": "青草按摩槌DIY：香氣與草本的療癒手作日",
       "organizer": null,
       "tags": [
         "DIY手作"
@@ -1758,22 +1789,6 @@
       "source": "accupass"
     },
     {
-      "title": "誠品書店台中480市政店｜上誼姐姐說故事《窗裡有什麼？》",
-      "url": "https://www.accupass.com/event/2609210707209666424910",
-      "date_start": "2026-10-25",
-      "date_end": "2026-10-25",
-      "location_city": "台中市",
-      "location_address": null,
-      "age_min": null,
-      "age_max": null,
-      "price": null,
-      "is_free": null,
-      "summary": "誠品書店台中480市政店｜上誼姐姐說故事《窗裡有什麼？》",
-      "organizer": null,
-      "tags": [],
-      "source": "accupass"
-    },
-    {
       "title": "誠品書店台中園道店｜上誼姐姐說故事《窗裡有什麼？》",
       "url": "https://www.accupass.com/event/2609210656543981669870",
       "date_start": "2026-10-24",
@@ -1785,6 +1800,22 @@
       "price": null,
       "is_free": null,
       "summary": "誠品書店台中園道店｜上誼姐姐說故事《窗裡有什麼？》",
+      "organizer": null,
+      "tags": [],
+      "source": "accupass"
+    },
+    {
+      "title": "誠品書店台中480市政店｜上誼姐姐說故事《窗裡有什麼？》",
+      "url": "https://www.accupass.com/event/2609210707209666424910",
+      "date_start": "2026-10-25",
+      "date_end": "2026-10-25",
+      "location_city": "台中市",
+      "location_address": null,
+      "age_min": null,
+      "age_max": null,
+      "price": null,
+      "is_free": null,
+      "summary": "誠品書店台中480市政店｜上誼姐姐說故事《窗裡有什麼？》",
       "organizer": null,
       "tags": [],
       "source": "accupass"
@@ -3062,7 +3093,7 @@
     {
       "title": "科博館《古代人說故事》南屯山仔腳遺址出土的鐵刀首亮相!",
       "url": "https://cloud.culture.tw/frontsite/inquiry/eventInquiryAction.do?method=showEventDetail&uid=5b3dd544aaa378d7ca9a2e9a",
-      "date_start": "2026-10-06",
+      "date_start": "2026-10-07",
       "date_end": "2028-12-31",
       "location_city": "台中市",
       "location_address": "臺中市40453 臺中市北區館前路一號",
@@ -3913,7 +3944,7 @@
       "title": "2026年10月【員林市立圖書館-說故事活動】共2場",
       "url": "https://www.facebook.com/yuanlinlibrary",
       "date_start": "2026-10-04",
-      "date_end": "2026-11-29",
+      "date_end": "2026-12-20",
       "location_city": "彰化縣",
       "location_address": "彰化縣員林市三民街2之1號",
       "age_min": null,
