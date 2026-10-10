@@ -1,6 +1,6 @@
 {
-  "scraped_at": "2026-10-09T01:37:24",
-  "total": 221,
+  "scraped_at": "2026-10-10T01:25:24",
+  "total": 222,
   "activities": [
     {
       "title": "Mister Donut 小小烘焙師 甜甜圈DIY（台中遠百門市）",
@@ -778,24 +778,6 @@
       "source": "pinkoi"
     },
     {
-      "title": "【二叁室】花瓣氣泡泡澡球 1800是一人費用",
-      "url": "https://www.pinkoi.com/product/h6YW6PHP",
-      "date_start": null,
-      "date_end": null,
-      "location_city": "台中市",
-      "location_address": null,
-      "age_min": null,
-      "age_max": null,
-      "price": 60,
-      "is_free": false,
-      "summary": "【二叁室】花瓣氣泡泡澡球 1800是一人費用",
-      "organizer": "二叁室手作教室",
-      "tags": [
-        "DIY手作"
-      ],
-      "source": "pinkoi"
-    },
-    {
       "title": "【一人成團】可愛動物小桌花 台中手作課程",
       "url": "https://www.pinkoi.com/product/Kg64CYvR",
       "date_start": null,
@@ -832,6 +814,24 @@
       "source": "pinkoi"
     },
     {
+      "title": "【二叁室】花瓣氣泡泡澡球 1800是一人費用",
+      "url": "https://www.pinkoi.com/product/h6YW6PHP",
+      "date_start": null,
+      "date_end": null,
+      "location_city": "台中市",
+      "location_address": null,
+      "age_min": null,
+      "age_max": null,
+      "price": 60,
+      "is_free": false,
+      "summary": "【二叁室】花瓣氣泡泡澡球 1800是一人費用",
+      "organizer": "二叁室手作教室",
+      "tags": [
+        "DIY手作"
+      ],
+      "source": "pinkoi"
+    },
+    {
       "title": "寵物窩編織  貓窩編織  狗窩編織  倉鼠窩編織  寵物床",
       "url": "https://www.pinkoi.com/product/4bMgQjHv",
       "date_start": null,
@@ -850,8 +850,8 @@
       "source": "pinkoi"
     },
     {
-      "title": "【二叁室】花瓣氣泡泡澡球 3060是兩人費用",
-      "url": "https://www.pinkoi.com/product/t3MZdtqY",
+      "title": "【二叁室】醜萌泡泡浴芭 3060是兩人費用",
+      "url": "https://www.pinkoi.com/product/eQTardQy",
       "date_start": null,
       "date_end": null,
       "location_city": "台中市",
@@ -860,7 +860,7 @@
       "age_max": null,
       "price": 102,
       "is_free": false,
-      "summary": "【二叁室】花瓣氣泡泡澡球 3060是兩人費用",
+      "summary": "【二叁室】醜萌泡泡浴芭 3060是兩人費用",
       "organizer": "二叁室手作教室",
       "tags": [
         "DIY手作"
@@ -994,24 +994,6 @@
       "source": "pinkoi"
     },
     {
-      "title": "【二叁室】水晶泡澡球泡澡球 1800是一人費用",
-      "url": "https://www.pinkoi.com/product/ii8cFMmp",
-      "date_start": null,
-      "date_end": null,
-      "location_city": "台中市",
-      "location_address": null,
-      "age_min": null,
-      "age_max": null,
-      "price": 60,
-      "is_free": false,
-      "summary": "【二叁室】水晶泡澡球泡澡球 1800是一人費用",
-      "organizer": "二叁室手作教室",
-      "tags": [
-        "DIY手作"
-      ],
-      "source": "pinkoi"
-    },
-    {
       "title": "【二叁室】醜萌泡泡浴芭 1800是一人費用",
       "url": "https://www.pinkoi.com/product/K4teYRNe",
       "date_start": null,
@@ -1023,6 +1005,24 @@
       "price": 60,
       "is_free": false,
       "summary": "【二叁室】醜萌泡泡浴芭 1800是一人費用",
+      "organizer": "二叁室手作教室",
+      "tags": [
+        "DIY手作"
+      ],
+      "source": "pinkoi"
+    },
+    {
+      "title": "【二叁室】水晶泡澡球泡澡球 1800是一人費用",
+      "url": "https://www.pinkoi.com/product/ii8cFMmp",
+      "date_start": null,
+      "date_end": null,
+      "location_city": "台中市",
+      "location_address": null,
+      "age_min": null,
+      "age_max": null,
+      "price": 60,
+      "is_free": false,
+      "summary": "【二叁室】水晶泡澡球泡澡球 1800是一人費用",
       "organizer": "二叁室手作教室",
       "tags": [
         "DIY手作"
@@ -1066,8 +1066,8 @@
       "source": "pinkoi"
     },
     {
-      "title": "【二叁室】醜萌泡泡浴芭 3060是兩人費用",
-      "url": "https://www.pinkoi.com/product/eQTardQy",
+      "title": "【二叁室】花瓣氣泡泡澡球 3060是兩人費用",
+      "url": "https://www.pinkoi.com/product/t3MZdtqY",
       "date_start": null,
       "date_end": null,
       "location_city": "台中市",
@@ -1076,7 +1076,7 @@
       "age_max": null,
       "price": 102,
       "is_free": false,
-      "summary": "【二叁室】醜萌泡泡浴芭 3060是兩人費用",
+      "summary": "【二叁室】花瓣氣泡泡澡球 3060是兩人費用",
       "organizer": "二叁室手作教室",
       "tags": [
         "DIY手作"
@@ -1314,25 +1314,6 @@
       "source": "beclass"
     },
     {
-      "title": "《好室智造所》樂元好生活＿手作呼吸燈體驗課程× 鋁模板組裝體驗",
-      "url": "https://www.accupass.com/event/2609290716066616728120",
-      "date_start": "2026-10-09",
-      "date_end": "2026-10-09",
-      "location_city": "台中市",
-      "location_address": null,
-      "age_min": null,
-      "age_max": null,
-      "price": 0,
-      "is_free": true,
-      "summary": "《好室智造所》樂元好生活＿手作呼吸燈體驗課程× 鋁模板組裝體驗",
-      "organizer": null,
-      "tags": [
-        "體驗課",
-        "DIY手作"
-      ],
-      "source": "accupass"
-    },
-    {
       "title": "[台中] 和菓子手作體驗 - 金葉秋菊",
       "url": "https://www.accupass.com/event/2610050353339597723970",
       "date_start": "2026-11-15",
@@ -1407,24 +1388,6 @@
       "source": "accupass"
     },
     {
-      "title": "成為民主領航員｜小小議長營",
-      "url": "https://www.accupass.com/event/2609110142265299424970",
-      "date_start": "2026-10-24",
-      "date_end": "2026-10-24",
-      "location_city": "台中市",
-      "location_address": null,
-      "age_min": null,
-      "age_max": null,
-      "price": null,
-      "is_free": null,
-      "summary": "成為民主領航員｜小小議長營",
-      "organizer": null,
-      "tags": [
-        "職業體驗"
-      ],
-      "source": "accupass"
-    },
-    {
       "title": "10/10 小小評審團，第八屆《最佳兒童短片票選獎》",
       "url": "https://www.accupass.com/event/2609091240579186516300",
       "date_start": "2026-10-10",
@@ -1443,17 +1406,35 @@
       "source": "accupass"
     },
     {
-      "title": "拼出東方光澤｜螺鈿胸針DIY手作課",
-      "url": "https://www.accupass.com/event/2610050545032068761440",
-      "date_start": "2026-11-05",
-      "date_end": "2026-11-05",
+      "title": "成為民主領航員｜小小議長營",
+      "url": "https://www.accupass.com/event/2609110142265299424970",
+      "date_start": "2026-10-24",
+      "date_end": "2026-10-24",
       "location_city": "台中市",
       "location_address": null,
       "age_min": null,
       "age_max": null,
       "price": null,
       "is_free": null,
-      "summary": "拼出東方光澤｜螺鈿胸針DIY手作課",
+      "summary": "成為民主領航員｜小小議長營",
+      "organizer": null,
+      "tags": [
+        "職業體驗"
+      ],
+      "source": "accupass"
+    },
+    {
+      "title": "青草按摩槌DIY：香氣與草本的療癒手作日",
+      "url": "https://www.accupass.com/event/2610050522431964688710",
+      "date_start": "2026-11-04",
+      "date_end": "2026-11-04",
+      "location_city": "台中市",
+      "location_address": null,
+      "age_min": null,
+      "age_max": null,
+      "price": null,
+      "is_free": null,
+      "summary": "青草按摩槌DIY：香氣與草本的療癒手作日",
       "organizer": null,
       "tags": [
         "DIY手作"
@@ -1508,6 +1489,24 @@
       "price": null,
       "is_free": null,
       "summary": "永不凋謝的百合｜扭扭棒花藝盆栽DIY",
+      "organizer": null,
+      "tags": [
+        "DIY手作"
+      ],
+      "source": "accupass"
+    },
+    {
+      "title": "拼出東方光澤｜螺鈿胸針DIY手作課",
+      "url": "https://www.accupass.com/event/2610050545032068761440",
+      "date_start": "2026-11-05",
+      "date_end": "2026-11-05",
+      "location_city": "台中市",
+      "location_address": null,
+      "age_min": null,
+      "age_max": null,
+      "price": null,
+      "is_free": null,
+      "summary": "拼出東方光澤｜螺鈿胸針DIY手作課",
       "organizer": null,
       "tags": [
         "DIY手作"
@@ -1788,22 +1787,6 @@
       "source": "accupass"
     },
     {
-      "title": "誠品書店台中三井店｜上誼姐姐說故事《窗裡有什麼？》",
-      "url": "https://www.accupass.com/event/2609210702173439493810",
-      "date_start": "2026-10-17",
-      "date_end": "2026-10-17",
-      "location_city": "台中市",
-      "location_address": null,
-      "age_min": null,
-      "age_max": null,
-      "price": null,
-      "is_free": null,
-      "summary": "誠品書店台中三井店｜上誼姐姐說故事《窗裡有什麼？》",
-      "organizer": null,
-      "tags": [],
-      "source": "accupass"
-    },
-    {
       "title": "誠品書店台中480市政店｜上誼姐姐說故事《窗裡有什麼？》",
       "url": "https://www.accupass.com/event/2609210707209666424910",
       "date_start": "2026-10-25",
@@ -1815,6 +1798,22 @@
       "price": null,
       "is_free": null,
       "summary": "誠品書店台中480市政店｜上誼姐姐說故事《窗裡有什麼？》",
+      "organizer": null,
+      "tags": [],
+      "source": "accupass"
+    },
+    {
+      "title": "誠品書店台中三井店｜上誼姐姐說故事《窗裡有什麼？》",
+      "url": "https://www.accupass.com/event/2609210702173439493810",
+      "date_start": "2026-10-17",
+      "date_end": "2026-10-17",
+      "location_city": "台中市",
+      "location_address": null,
+      "age_min": null,
+      "age_max": null,
+      "price": null,
+      "is_free": null,
+      "summary": "誠品書店台中三井店｜上誼姐姐說故事《窗裡有什麼？》",
       "organizer": null,
       "tags": [],
       "source": "accupass"
@@ -3090,7 +3089,7 @@
     {
       "title": "科博館《古代人說故事》南屯山仔腳遺址出土的鐵刀首亮相!",
       "url": "https://cloud.culture.tw/frontsite/inquiry/eventInquiryAction.do?method=showEventDetail&uid=5b3dd544aaa378d7ca9a2e9a",
-      "date_start": "2026-10-09",
+      "date_start": "2026-10-10",
       "date_end": "2028-12-31",
       "location_city": "台中市",
       "location_address": "臺中市40453 臺中市北區館前路一號",
@@ -3386,6 +3385,22 @@
         "室內"
       ],
       "source": "culture_cloud"
+    },
+    {
+      "title": "鹿芝谷｜美語親子小旅行 11/15（日）",
+      "url": "https://www.accupass.com/event/2609220302231445306611",
+      "date_start": "2026-11-15",
+      "date_end": "2026-11-15",
+      "location_city": "南投縣",
+      "location_address": null,
+      "age_min": null,
+      "age_max": null,
+      "price": null,
+      "is_free": null,
+      "summary": "鹿芝谷｜美語親子小旅行 11/15（日）",
+      "organizer": null,
+      "tags": [],
+      "source": "accupass"
     },
     {
       "title": "卡通大冒險-親子音樂會",
