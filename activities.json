@@ -1,6 +1,6 @@
 {
-  "scraped_at": "2026-10-31T01:13:10",
-  "total": 198,
+  "scraped_at": "2026-11-01T00:36:36",
+  "total": 172,
   "activities": [
     {
       "title": "Mister Donut 小小烘焙師 甜甜圈DIY（台中遠百門市）",
@@ -321,25 +321,6 @@
       "source": "pinkoi"
     },
     {
-      "title": "【台中】紙有一個地球─種子球手作體驗 (一人成團)",
-      "url": "https://www.pinkoi.com/product/Q2SHgUit",
-      "date_start": null,
-      "date_end": null,
-      "location_city": "台中市",
-      "location_address": null,
-      "age_min": null,
-      "age_max": null,
-      "price": 18,
-      "is_free": false,
-      "summary": "【台中】紙有一個地球─種子球手作體驗 (一人成團)",
-      "organizer": "歐勳洋行",
-      "tags": [
-        "DIY手作",
-        "體驗課"
-      ],
-      "source": "pinkoi"
-    },
-    {
       "title": "永生花聖誕鈴鐺體驗活動",
       "url": "https://www.pinkoi.com/product/tKCqzbny",
       "date_start": null,
@@ -409,6 +390,25 @@
       "is_free": false,
       "summary": "親子體驗 鑰匙圈 皮革手作 體驗課程 台中 審計新村",
       "organizer": "Be Two 手工皮件工作坊",
+      "tags": [
+        "DIY手作",
+        "體驗課"
+      ],
+      "source": "pinkoi"
+    },
+    {
+      "title": "【台中】紙有一個地球─種子球手作體驗 (一人成團)",
+      "url": "https://www.pinkoi.com/product/Q2SHgUit",
+      "date_start": null,
+      "date_end": null,
+      "location_city": "台中市",
+      "location_address": null,
+      "age_min": null,
+      "age_max": null,
+      "price": 18,
+      "is_free": false,
+      "summary": "【台中】紙有一個地球─種子球手作體驗 (一人成團)",
+      "organizer": "歐勳洋行",
       "tags": [
         "DIY手作",
         "體驗課"
@@ -828,6 +828,24 @@
       "source": "pinkoi"
     },
     {
+      "title": "台中 鯨躍羊毛氈杯蓋 (一人成團)",
+      "url": "https://www.pinkoi.com/product/DSJUfjdu",
+      "date_start": null,
+      "date_end": null,
+      "location_city": "台中市",
+      "location_address": null,
+      "age_min": null,
+      "age_max": null,
+      "price": 34,
+      "is_free": false,
+      "summary": "台中 鯨躍羊毛氈杯蓋 (一人成團)",
+      "organizer": "歐勳洋行",
+      "tags": [
+        "DIY手作"
+      ],
+      "source": "pinkoi"
+    },
+    {
       "title": "【一人成團】蝴蝶浮游花手作花藝課程 小夜燈 台中 聖誕節",
       "url": "https://www.pinkoi.com/product/xmuLSyVa",
       "date_start": null,
@@ -912,24 +930,6 @@
       "is_free": false,
       "summary": "台灣麵包花與紙黏土推廣協會仿真設計證書課程",
       "organizer": "妮娜愛手作藝術工作室（實體課程請先聊聊設計師後再再下單)",
-      "tags": [
-        "DIY手作"
-      ],
-      "source": "pinkoi"
-    },
-    {
-      "title": "台中 鯨躍羊毛氈杯蓋 (一人成團)",
-      "url": "https://www.pinkoi.com/product/DSJUfjdu",
-      "date_start": null,
-      "date_end": null,
-      "location_city": "台中市",
-      "location_address": null,
-      "age_min": null,
-      "age_max": null,
-      "price": 34,
-      "is_free": false,
-      "summary": "台中 鯨躍羊毛氈杯蓋 (一人成團)",
-      "organizer": "歐勳洋行",
       "tags": [
         "DIY手作"
       ],
@@ -1299,6 +1299,25 @@
       "source": "accupass"
     },
     {
+      "title": "編織補夢網DIY：在貓咪咖啡廳體驗最療癒的手作時光！",
+      "url": "https://www.accupass.com/event/2610050603021733548101",
+      "date_start": "2026-11-06",
+      "date_end": "2026-11-06",
+      "location_city": "台中市",
+      "location_address": null,
+      "age_min": null,
+      "age_max": null,
+      "price": null,
+      "is_free": null,
+      "summary": "編織補夢網DIY：在貓咪咖啡廳體驗最療癒的手作時光！",
+      "organizer": null,
+      "tags": [
+        "體驗課",
+        "DIY手作"
+      ],
+      "source": "accupass"
+    },
+    {
       "title": "[台中] 和菓子手作體驗 - 金葉秋菊",
       "url": "https://www.accupass.com/event/2610050353339597723970",
       "date_start": "2026-11-15",
@@ -1347,6 +1366,24 @@
       "price": null,
       "is_free": null,
       "summary": "【小小音樂大師課】木琴 × 糖果屋｜台中",
+      "organizer": null,
+      "tags": [
+        "職業體驗"
+      ],
+      "source": "accupass"
+    },
+    {
+      "title": "小星星與小小星星們的聖誕故事屋",
+      "url": "https://www.accupass.com/event/2610070906347992270130",
+      "date_start": "2026-12-05",
+      "date_end": "2026-12-05",
+      "location_city": "台中市",
+      "location_address": null,
+      "age_min": null,
+      "age_max": null,
+      "price": null,
+      "is_free": null,
+      "summary": "小星星與小小星星們的聖誕故事屋",
       "organizer": null,
       "tags": [
         "職業體驗"
@@ -1462,6 +1499,24 @@
       "source": "accupass"
     },
     {
+      "title": "復古竹節包DIY｜從手縫到提把組裝的完整手作",
+      "url": "https://www.accupass.com/event/2610050451561307037721",
+      "date_start": "2026-11-03",
+      "date_end": "2026-11-03",
+      "location_city": "台中市",
+      "location_address": null,
+      "age_min": null,
+      "age_max": null,
+      "price": null,
+      "is_free": null,
+      "summary": "復古竹節包DIY｜從手縫到提把組裝的完整手作",
+      "organizer": null,
+      "tags": [
+        "DIY手作"
+      ],
+      "source": "accupass"
+    },
+    {
       "title": "拼出東方光澤｜螺鈿胸針DIY手作課",
       "url": "https://www.accupass.com/event/2610050545032068761440",
       "date_start": "2026-11-05",
@@ -1476,25 +1531,6 @@
       "organizer": null,
       "tags": [
         "DIY手作"
-      ],
-      "source": "accupass"
-    },
-    {
-      "title": "永信醫藥文物館｜萬聖限定活動【突破魔女迷霧—自然之光萬花筒 DIY】",
-      "url": "https://www.accupass.com/event/2609180355252028232892",
-      "date_start": "2026-10-31",
-      "date_end": "2026-10-31",
-      "location_city": "台中市",
-      "location_address": null,
-      "age_min": null,
-      "age_max": null,
-      "price": null,
-      "is_free": null,
-      "summary": "永信醫藥文物館｜萬聖限定活動【突破魔女迷霧—自然之光萬花筒 DIY】",
-      "organizer": null,
-      "tags": [
-        "DIY手作",
-        "室內"
       ],
       "source": "accupass"
     },
@@ -1610,44 +1646,6 @@
       "source": "taichung_culture"
     },
     {
-      "title": "【溪東分館】10/31 冰淇淋五感體驗課",
-      "url": "https://activity.culture.taichung.gov.tw/",
-      "date_start": "2026-10-31",
-      "date_end": "2026-10-31",
-      "location_city": "台中市",
-      "location_address": "溪東分館 3F多功能活動室",
-      "age_min": null,
-      "age_max": null,
-      "price": 0,
-      "is_free": true,
-      "summary": "【溪東分館】10/31 冰淇淋五感體驗課｜2026-10-31 ~ 2026-10-31 10:00-11:00｜溪東分館 3F多功能活動室",
-      "organizer": "台中市政府文化局",
-      "tags": [
-        "體驗課",
-        "室內"
-      ],
-      "source": "taichung_culture"
-    },
-    {
-      "title": "【西區分館】10/31 親子手作：繽紛的海底世界",
-      "url": "https://activity.culture.taichung.gov.tw/",
-      "date_start": "2026-10-31",
-      "date_end": "2026-10-31",
-      "location_city": "台中市",
-      "location_address": "西區分館",
-      "age_min": null,
-      "age_max": null,
-      "price": 0,
-      "is_free": true,
-      "summary": "【西區分館】10/31 親子手作：繽紛的海底世界｜2026-10-31 ~ 2026-10-31 09:00-11:00｜西區分館",
-      "organizer": "台中市政府文化局",
-      "tags": [
-        "DIY手作",
-        "室內"
-      ],
-      "source": "taichung_culture"
-    },
-    {
       "title": "《小小音樂大師課》孩子們的秋季交響樂・臺中",
       "url": "https://www.opentix.life/program/2079838758878900225",
       "date_start": "2026-11-07",
@@ -1698,6 +1696,22 @@
       "source": "accupass"
     },
     {
+      "title": "聖誕英文繪本 × 對話卡牌遊戲：親子一起開口說英文",
+      "url": "https://www.accupass.com/event/2610060559182339386940",
+      "date_start": "2026-12-19",
+      "date_end": "2026-12-19",
+      "location_city": "台中市",
+      "location_address": null,
+      "age_min": null,
+      "age_max": null,
+      "price": null,
+      "is_free": null,
+      "summary": "聖誕英文繪本 × 對話卡牌遊戲：親子一起開口說英文",
+      "organizer": null,
+      "tags": [],
+      "source": "accupass"
+    },
+    {
       "title": "舞笛室內樂團聖誕親子音樂劇 《聖誕快樂！快來打開胡桃鉗音樂故事書》",
       "url": "https://www.accupass.com/event/2609171548301323848746",
       "date_start": "2026-12-19",
@@ -1713,22 +1727,6 @@
       "tags": [
         "室內"
       ],
-      "source": "accupass"
-    },
-    {
-      "title": "聖誕英文繪本 × 對話卡牌遊戲：親子一起開口說英文",
-      "url": "https://www.accupass.com/event/2610060559182339386940",
-      "date_start": "2026-12-19",
-      "date_end": "2026-12-19",
-      "location_city": "台中市",
-      "location_address": null,
-      "age_min": null,
-      "age_max": null,
-      "price": null,
-      "is_free": null,
-      "summary": "聖誕英文繪本 × 對話卡牌遊戲：親子一起開口說英文",
-      "organizer": null,
-      "tags": [],
       "source": "accupass"
     },
     {
@@ -1780,9 +1778,9 @@
       "source": "accupass"
     },
     {
-      "title": "【西區分館】10/31 親子讀經班(第11期)",
+      "title": "【西區分館】11/07 親子讀經班(第11期)",
       "url": "https://activity.culture.taichung.gov.tw/",
-      "date_start": "2026-10-31",
+      "date_start": "2026-11-07",
       "date_end": "2026-12-19",
       "location_city": "台中市",
       "location_address": "西區分館",
@@ -1790,7 +1788,7 @@
       "age_max": null,
       "price": 0,
       "is_free": true,
-      "summary": "【西區分館】10/31 親子讀經班(第11期)｜2026-10-31 ~ 2026-10-31 09:00-11:00｜西區分館",
+      "summary": "【西區分館】11/07 親子讀經班(第11期)｜2026-11-07 ~ 2026-11-07 09:00-11:00｜西區分館",
       "organizer": "台中市政府文化局",
       "tags": [
         "室內"
@@ -2122,9 +2120,9 @@
       "source": "taichung_culture"
     },
     {
-      "title": "【東區分館】10/31  開心果姐姐說故事",
+      "title": "【東區分館】11/7  開心果姐姐說故事",
       "url": "https://activity.culture.taichung.gov.tw/",
-      "date_start": "2026-10-31",
+      "date_start": "2026-11-07",
       "date_end": "2026-11-07",
       "location_city": "台中市",
       "location_address": "東區分館",
@@ -2132,7 +2130,7 @@
       "age_max": null,
       "price": 0,
       "is_free": true,
-      "summary": "【東區分館】10/31  開心果姐姐說故事｜2026-10-31 ~ 2026-10-31 10:00-11:00｜東區分館",
+      "summary": "【東區分館】11/7  開心果姐姐說故事｜2026-11-07 ~ 2026-11-07 10:00-11:00｜東區分館",
       "organizer": "台中市政府文化局",
       "tags": [
         "室內"
@@ -2282,420 +2280,6 @@
       "source": "taichung_culture"
     },
     {
-      "title": "【溪西分館】10/31 假日故事屋 《精彩故事繪本》",
-      "url": "https://activity.culture.taichung.gov.tw/",
-      "date_start": "2026-10-31",
-      "date_end": "2026-10-31",
-      "location_city": "台中市",
-      "location_address": "溪西分館",
-      "age_min": null,
-      "age_max": null,
-      "price": 0,
-      "is_free": true,
-      "summary": "【溪西分館】10/31 假日故事屋 《精彩故事繪本》｜2026-10-31 ~ 2026-10-31 10:30-11:30｜溪西分館",
-      "organizer": "台中市政府文化局",
-      "tags": [
-        "室內"
-      ],
-      "source": "taichung_culture"
-    },
-    {
-      "title": "【南屯分館】10/31(週六說故事)原力再現說書活動:希望快點長大",
-      "url": "https://activity.culture.taichung.gov.tw/",
-      "date_start": "2026-10-31",
-      "date_end": "2026-10-31",
-      "location_city": "台中市",
-      "location_address": "南屯分館",
-      "age_min": null,
-      "age_max": null,
-      "price": 0,
-      "is_free": true,
-      "summary": "【南屯分館】10/31(週六說故事)原力再現說書活動:希望快點長大｜2026-10-31 ~ 2026-10-31 10:30-11:30｜南屯分館",
-      "organizer": "台中市政府文化局",
-      "tags": [
-        "室內"
-      ],
-      "source": "taichung_culture"
-    },
-    {
-      "title": "【西區分館】10/31 故事萬花筒：麵包宅急便 (閱讀起步走活動)",
-      "url": "https://activity.culture.taichung.gov.tw/",
-      "date_start": "2026-10-31",
-      "date_end": "2026-10-31",
-      "location_city": "台中市",
-      "location_address": "西區分館",
-      "age_min": null,
-      "age_max": null,
-      "price": 0,
-      "is_free": true,
-      "summary": "【西區分館】10/31 故事萬花筒：麵包宅急便 (閱讀起步走活動)｜2026-10-31 ~ 2026-10-31 10:30-11:10｜西區分館",
-      "organizer": "台中市政府文化局",
-      "tags": [
-        "室內"
-      ],
-      "source": "taichung_culture"
-    },
-    {
-      "title": "【中區分館】10/31 親子中文繪本說故事《完美的正方形》",
-      "url": "https://activity.culture.taichung.gov.tw/",
-      "date_start": "2026-10-31",
-      "date_end": "2026-10-31",
-      "location_city": "台中市",
-      "location_address": "中區分館中區  兒童室",
-      "age_min": null,
-      "age_max": null,
-      "price": 0,
-      "is_free": true,
-      "summary": "【中區分館】10/31 親子中文繪本說故事《完美的正方形》｜2026-10-31 ~ 2026-10-31 10:30-11:30｜中區分館中區  兒童室",
-      "organizer": "台中市政府文化局",
-      "tags": [
-        "室內"
-      ],
-      "source": "taichung_culture"
-    },
-    {
-      "title": "【北區分館】10/31故事百寶箱~我的名字",
-      "url": "https://activity.culture.taichung.gov.tw/",
-      "date_start": "2026-10-31",
-      "date_end": "2026-10-31",
-      "location_city": "台中市",
-      "location_address": "北區分館",
-      "age_min": null,
-      "age_max": null,
-      "price": 0,
-      "is_free": true,
-      "summary": "【北區分館】10/31故事百寶箱~我的名字｜2026-10-31 ~ 2026-10-31 10:30-11:10｜北區分館",
-      "organizer": "台中市政府文化局",
-      "tags": [
-        "室內"
-      ],
-      "source": "taichung_culture"
-    },
-    {
-      "title": "【大墩分館】10/31親子故事屋~皮皮貓~我愛我的白布鞋",
-      "url": "https://activity.culture.taichung.gov.tw/",
-      "date_start": "2026-10-31",
-      "date_end": "2026-10-31",
-      "location_city": "台中市",
-      "location_address": "大墩分館",
-      "age_min": null,
-      "age_max": null,
-      "price": 0,
-      "is_free": true,
-      "summary": "【大墩分館】10/31親子故事屋~皮皮貓~我愛我的白布鞋｜2026-10-31 ~ 2026-10-31 10:00-10:50｜大墩分館",
-      "organizer": "台中市政府文化局",
-      "tags": [
-        "室內"
-      ],
-      "source": "taichung_culture"
-    },
-    {
-      "title": "【南區分館】10/31 說故事活動:小兔子的願望",
-      "url": "https://activity.culture.taichung.gov.tw/",
-      "date_start": "2026-10-31",
-      "date_end": "2026-10-31",
-      "location_city": "台中市",
-      "location_address": "南區分館",
-      "age_min": null,
-      "age_max": null,
-      "price": 0,
-      "is_free": true,
-      "summary": "【南區分館】10/31 說故事活動:小兔子的願望｜2026-10-31 ~ 2026-10-31 10:00-11:00｜南區分館",
-      "organizer": "台中市政府文化局",
-      "tags": [
-        "室內"
-      ],
-      "source": "taichung_culture"
-    },
-    {
-      "title": "【南區分館】10/31 親子一起樂:萬聖節餅乾小派對",
-      "url": "https://activity.culture.taichung.gov.tw/",
-      "date_start": "2026-10-31",
-      "date_end": "2026-10-31",
-      "location_city": "台中市",
-      "location_address": "南區分館",
-      "age_min": null,
-      "age_max": null,
-      "price": 0,
-      "is_free": true,
-      "summary": "【南區分館】10/31 親子一起樂:萬聖節餅乾小派對｜2026-10-31 ~ 2026-10-31 10:00-00:00｜南區分館",
-      "organizer": "台中市政府文化局",
-      "tags": [
-        "室內"
-      ],
-      "source": "taichung_culture"
-    },
-    {
-      "title": "【北屯分館】 10/31萬聖節英文說故事",
-      "url": "https://activity.culture.taichung.gov.tw/",
-      "date_start": "2026-10-31",
-      "date_end": "2026-10-31",
-      "location_city": "台中市",
-      "location_address": "北屯分館",
-      "age_min": null,
-      "age_max": null,
-      "price": 0,
-      "is_free": true,
-      "summary": "【北屯分館】 10/31萬聖節英文說故事｜2026-10-31 ~ 2026-10-31 14:20-14:40｜北屯分館",
-      "organizer": "台中市政府文化局",
-      "tags": [
-        "室內"
-      ],
-      "source": "taichung_culture"
-    },
-    {
-      "title": "【溪東分館】10/31繪本說故事",
-      "url": "https://activity.culture.taichung.gov.tw/",
-      "date_start": "2026-10-31",
-      "date_end": "2026-10-31",
-      "location_city": "台中市",
-      "location_address": "溪東分館 1F親子共讀區",
-      "age_min": null,
-      "age_max": null,
-      "price": 0,
-      "is_free": true,
-      "summary": "【溪東分館】10/31繪本說故事｜2026-10-31 ~ 2026-10-31 14:00-15:00｜溪東分館 1F親子共讀區",
-      "organizer": "台中市政府文化局",
-      "tags": [
-        "室內"
-      ],
-      "source": "taichung_culture"
-    },
-    {
-      "title": "【精武圖書館】10/31 小太陽故事屋《菲菲生氣了－非常、非常的生氣》",
-      "url": "https://activity.culture.taichung.gov.tw/",
-      "date_start": "2026-10-31",
-      "date_end": "2026-10-31",
-      "location_city": "台中市",
-      "location_address": "精武圖書館",
-      "age_min": null,
-      "age_max": null,
-      "price": 0,
-      "is_free": true,
-      "summary": "【精武圖書館】10/31 小太陽故事屋《菲菲生氣了－非常、非常的生氣》｜2026-10-31 ~ 2026-10-31 10:00-11:00｜精武圖書館",
-      "organizer": "台中市政府文化局",
-      "tags": [
-        "室內"
-      ],
-      "source": "taichung_culture"
-    },
-    {
-      "title": "【北屯分館】 10/31繪本說故事",
-      "url": "https://activity.culture.taichung.gov.tw/",
-      "date_start": "2026-10-31",
-      "date_end": "2026-10-31",
-      "location_city": "台中市",
-      "location_address": "北屯分館",
-      "age_min": null,
-      "age_max": null,
-      "price": 0,
-      "is_free": true,
-      "summary": "【北屯分館】 10/31繪本說故事｜2026-10-31 ~ 2026-10-31 14:00-14:20｜北屯分館",
-      "organizer": "台中市政府文化局",
-      "tags": [
-        "室內"
-      ],
-      "source": "taichung_culture"
-    },
-    {
-      "title": "【四張犁分館】10/31寶貝故事屋~母雞要自由",
-      "url": "https://activity.culture.taichung.gov.tw/",
-      "date_start": "2026-10-31",
-      "date_end": "2026-10-31",
-      "location_city": "台中市",
-      "location_address": "四張犁分館",
-      "age_min": null,
-      "age_max": null,
-      "price": 0,
-      "is_free": true,
-      "summary": "【四張犁分館】10/31寶貝故事屋~母雞要自由｜2026-10-31 ~ 2026-10-31 10:30-11:10｜四張犁分館",
-      "organizer": "台中市政府文化局",
-      "tags": [
-        "室內"
-      ],
-      "source": "taichung_culture"
-    },
-    {
-      "title": "【中區分館】10/31  115年志工成長課程-〜保險漫談「把未知變成安心-為摯愛撐起家庭財務保護傘」",
-      "url": "https://activity.culture.taichung.gov.tw/",
-      "date_start": "2026-10-31",
-      "date_end": "2026-10-31",
-      "location_city": "台中市",
-      "location_address": "中區分館中區  兒童室",
-      "age_min": null,
-      "age_max": null,
-      "price": 0,
-      "is_free": true,
-      "summary": "【中區分館】10/31  115年志工成長課程-〜保險漫談「把未知變成安心-為摯愛撐起家庭財務保護傘」｜2026-10-31 ~ 2026-10-31 14:00-16:00｜中區分館中區  兒童室",
-      "organizer": "台中市政府文化局",
-      "tags": [
-        "室內"
-      ],
-      "source": "taichung_culture"
-    },
-    {
-      "title": "【西屯分館】10/31 西屯假日故事屋-《精彩繪本大集合》",
-      "url": "https://activity.culture.taichung.gov.tw/",
-      "date_start": "2026-10-24",
-      "date_end": "2026-10-31",
-      "location_city": "台中市",
-      "location_address": "西屯分館西屯區  一樓兒童閱覽區",
-      "age_min": null,
-      "age_max": null,
-      "price": 0,
-      "is_free": true,
-      "summary": "【西屯分館】10/31 西屯假日故事屋-《精彩繪本大集合》｜2026-10-24 ~ 2026-10-31 14:00-15:00｜西屯分館西屯區  一樓兒童閱覽區",
-      "organizer": "台中市政府文化局",
-      "tags": [
-        "室內"
-      ],
-      "source": "taichung_culture"
-    },
-    {
-      "title": "【四張犁分館】2026年10月 寶貝故事屋",
-      "url": "https://activity.culture.taichung.gov.tw/",
-      "date_start": "2026-10-03",
-      "date_end": "2026-10-31",
-      "location_city": "台中市",
-      "location_address": "四張犁分館",
-      "age_min": null,
-      "age_max": null,
-      "price": 0,
-      "is_free": true,
-      "summary": "【四張犁分館】2026年10月 寶貝故事屋｜2026-10-03 ~ 2026-10-31 10:30-11:10｜四張犁分館",
-      "organizer": "台中市政府文化局",
-      "tags": [
-        "室內"
-      ],
-      "source": "taichung_culture"
-    },
-    {
-      "title": "【李科永紀念圖書分館】 10/03-10/31 繪本世界任意門",
-      "url": "https://activity.culture.taichung.gov.tw/",
-      "date_start": "2026-10-03",
-      "date_end": "2026-10-31",
-      "location_city": "台中市",
-      "location_address": "李科永紀念圖書分館",
-      "age_min": null,
-      "age_max": null,
-      "price": 0,
-      "is_free": true,
-      "summary": "【李科永紀念圖書分館】 10/03-10/31 繪本世界任意門｜2026-10-03 ~ 2026-10-31 10:30-11:10｜李科永紀念圖書分館",
-      "organizer": "台中市政府文化局",
-      "tags": [
-        "室內"
-      ],
-      "source": "taichung_culture"
-    },
-    {
-      "title": "【總館】10月份雲朵下的故事圈圈說故事活動",
-      "url": "https://activity.culture.taichung.gov.tw/",
-      "date_start": "2026-10-02",
-      "date_end": "2026-10-31",
-      "location_city": "台中市",
-      "location_address": "總館西屯區  中科路2201號",
-      "age_min": null,
-      "age_max": null,
-      "price": 0,
-      "is_free": true,
-      "summary": "【總館】10月份雲朵下的故事圈圈說故事活動｜2026-10-02 ~ 2026-10-31 10:30-15:10｜總館西屯區  中科路2201號",
-      "organizer": "台中市政府文化局",
-      "tags": [
-        "室內"
-      ],
-      "source": "taichung_culture"
-    },
-    {
-      "title": "【興安分館 】10/01-10/31  彩色怪獸的任意門：翻開繪本找心情  主題書展",
-      "url": "https://activity.culture.taichung.gov.tw/",
-      "date_start": "2026-10-01",
-      "date_end": "2026-10-31",
-      "location_city": "台中市",
-      "location_address": "興安分館北屯區  1F中庭大廳",
-      "age_min": null,
-      "age_max": null,
-      "price": 0,
-      "is_free": true,
-      "summary": "【興安分館 】10/01-10/31  彩色怪獸的任意門：翻開繪本找心情  主題書展｜2026-10-01 ~ 2026-10-31 08:30-21:00｜興安分館北屯區  1F中庭大廳",
-      "organizer": "台中市政府文化局",
-      "tags": [
-        "室內"
-      ],
-      "source": "taichung_culture"
-    },
-    {
-      "title": "【李科永紀念圖書分館】 10/01-10/31 親子天下小行星10週年集章活動",
-      "url": "https://activity.culture.taichung.gov.tw/",
-      "date_start": "2026-10-01",
-      "date_end": "2026-10-31",
-      "location_city": "台中市",
-      "location_address": "李科永紀念圖書分館",
-      "age_min": null,
-      "age_max": null,
-      "price": 0,
-      "is_free": true,
-      "summary": "【李科永紀念圖書分館】 10/01-10/31 親子天下小行星10週年集章活動｜2026-10-01 ~ 2026-10-31 08:30-21:00｜李科永紀念圖書分館",
-      "organizer": "台中市政府文化局",
-      "tags": [
-        "室內"
-      ],
-      "source": "taichung_culture"
-    },
-    {
-      "title": "【興安分館 】10/01-10/31 課堂外的遊樂場：親子共學玩遊戲  主題書展",
-      "url": "https://activity.culture.taichung.gov.tw/",
-      "date_start": "2026-10-01",
-      "date_end": "2026-10-31",
-      "location_city": "台中市",
-      "location_address": "興安分館北屯區  1F中庭大廳",
-      "age_min": null,
-      "age_max": null,
-      "price": 0,
-      "is_free": true,
-      "summary": "【興安分館 】10/01-10/31 課堂外的遊樂場：親子共學玩遊戲  主題書展｜2026-10-01 ~ 2026-10-31 08:30-21:00｜興安分館北屯區  1F中庭大廳",
-      "organizer": "台中市政府文化局",
-      "tags": [
-        "室內"
-      ],
-      "source": "taichung_culture"
-    },
-    {
-      "title": "【興安分館 】10/01-10/31  故事百寶箱  主題書展",
-      "url": "https://activity.culture.taichung.gov.tw/",
-      "date_start": "2026-10-01",
-      "date_end": "2026-10-31",
-      "location_city": "台中市",
-      "location_address": "興安分館北屯區  2F書櫃展示區",
-      "age_min": null,
-      "age_max": null,
-      "price": 0,
-      "is_free": true,
-      "summary": "【興安分館 】10/01-10/31  故事百寶箱  主題書展｜2026-10-01 ~ 2026-10-31 08:30-21:00｜興安分館北屯區  2F書櫃展示區",
-      "organizer": "台中市政府文化局",
-      "tags": [
-        "室內"
-      ],
-      "source": "taichung_culture"
-    },
-    {
-      "title": "【西區分館】10/01-10/31 台語繪本閱讀展：來去繪本內底𨑨迌！",
-      "url": "https://activity.culture.taichung.gov.tw/",
-      "date_start": "2026-10-01",
-      "date_end": "2026-10-31",
-      "location_city": "台中市",
-      "location_address": "西區分館",
-      "age_min": null,
-      "age_max": null,
-      "price": 0,
-      "is_free": true,
-      "summary": "【西區分館】10/01-10/31 台語繪本閱讀展：來去繪本內底𨑨迌！｜2026-10-01 ~ 2026-10-31 08:30-21:00｜西區分館",
-      "organizer": "台中市政府文化局",
-      "tags": [
-        "室內"
-      ],
-      "source": "taichung_culture"
-    },
-    {
       "title": "【總館】第八屆海洋童樂繪兒童繪圖比賽得獎作品展",
       "url": "https://activity.culture.taichung.gov.tw/",
       "date_start": "2026-10-01",
@@ -2707,24 +2291,6 @@
       "price": 0,
       "is_free": true,
       "summary": "【總館】第八屆海洋童樂繪兒童繪圖比賽得獎作品展｜2026-10-01 ~ 2026-12-31 08:30-21:00｜總館",
-      "organizer": "台中市政府文化局",
-      "tags": [
-        "室內"
-      ],
-      "source": "taichung_culture"
-    },
-    {
-      "title": "【南屯分館】10/01-10/31【情緒繪本書展】書展",
-      "url": "https://activity.culture.taichung.gov.tw/",
-      "date_start": "2026-10-01",
-      "date_end": "2026-10-31",
-      "location_city": "台中市",
-      "location_address": "南屯分館",
-      "age_min": null,
-      "age_max": null,
-      "price": 0,
-      "is_free": true,
-      "summary": "【南屯分館】10/01-10/31【情緒繪本書展】書展｜2026-10-01 ~ 2026-10-31 08:30-21:00｜南屯分館",
       "organizer": "台中市政府文化局",
       "tags": [
         "室內"
@@ -2750,7 +2316,7 @@
     {
       "title": "科博館《古代人說故事》南屯山仔腳遺址出土的鐵刀首亮相!",
       "url": "https://cloud.culture.tw/frontsite/inquiry/eventInquiryAction.do?method=showEventDetail&uid=5b3dd544aaa378d7ca9a2e9a",
-      "date_start": "2026-10-31",
+      "date_start": "2026-11-01",
       "date_end": "2028-12-31",
       "location_city": "台中市",
       "location_address": "臺中市40453 臺中市北區館前路一號",
@@ -2951,24 +2517,6 @@
       "tags": [
         "DIY手作",
         "室內"
-      ],
-      "source": "accupass"
-    },
-    {
-      "title": "2026苗栗陶藝術節",
-      "url": "https://www.accupass.com/event/2610190318321533621033",
-      "date_start": "2026-10-31",
-      "date_end": "2026-10-31",
-      "location_city": "苗栗縣",
-      "location_address": null,
-      "age_min": null,
-      "age_max": null,
-      "price": null,
-      "is_free": null,
-      "summary": "2026苗栗陶藝術節",
-      "organizer": null,
-      "tags": [
-        "藝術課"
       ],
       "source": "accupass"
     },
@@ -3338,9 +2886,9 @@
       "source": "culture_cloud"
     },
     {
-      "title": "2026年10月【和美鎮立圖書館-主題書展】",
+      "title": "2026年11月【和美鎮立圖書館-主題書展】",
       "url": "https://www.facebook.com/profile.php?id=100064506377025",
-      "date_start": "2026-10-01",
+      "date_start": "2026-11-01",
       "date_end": "2026-12-31",
       "location_city": "彰化縣",
       "location_address": "彰化縣和美鎮道周路346號",
@@ -3348,7 +2896,7 @@
       "age_max": null,
       "price": 0,
       "is_free": true,
-      "summary": "2026年10月【和美鎮立圖書館-主題書展】｜彰化縣和美鎮立圖書館",
+      "summary": "2026年11月【和美鎮立圖書館-主題書展】｜彰化縣和美鎮立圖書館",
       "organizer": "(中華民國)彰化縣和美鎮立圖書館",
       "tags": [
         "室內"
@@ -3436,9 +2984,9 @@
       "source": "culture_cloud"
     },
     {
-      "title": "2026年10月【大城鄉立圖書館-主題書展】",
+      "title": "2026年11月【大城鄉立圖書館-主題書展】",
       "url": "https://www.facebook.com/profile.php?id=100067193526955",
-      "date_start": "2026-10-01",
+      "date_start": "2026-11-01",
       "date_end": "2026-12-31",
       "location_city": "彰化縣",
       "location_address": "彰化縣大城鄉中平路163號",
@@ -3446,7 +2994,7 @@
       "age_max": null,
       "price": 0,
       "is_free": true,
-      "summary": "2026年10月【大城鄉立圖書館-主題書展】｜彰化縣大城鄉立圖書館",
+      "summary": "2026年11月【大城鄉立圖書館-主題書展】｜彰化縣大城鄉立圖書館",
       "organizer": "(中華民國)彰化縣大城鄉立圖書館",
       "tags": [
         "室內"
@@ -3556,24 +3104,6 @@
       "is_free": true,
       "summary": "2026年11月【員林市立圖書館-英文繪本快樂遊】｜彰化縣員林市立圖書館",
       "organizer": "(中華民國)員林市立圖書館",
-      "tags": [
-        "室內"
-      ],
-      "source": "culture_cloud"
-    },
-    {
-      "title": "115年客話講故事活動：埔里場（115年10月-2場）",
-      "url": "https://www.nthcc.gov.tw/",
-      "date_start": "2026-10-17",
-      "date_end": "2026-10-31",
-      "location_city": "南投縣",
-      "location_address": "南投縣埔里鎮六合路178號",
-      "age_min": null,
-      "age_max": null,
-      "price": 0,
-      "is_free": true,
-      "summary": "115年客話講故事活動：埔里場（115年10月-2場）｜南投縣埔里鎮立圖書館",
-      "organizer": "(中華民國)莊鈺惠",
       "tags": [
         "室內"
       ],
