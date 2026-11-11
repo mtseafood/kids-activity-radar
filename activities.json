@@ -1,6 +1,6 @@
 {
-  "scraped_at": "2026-11-10T03:59:28",
-  "total": 214,
+  "scraped_at": "2026-11-11T01:39:30",
+  "total": 206,
   "activities": [
     {
       "title": "Mister Donut 小小烘焙師 甜甜圈DIY（台中遠百門市）",
@@ -81,61 +81,6 @@
       "source": "brands"
     },
     {
-      "title": "【4~10歲】壽司大富翁：DIY手作壽司體驗",
-      "url": "https://play.niceday.tw/zh-tw/regions/21/products/3724075124133",
-      "date_start": null,
-      "date_end": null,
-      "location_city": "台中市",
-      "location_address": "北區",
-      "age_min": 4,
-      "age_max": 10,
-      "price": null,
-      "is_free": null,
-      "summary": "【4~10歲】壽司大富翁：DIY手作壽司體驗",
-      "organizer": "一条通｜台中學士門市",
-      "tags": [
-        "體驗課",
-        "DIY手作"
-      ],
-      "source": "niceday"
-    },
-    {
-      "title": "【1~6歲｜學齡前｜幼兒課程】小小音樂大師課：臺中國家歌劇院班",
-      "url": "https://play.niceday.tw/zh-tw/regions/21/products/3249210197941",
-      "date_start": null,
-      "date_end": null,
-      "location_city": "台中市",
-      "location_address": "西屯區",
-      "age_min": 1,
-      "age_max": 6,
-      "price": null,
-      "is_free": null,
-      "summary": "【1~6歲｜學齡前｜幼兒課程】小小音樂大師課：臺中國家歌劇院班",
-      "organizer": "賦格兒童音樂",
-      "tags": [
-        "職業體驗"
-      ],
-      "source": "niceday"
-    },
-    {
-      "title": "【3歲以上】親子同樂最佳選擇：跳跳床初體驗",
-      "url": "https://play.niceday.tw/zh-tw/regions/21/products/3275364750650",
-      "date_start": null,
-      "date_end": null,
-      "location_city": "台中市",
-      "location_address": "南屯區",
-      "age_min": 3,
-      "age_max": null,
-      "price": null,
-      "is_free": null,
-      "summary": "【3歲以上】親子同樂最佳選擇：跳跳床初體驗",
-      "organizer": "Air-Gene 彈翻健身育樂中心 台中店",
-      "tags": [
-        "體驗課"
-      ],
-      "source": "niceday"
-    },
-    {
       "title": "【6~10歲｜台中】賦格音樂探險家三日冬令營",
       "url": "https://play.niceday.tw/zh-tw/regions/21/products/3731980706652",
       "date_start": null,
@@ -148,54 +93,6 @@
       "is_free": null,
       "summary": "【6~10歲｜台中】賦格音樂探險家三日冬令營",
       "organizer": "賦格兒童音樂",
-      "tags": [],
-      "source": "niceday"
-    },
-    {
-      "title": "【7~12歲｜台中北區】STEAM 科學五日冬令營：勇闖神秘島",
-      "url": "https://play.niceday.tw/zh-tw/regions/21/products/3730954994048",
-      "date_start": null,
-      "date_end": null,
-      "location_city": "台中市",
-      "location_address": "北區",
-      "age_min": 7,
-      "age_max": 12,
-      "price": null,
-      "is_free": null,
-      "summary": "【7~12歲｜台中北區】STEAM 科學五日冬令營：勇闖神秘島",
-      "organizer": "HuHu 瀚宇教育",
-      "tags": [],
-      "source": "niceday"
-    },
-    {
-      "title": "【7~12歲｜台中北區】不可思議！怪奇實驗室三日冬令營",
-      "url": "https://play.niceday.tw/zh-tw/regions/21/products/3730965230594",
-      "date_start": null,
-      "date_end": null,
-      "location_city": "台中市",
-      "location_address": "北區",
-      "age_min": 7,
-      "age_max": 12,
-      "price": null,
-      "is_free": null,
-      "summary": "【7~12歲｜台中北區】不可思議！怪奇實驗室三日冬令營",
-      "organizer": "HuHu 瀚宇教育",
-      "tags": [],
-      "source": "niceday"
-    },
-    {
-      "title": "【3~12歲｜含餐】早餐約會：近距離認識爬蟲萌寵！",
-      "url": "https://play.niceday.tw/zh-tw/regions/21/products/3671046140436",
-      "date_start": null,
-      "date_end": null,
-      "location_city": "台中市",
-      "location_address": "西區",
-      "age_min": 3,
-      "age_max": 12,
-      "price": null,
-      "is_free": null,
-      "summary": "【3~12歲｜含餐】早餐約會：近距離認識爬蟲萌寵！",
-      "organizer": "胖鬛蜥城市特寵餐廳 Fatty Iguana",
       "tags": [],
       "source": "niceday"
     },
@@ -417,7 +314,7 @@
       "location_address": null,
       "age_min": null,
       "age_max": null,
-      "price": 39,
+      "price": 34,
       "is_free": false,
       "summary": "太陽眼鏡盒/眼鏡盒/袋/包 【燙金體驗/一人成團】台中東海課程",
       "organizer": "MISTER 手作皮件專門店",
@@ -550,7 +447,7 @@
       "location_address": null,
       "age_min": null,
       "age_max": null,
-      "price": 49,
+      "price": 43,
       "is_free": false,
       "summary": "小方包/零錢卡包【燙金體驗/自主體驗/一人成團】台中東海課程",
       "organizer": "MISTER 手作皮件專門店",
@@ -588,7 +485,7 @@
       "location_address": null,
       "age_min": null,
       "age_max": null,
-      "price": 39,
+      "price": 34,
       "is_free": false,
       "summary": "【零錢卡包/名片夾】 燙金體驗/一人成團/皮件體驗/台中東海課程",
       "organizer": "MISTER 手作皮件專門店",
@@ -626,7 +523,7 @@
       "location_address": null,
       "age_min": null,
       "age_max": null,
-      "price": 36,
+      "price": 31,
       "is_free": false,
       "summary": "真皮筆袋【燙金體驗/自主體驗/一人成團】【台中東海課程】",
       "organizer": "MISTER 手作皮件專門店",
@@ -833,7 +730,7 @@
       "location_address": null,
       "age_min": null,
       "age_max": null,
-      "price": 32,
+      "price": 28,
       "is_free": false,
       "summary": "【手鐲/手環】含燙金 一人成團【台中東海課程】",
       "organizer": "MISTER 手作皮件專門店",
@@ -1349,6 +1246,25 @@
       "source": "accupass"
     },
     {
+      "title": "《台中親子活動》四季走走野餐日・秋日野趣 Little Autumn Adventures｜親子野餐 × 自然探索 × 藝術手作",
+      "url": "https://www.accupass.com/event/2609180746342040531024",
+      "date_start": "2026-11-14",
+      "date_end": "2026-11-14",
+      "location_city": "台中市",
+      "location_address": null,
+      "age_min": null,
+      "age_max": null,
+      "price": null,
+      "is_free": null,
+      "summary": "《台中親子活動》四季走走野餐日・秋日野趣 Little Autumn Adventures｜親子野餐 × 自然探索 × 藝術手作",
+      "organizer": null,
+      "tags": [
+        "DIY手作",
+        "藝術課"
+      ],
+      "source": "accupass"
+    },
+    {
       "title": "STEAM科技手作體驗課(TKB西屯館-DIY扭蛋機)",
       "url": "https://www.accupass.com/event/2611060804158897261840",
       "date_start": "2026-11-21",
@@ -1365,25 +1281,6 @@
         "體驗課",
         "DIY手作",
         "室內"
-      ],
-      "source": "accupass"
-    },
-    {
-      "title": "《台中親子活動》四季走走野餐日・秋日野趣 Little Autumn Adventures｜親子野餐 × 自然探索 × 藝術手作",
-      "url": "https://www.accupass.com/event/2609180746342040531024",
-      "date_start": "2026-11-14",
-      "date_end": "2026-11-14",
-      "location_city": "台中市",
-      "location_address": null,
-      "age_min": null,
-      "age_max": null,
-      "price": null,
-      "is_free": null,
-      "summary": "《台中親子活動》四季走走野餐日・秋日野趣 Little Autumn Adventures｜親子野餐 × 自然探索 × 藝術手作",
-      "organizer": null,
-      "tags": [
-        "DIY手作",
-        "藝術課"
       ],
       "source": "accupass"
     },
@@ -1539,17 +1436,89 @@
       "source": "accupass"
     },
     {
-      "title": "小星星與小小星星們的聖誕故事屋",
-      "url": "https://www.accupass.com/event/2610070906347992270130",
-      "date_start": "2026-12-05",
-      "date_end": "2026-12-05",
+      "title": "【台中入學說明會】四季藝術幼兒園 116學年．年度招生",
+      "url": "https://www.accupass.com/event/2611100533071329588336",
+      "date_start": "2026-11-21",
+      "date_end": "2026-11-21",
       "location_city": "台中市",
       "location_address": null,
       "age_min": null,
       "age_max": null,
       "price": null,
       "is_free": null,
-      "summary": "小星星與小小星星們的聖誕故事屋",
+      "summary": "【台中入學說明會】四季藝術幼兒園 116學年．年度招生",
+      "organizer": null,
+      "tags": [
+        "藝術課"
+      ],
+      "source": "accupass"
+    },
+    {
+      "title": "《台中親子手作》遇見我的小怪獸｜自由創作 × DIY手作 × 創意提袋",
+      "url": "https://www.accupass.com/event/2610281711218708283100",
+      "date_start": "2026-11-14",
+      "date_end": "2026-11-14",
+      "location_city": "台中市",
+      "location_address": null,
+      "age_min": null,
+      "age_max": null,
+      "price": null,
+      "is_free": null,
+      "summary": "《台中親子手作》遇見我的小怪獸｜自由創作 × DIY手作 × 創意提袋",
+      "organizer": null,
+      "tags": [
+        "DIY手作"
+      ],
+      "source": "accupass"
+    },
+    {
+      "title": "【11/14 台中】浪漫永恆｜台中七八年級都市精英質感約會 × 炫彩玫瑰花束禮盒 DIY",
+      "url": "https://www.accupass.com/event/2610191529062887471720",
+      "date_start": "2026-11-14",
+      "date_end": "2026-11-14",
+      "location_city": "台中市",
+      "location_address": null,
+      "age_min": null,
+      "age_max": null,
+      "price": null,
+      "is_free": null,
+      "summary": "【11/14 台中】浪漫永恆｜台中七八年級都市精英質感約會 × 炫彩玫瑰花束禮盒 DIY",
+      "organizer": null,
+      "tags": [
+        "DIY手作"
+      ],
+      "source": "accupass"
+    },
+    {
+      "title": "《台中親子自然課程》神祕爬蟲大冒險｜爬蟲活體觀察 × 生態探索 × 兒童自然體驗",
+      "url": "https://www.accupass.com/event/2610050715239999702710",
+      "date_start": "2026-11-14",
+      "date_end": "2026-11-14",
+      "location_city": "台中市",
+      "location_address": null,
+      "age_min": null,
+      "age_max": null,
+      "price": null,
+      "is_free": null,
+      "summary": "《台中親子自然課程》神祕爬蟲大冒險｜爬蟲活體觀察 × 生態探索 × 兒童自然體驗",
+      "organizer": null,
+      "tags": [
+        "體驗課"
+      ],
+      "source": "accupass"
+    },
+    {
+      "title": "【小小音樂大師課】低音提琴 × 傑克與豌豆｜台中",
+      "url": "https://www.accupass.com/event/2610230743062960525460",
+      "date_start": "2026-12-26",
+      "date_end": "2026-12-26",
+      "location_city": "台中市",
+      "location_address": null,
+      "age_min": null,
+      "age_max": null,
+      "price": null,
+      "is_free": null,
+      "summary": "【小小音樂大師課】低音提琴 × 傑克與豌豆｜台中",
       "organizer": null,
       "tags": [
         "職業體驗"
@@ -1611,99 +1580,9 @@
       "source": "accupass"
     },
     {
-      "title": "《台中親子手作》遇見我的小怪獸｜自由創作 × DIY手作 × 創意提袋",
-      "url": "https://www.accupass.com/event/2610281711218708283100",
-      "date_start": "2026-11-14",
-      "date_end": "2026-11-14",
-      "location_city": "台中市",
-      "location_address": null,
-      "age_min": null,
-      "age_max": null,
-      "price": null,
-      "is_free": null,
-      "summary": "《台中親子手作》遇見我的小怪獸｜自由創作 × DIY手作 × 創意提袋",
-      "organizer": null,
-      "tags": [
-        "DIY手作"
-      ],
-      "source": "accupass"
-    },
-    {
-      "title": "【11/14 台中】浪漫永恆｜台中七八年級都市精英質感約會 × 炫彩玫瑰花束禮盒 DIY",
-      "url": "https://www.accupass.com/event/2610191529062887471720",
-      "date_start": "2026-11-14",
-      "date_end": "2026-11-14",
-      "location_city": "台中市",
-      "location_address": null,
-      "age_min": null,
-      "age_max": null,
-      "price": null,
-      "is_free": null,
-      "summary": "【11/14 台中】浪漫永恆｜台中七八年級都市精英質感約會 × 炫彩玫瑰花束禮盒 DIY",
-      "organizer": null,
-      "tags": [
-        "DIY手作"
-      ],
-      "source": "accupass"
-    },
-    {
-      "title": "《台中親子自然課程》神祕爬蟲大冒險｜爬蟲活體觀察 × 生態探索 × 兒童自然體驗",
-      "url": "https://www.accupass.com/event/2610050715239999702710",
-      "date_start": "2026-11-14",
-      "date_end": "2026-11-14",
-      "location_city": "台中市",
-      "location_address": null,
-      "age_min": null,
-      "age_max": null,
-      "price": null,
-      "is_free": null,
-      "summary": "《台中親子自然課程》神祕爬蟲大冒險｜爬蟲活體觀察 × 生態探索 × 兒童自然體驗",
-      "organizer": null,
-      "tags": [
-        "體驗課"
-      ],
-      "source": "accupass"
-    },
-    {
-      "title": "台中【禾里兆嶼 ʜᴏʟɪ ʀɪsᴇ】氣味之島・手作線香工坊｜零基礎3小時，帶走專屬線香｜12月",
-      "url": "https://www.accupass.com/event/2610211430211350155067",
-      "date_start": "2026-12-05",
-      "date_end": "2026-12-05",
-      "location_city": "台中市",
-      "location_address": null,
-      "age_min": null,
-      "age_max": null,
-      "price": null,
-      "is_free": null,
-      "summary": "台中【禾里兆嶼 ʜᴏʟɪ ʀɪsᴇ】氣味之島・手作線香工坊｜零基礎3小時，帶走專屬線香｜12月",
-      "organizer": null,
-      "tags": [
-        "DIY手作"
-      ],
-      "source": "accupass"
-    },
-    {
-      "title": "【小小音樂大師課】低音提琴 × 傑克與豌豆｜台中",
-      "url": "https://www.accupass.com/event/2610230743062960525460",
-      "date_start": "2026-12-26",
-      "date_end": "2026-12-26",
-      "location_city": "台中市",
-      "location_address": null,
-      "age_min": null,
-      "age_max": null,
-      "price": null,
-      "is_free": null,
-      "summary": "【小小音樂大師課】低音提琴 × 傑克與豌豆｜台中",
-      "organizer": null,
-      "tags": [
-        "職業體驗"
-      ],
-      "source": "accupass"
-    },
-    {
-      "title": "【西區分館】11/10 小小故事家(閱讀起步走活動)",
+      "title": "【西區分館】12/08 小小故事家(閱讀起步走活動)",
       "url": "https://activity.culture.taichung.gov.tw/",
-      "date_start": "2026-11-10",
+      "date_start": "2026-12-08",
       "date_end": "2026-12-08",
       "location_city": "台中市",
       "location_address": "西區分館",
@@ -1711,7 +1590,7 @@
       "age_max": null,
       "price": 0,
       "is_free": true,
-      "summary": "【西區分館】11/10 小小故事家(閱讀起步走活動)｜2026-11-10 ~ 2026-11-10 09:30-11:40｜西區分館",
+      "summary": "【西區分館】12/08 小小故事家(閱讀起步走活動)｜2026-12-08 ~ 2026-12-08 09:30-11:40｜西區分館",
       "organizer": "台中市政府文化局",
       "tags": [
         "職業體驗",
@@ -1867,25 +1746,6 @@
       "organizer": "台中市政府文化局",
       "tags": [
         "農場體驗",
-        "室內"
-      ],
-      "source": "taichung_culture"
-    },
-    {
-      "title": "【西區分館】11/10 小小故事家：棕熊先生出任務、親愛的動物園(閱讀起步走活動)",
-      "url": "https://activity.culture.taichung.gov.tw/",
-      "date_start": "2026-11-10",
-      "date_end": "2026-11-10",
-      "location_city": "台中市",
-      "location_address": "西區分館",
-      "age_min": null,
-      "age_max": null,
-      "price": 0,
-      "is_free": true,
-      "summary": "【西區分館】11/10 小小故事家：棕熊先生出任務、親愛的動物園(閱讀起步走活動)｜2026-11-10 ~ 2026-11-10 09:30-11:40｜西區分館",
-      "organizer": "台中市政府文化局",
-      "tags": [
-        "職業體驗",
         "室內"
       ],
       "source": "taichung_culture"
@@ -3143,7 +3003,7 @@
     {
       "title": "科博館《古代人說故事》南屯山仔腳遺址出土的鐵刀首亮相!",
       "url": "https://cloud.culture.tw/frontsite/inquiry/eventInquiryAction.do?method=showEventDetail&uid=5b3dd544aaa378d7ca9a2e9a",
-      "date_start": "2026-11-10",
+      "date_start": "2026-11-11",
       "date_end": "2028-12-31",
       "location_city": "台中市",
       "location_address": "臺中市40453 臺中市北區館前路一號",
